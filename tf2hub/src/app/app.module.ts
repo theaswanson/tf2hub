@@ -12,16 +12,28 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { OfficialSitesComponent } from './official-sites/official-sites.component';
+import { CommunitiesComponent } from './communities/communities.component';
+import { MarketplacesComponent } from './marketplaces/marketplaces.component';
+import { CommunityProjectsComponent } from './community-projects/community-projects.component';
 
 const ROUTES = [
-  { path: '', component: HomeComponent, pathMatch: 'full' }
+  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'official-sites', component: OfficialSitesComponent },
+  { path: 'communities', component: CommunitiesComponent },
+  { path: 'marketplaces', component: MarketplacesComponent },
+  { path: 'projects', component: CommunityProjectsComponent },
 ] as Routes;
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavigationComponent
+    NavigationComponent,
+    OfficialSitesComponent,
+    CommunitiesComponent,
+    MarketplacesComponent,
+    CommunityProjectsComponent
   ],
   imports: [
     BrowserModule,
