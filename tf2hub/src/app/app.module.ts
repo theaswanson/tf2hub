@@ -13,6 +13,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { OfficialSitesComponent } from './official-sites/official-sites.component';
 import { CommunitiesComponent } from './communities/communities.component';
 import { MarketplacesComponent } from './marketplaces/marketplaces.component';
@@ -46,7 +47,8 @@ const ROUTES = [
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
