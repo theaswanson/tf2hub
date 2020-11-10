@@ -7,7 +7,7 @@
       <a mat-list-item routerLink="/official-sites">Official Sites</a>
       <a mat-list-item routerLink="/communities">Communities</a>
       <a mat-list-item routerLink="/marketplaces">Marketplaces</a>
-      <a mat-list-item routerLink="/projects">Community Projects</a>
+      <a mat-list-item routerLink="/projects">Projects</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -18,6 +18,8 @@
       </button>
       <span>TF2 Hub</span>
     </mat-toolbar>
-    <router-outlet></router-outlet>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

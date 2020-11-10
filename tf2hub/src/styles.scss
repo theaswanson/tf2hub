@@ -9,3 +9,16 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.container {
+  padding: 1rem;
+}
+
+.example-card {
+  margin-bottom: 3rem;
+  max-width: 40rem;
+
+  .mat-card-image:first-child {
+    margin-top: auto;
+  }
+}
