@@ -20,6 +20,7 @@ import { MarketplacesComponent } from './marketplaces/marketplaces.component';
 import { CommunityProjectsComponent } from './community-projects/community-projects.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
+import { TradingComponent } from './trading/trading.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -27,6 +28,7 @@ const ROUTES = [
   { path: 'communities', component: CommunitiesComponent },
   { path: 'marketplaces', component: MarketplacesComponent },
   { path: 'projects', component: CommunityProjectsComponent },
+  { path: 'trading', component: TradingComponent },
 ] as Routes;
 
 @NgModule({
@@ -38,7 +40,8 @@ const ROUTES = [
     CommunitiesComponent,
     MarketplacesComponent,
     CommunityProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    TradingComponent
   ],
   imports: [
     BrowserModule,
