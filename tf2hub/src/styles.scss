@@ -10,13 +10,29 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+.content {
+  height: calc(100% - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
+  flex: 1 0 auto;
   padding: 1rem;
+}
+
+.footer {
+  flex-shrink: 0;
 }
 
 .example-card {
   margin-bottom: 3rem;
-  max-width: 40rem;
+  // max-width: 40rem;
+
+  .mat-card-image {
+    object-fit: contain;
+    max-height: 20rem;
+  }
 
   .mat-card-image:first-child {
     margin-top: auto;

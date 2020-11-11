@@ -18,6 +18,8 @@ import { OfficialSitesComponent } from './official-sites/official-sites.componen
 import { CommunitiesComponent } from './communities/communities.component';
 import { MarketplacesComponent } from './marketplaces/marketplaces.component';
 import { CommunityProjectsComponent } from './community-projects/community-projects.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FooterComponent } from './footer/footer.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -35,7 +37,8 @@ const ROUTES = [
     OfficialSitesComponent,
     CommunitiesComponent,
     MarketplacesComponent,
-    CommunityProjectsComponent
+    CommunityProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ const ROUTES = [
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
