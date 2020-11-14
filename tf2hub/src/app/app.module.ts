@@ -21,6 +21,7 @@ import { CommunityProjectsComponent } from './community-projects/community-proje
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
 import { TradingComponent } from './trading/trading.component';
+import { CompetitiveComponent } from './competitive/competitive.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -29,6 +30,7 @@ const ROUTES = [
   { path: 'marketplaces', component: MarketplacesComponent },
   { path: 'projects', component: CommunityProjectsComponent },
   { path: 'trading', component: TradingComponent },
+  { path: 'competitive', component: CompetitiveComponent },
 ] as Routes;
 
 @NgModule({
@@ -41,7 +43,8 @@ const ROUTES = [
     MarketplacesComponent,
     CommunityProjectsComponent,
     FooterComponent,
-    TradingComponent
+    TradingComponent,
+    CompetitiveComponent
   ],
   imports: [
     BrowserModule,
