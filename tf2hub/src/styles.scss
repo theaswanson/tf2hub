@@ -1,4 +1,24 @@
-@import 'theme';
+// @import 'theme';
+
+@font-face {
+  font-family: TF2;
+  src: url(assets/fonts/TF2.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Build;
+  src: url(assets/fonts/tf2build.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Professor;
+  src: url(assets/fonts/tf2professor.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Secondary;
+  src: url(assets/fonts/TF2secondary.ttf) format("truetype");
+}
 
 html,
 body {
@@ -7,7 +27,55 @@ body {
 
 body {
   margin: 0;
+  color: white;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), transparent url('/assets/img/alpine.jpg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+}
+
+.card {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1) 0% 0% no-repeat padding-box;
+  margin: 0;
+
+  .card-content {
+    padding: 1.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    backdrop-filter: blur(30px) brightness(115%);
+    -webkit-backdrop-filter: blur(30px);
+
+    .header {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: 2rem;
+        font-family: TF2 Build;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+        font-family: TF2 Secondary;
+      }
+    }
+
+    .text {
+      padding-top: 1.5rem;
+    }
+  }
+
+  .image {
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+  }
 }
 
 .content {

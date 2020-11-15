@@ -1,4 +1,48 @@
-<mat-sidenav-container class="sidenav-container">
+<div class="navigation">
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="title" routerLink="/">TF2 Hub</span>
+      <span class="menu-spacer"></span>
+      <div class="nav-items" fxShow="true" fxHide.lt-md>
+        <a mat-button routerLink="/">Home</a>
+        <a mat-button routerLink="/official-sites">Official Sites</a>
+        <a mat-button routerLink="/projects">Projects</a>
+        <a mat-button routerLink="/communities">Communities</a>
+        <a mat-button routerLink="/trading">Trading</a>
+        <a mat-button routerLink="/marketplaces">Marketplaces</a>
+        <a mat-button routerLink="/competitive">Competitive</a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <a mat-list-item routerLink="/">Home</a>
+        <a mat-list-item routerLink="/official-sites">Official Sites</a>
+        <a mat-list-item routerLink="/projects">Projects</a>
+        <a mat-list-item routerLink="/communities">Communities</a>
+        <a mat-list-item routerLink="/trading">Trading</a>
+        <a mat-list-item routerLink="/marketplaces">Marketplaces</a>
+        <a mat-list-item routerLink="/competitive">Competitive</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <!-- <div class="content">
+        <div class="container">
+          <router-outlet></router-outlet>
+        </div>
+        <app-footer></app-footer>
+      </div> -->
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+
+<!-- <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
     <div class="logo" routerLink="/">
@@ -29,4 +73,4 @@
       <app-footer></app-footer>
     </div>
   </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container> -->
