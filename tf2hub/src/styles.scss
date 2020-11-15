@@ -1,4 +1,24 @@
-@import 'theme';
+// @import 'theme';
+
+@font-face {
+  font-family: TF2;
+  src: url(assets/fonts/TF2.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Build;
+  src: url(assets/fonts/tf2build.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Professor;
+  src: url(assets/fonts/tf2professor.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Secondary;
+  src: url(assets/fonts/TF2secondary.ttf) format("truetype");
+}
 
 html,
 body {
@@ -7,11 +27,83 @@ body {
 
 body {
   margin: 0;
+  color: white;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), transparent url('/assets/img/alpine.jpg') 0% 0% no-repeat padding-box;
+  background-size: cover;
+}
+
+a:visited {
+  color: orange;
+}
+
+.card {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1) 0% 0% no-repeat padding-box;
+  margin-bottom: 2rem;
+
+  // &:hover {
+  //   background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
+  // }
+
+  .card-content {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(30px) brightness(115%);
+    -webkit-backdrop-filter: blur(30px);
+
+    .header {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: 1.5rem;
+        font-family: TF2 Build;
+        letter-spacing: 1px;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+        font-family: TF2 Secondary;
+      }
+    }
+
+    .text,
+    .links {
+      padding-top: 1.5rem;
+    }
+
+    .links {
+      .mat-button {
+        border: solid white 1px;
+        margin-right: 1rem;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+    .image {
+      padding-top: 1rem;
+      height: 100%;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
 }
 
 .content {
-  height: calc(100% - 64px);
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -19,18 +111,4 @@ body {
 .container {
   flex: 1 0 auto;
   padding: 1rem;
-}
-
-.example-card {
-  margin-bottom: 3rem;
-  // max-width: 40rem;
-
-  .mat-card-image {
-    object-fit: contain;
-    max-height: 20rem;
-  }
-
-  .mat-card-image:first-child {
-    margin-top: auto;
-  }
 }
