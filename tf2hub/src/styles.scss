@@ -39,6 +39,10 @@ body {
   background: rgba(255, 255, 255, 0.1) 0% 0% no-repeat padding-box;
   margin: 0;
 
+  // &:hover {
+  //   background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
+  // }
+
   .card-content {
     padding: 1.5rem;
     border-top-left-radius: 1rem;
@@ -51,7 +55,7 @@ body {
       flex-direction: column;
 
       .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: TF2 Build;
       }
 
@@ -61,8 +65,25 @@ body {
       }
     }
 
-    .text {
+    .text,
+    .links {
       padding-top: 1.5rem;
+    }
+
+    .links {
+      .mat-button {
+        border: solid white 1px;
+        margin-right: 1rem;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
     }
   }
 
@@ -79,7 +100,7 @@ body {
 }
 
 .content {
-  height: calc(100% - 64px);
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -87,18 +108,4 @@ body {
 .container {
   flex: 1 0 auto;
   padding: 1rem;
-}
-
-.example-card {
-  margin-bottom: 3rem;
-  // max-width: 40rem;
-
-  .mat-card-image {
-    object-fit: contain;
-    max-height: 20rem;
-  }
-
-  .mat-card-image:first-child {
-    margin-top: auto;
-  }
 }

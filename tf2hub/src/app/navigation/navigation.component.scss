@@ -1,5 +1,5 @@
 .navigation {
-  height: 100%;
+  height: calc(100% - 64px);
 
   .mat-toolbar-row {
     backdrop-filter: blur(30px) brightness(115%) opacity(50%);
@@ -20,64 +20,22 @@
     }
   }
 
+  .mat-drawer {
+    width: 10rem;
+    backdrop-filter: blur(30px) brightness(115%) opacity(100%);
+    -webkit-backdrop-filter: blur(30px);
+  }
+
   .title {
     font-family: TF2 Build;
     font-size: 2rem;
-    
+
     &:hover {
       cursor: pointer;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 }
-
-// .sidenav-container {
-//   height: 100%;
-// }
-
-// .sidenav {
-//   width: 200px;
-
-//   .logo {
-//     height: 6rem;
-//     width: 100%;
-//     padding: 0.5rem 0;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-
-//     &:hover {
-//       cursor: pointer;
-//     }
-
-//     &:focus {
-//       outline: none;
-//     }
-
-//     img {
-//       height: 100%;
-//       padding: auto;
-//     }
-//   }
-// }
-
-// .sidenav .mat-toolbar {
-//   background: inherit;
-// }
-
-// .mat-toolbar.mat-primary {
-//   position: sticky;
-//   top: 0;
-//   z-index: 1;
-// }
-
-// .mat-toolbar.mat-primary.mat-toolbar-single-row {
-//   span {
-//     &:hover {
-//       cursor: pointer;
-//     }
-
-//     &:focus {
-//       outline: none;
-//     }
-//   }
-// }
