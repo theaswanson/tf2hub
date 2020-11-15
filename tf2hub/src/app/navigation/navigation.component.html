@@ -4,7 +4,10 @@
       <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
         <mat-icon>menu</mat-icon>
       </button>
-      <span class="title" routerLink="/">TF2 Hub</span>
+      <div class="title">
+        <span class="title" routerLink="/">TF2 Hub</span>
+        <img src="/assets/img/logo_small.png" style="padding-left: 1rem; height: 50px" />
+      </div>
       <span class="menu-spacer"></span>
       <div class="nav-items" fxShow="true" fxHide.lt-md>
         <a mat-button routerLink="/">Home</a>
@@ -46,37 +49,3 @@
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
-
-
-<!-- <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
-    <div class="logo" routerLink="/">
-      <img src="/assets/img/logo_small.png" />
-    </div>
-    <mat-nav-list>
-      <a mat-list-item routerLink="/">Home</a>
-      <a mat-list-item routerLink="/official-sites">Official Sites</a>
-      <a mat-list-item routerLink="/projects">Projects</a>
-      <a mat-list-item routerLink="/communities">Communities</a>
-      <a mat-list-item routerLink="/trading">Trading</a>
-      <a mat-list-item routerLink="/marketplaces">Marketplaces</a>
-      <a mat-list-item routerLink="/competitive">Competitive</a>
-    </mat-nav-list>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
-        *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-      </button>
-      <span routerLink="/">Team Fortress 2 Hub</span>
-    </mat-toolbar>
-    <div class="content">
-      <div class="container">
-        <router-outlet></router-outlet>
-      </div>
-      <app-footer></app-footer>
-    </div>
-  </mat-sidenav-content>
-</mat-sidenav-container> -->

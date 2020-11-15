@@ -34,10 +34,14 @@ body {
   background-size: cover;
 }
 
+a:visited {
+  color: orange;
+}
+
 .card {
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.1) 0% 0% no-repeat padding-box;
-  margin: 0;
+  margin-bottom: 2rem;
 
   // &:hover {
   //   background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
@@ -56,6 +60,7 @@ body {
       .title {
         font-size: 1.5rem;
         font-family: TF2 Build;
+        letter-spacing: 1px;
       }
 
       .subtitle {

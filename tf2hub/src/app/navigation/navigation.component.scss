@@ -29,6 +29,9 @@
   .title {
     font-family: TF2 Build;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       cursor: pointer;
