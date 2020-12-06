@@ -22,6 +22,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
 import { TradingComponent } from './trading/trading.component';
 import { CompetitiveComponent } from './competitive/competitive.component';
+import { DataService } from './data.service';
+import { CardDisplayComponent } from './card-display/card-display.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -44,7 +46,8 @@ const ROUTES = [
     CommunityProjectsComponent,
     FooterComponent,
     TradingComponent,
-    CompetitiveComponent
+    CompetitiveComponent,
+    CardDisplayComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,7 @@ const ROUTES = [
     MatGridListModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

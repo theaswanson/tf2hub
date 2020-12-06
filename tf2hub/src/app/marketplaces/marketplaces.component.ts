@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Data, DataService } from '../data.service';
 
 @Component({
   selector: 'app-marketplaces',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MarketplacesComponent implements OnInit {
 
-  constructor() { }
+  data: Data[];
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    this.data = this.dataService.getMarketplaces();
   }
 
 }

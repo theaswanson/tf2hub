@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Data } from '../data.service';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-official-sites',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OfficialSitesComponent implements OnInit {
 
-  constructor() { }
+  data: Data[];
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    this.data = this.dataService.getOfficial();
   }
-
+  
 }
