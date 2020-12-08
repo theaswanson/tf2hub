@@ -1,26 +1,21 @@
-<div fxLayout="row" fxLayout.lt-lg="column" fxLayoutGap="2rem"
-  *ngFor="let item of [].constructor(numberOfRows); let rowIndex = index">
-  <div [fxFlex]="columnWidth"
-    *ngFor="let item2 of [].constructor(getNumberOfItemsInRow(rowIndex)); let columnIndex = index">
+<div class="grid-container">
+  <div class="grid-item" *ngFor="let item of data">
     <div class="card">
       <div class="card-content">
         <div class="header">
-          <div class="title">{{data[getItemIndex(rowIndex, columnIndex)].title}}</div>
-          <div class="subtitle">{{data[getItemIndex(rowIndex, columnIndex)].subtitle}}</div>
+          <div class="title">{{item.title}}</div>
+          <div class="subtitle">{{item.subtitle}}</div>
         </div>
         <div class="text" fxLayout="column" fxLayoutGap="1rem">
-          <div *ngFor="let desc of data[getItemIndex(rowIndex, columnIndex)].description">
+          <div *ngFor="let desc of item.description">
             {{desc}}
           </div>
         </div>
         <div class="links">
-          <a mat-button [href]="link.href" target="_blank"
-            *ngFor="let link of data[getItemIndex(rowIndex, columnIndex)].links">{{link.text}}</a>
+          <a mat-button [href]="link.href" target="_blank" *ngFor="let link of item.links">{{link.text}}</a>
         </div>
         <div class="image">
-          <img [src]="data[getItemIndex(rowIndex, columnIndex)].img.src"
-            [alt]="data[getItemIndex(rowIndex, columnIndex)].title"
-            *ngIf="data[getItemIndex(rowIndex, columnIndex)].img" />
+          <img [src]="item.img.src" [alt]="item.title" *ngIf="item.img" />
         </div>
       </div>
     </div>

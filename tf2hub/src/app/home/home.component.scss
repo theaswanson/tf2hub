@@ -1,8 +1,40 @@
+@import "../../styles";
+
 .home {
   padding: 1rem;
 }
 
+.welcome {
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .text {
+    padding-top: 1rem;
+  }
+}
+
+.filters {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.selected {
+  // box-sizing: border-box;
+  // -moz-box-sizing: border-box;
+  // -webkit-box-sizing: border-box;
+  // border: 0.2rem solid white;
+  -webkit-box-shadow: inset 0px 0px 0px 0.25rem white;
+  -moz-box-shadow: inset 0px 0px 0px 0.25rem white;
+  box-shadow: inset 0px 0px 0px 0.25rem white;
+}
+
 .card {
+  @extend .no-select;
+  margin: 0.5rem 0;
+
   &:hover {
     cursor: pointer;
   }
@@ -11,8 +43,15 @@
     outline: none;
   }
 
-  .title {
-    display: flex;
-    justify-content: center;
+  .card-content {
+    padding: 1rem;
+
+    .header {
+      .title {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+      }
+    }
   }
 }

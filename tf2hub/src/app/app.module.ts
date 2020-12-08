@@ -14,25 +14,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { OfficialSitesComponent } from './official-sites/official-sites.component';
-import { CommunitiesComponent } from './communities/communities.component';
-import { MarketplacesComponent } from './marketplaces/marketplaces.component';
-import { CommunityProjectsComponent } from './community-projects/community-projects.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
-import { TradingComponent } from './trading/trading.component';
-import { CompetitiveComponent } from './competitive/competitive.component';
 import { DataService } from './data.service';
 import { CardDisplayComponent } from './card-display/card-display.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'official-sites', component: OfficialSitesComponent },
-  { path: 'communities', component: CommunitiesComponent },
-  { path: 'marketplaces', component: MarketplacesComponent },
-  { path: 'projects', component: CommunityProjectsComponent },
-  { path: 'trading', component: TradingComponent },
-  { path: 'competitive', component: CompetitiveComponent },
 ] as Routes;
 
 @NgModule({
@@ -40,13 +28,7 @@ const ROUTES = [
     AppComponent,
     HomeComponent,
     NavigationComponent,
-    OfficialSitesComponent,
-    CommunitiesComponent,
-    MarketplacesComponent,
-    CommunityProjectsComponent,
     FooterComponent,
-    TradingComponent,
-    CompetitiveComponent,
     CardDisplayComponent
   ],
   imports: [

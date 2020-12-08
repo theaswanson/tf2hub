@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Tag } from './models';
 
 export class Data {
   title: string;
@@ -27,6 +28,22 @@ export class DataService {
 
   private communities = [
     {
+      title: 'Creators.TF',
+      subtitle: 'Community Servers',
+      description: [
+        `\"Welcome to Creators.TF, a TF2 community celebration project that takes the initiative to provide new content for Team Fortress 2.\"`,
+        `\"Using the help of community content creators, we can provide complete community-created events to our own servers
+         through modding and plugins. Hats, weapons, maps, and much more! All of these will be created by the community,
+         and implemented into our servers.\"`
+      ],
+      links: [
+        { href: 'https://creators.tf', text: 'Website' } as Link,
+        { href: 'https://creators.tf/discord', text: 'Discord' } as Link,
+        { href: 'https://twitter.com/creatorstf', text: 'Twitter' } as Link,
+      ],
+      img: { src: '../../assets/img/creators-halloween-2020.jpg', alt: 'Creators.TF' }
+    } as Data,
+    {
       title: 'Jump.tf',
       subtitle: 'Jumping Community',
       description: ['\"The TF2 Jumping community. Check it out.\"'],
@@ -36,14 +53,19 @@ export class DataService {
     {
       title: 'Jump Academy',
       subtitle: 'Jumping Community',
-      description: ['\"We are a community of jumpers from all around the world who share the same passion for jumping in Team Fortress 2.\"'],
+      description: [`\"We are a community of jumpers from all around the world
+      who share the same passion for jumping in Team Fortress 2.\"`],
       links: [{ href: 'https://jumpacademy.tf/', text: 'Visit' } as Link],
       img: { src: '../../assets/img/jumpacademy.jpg', alt: 'Jump Academy' }
     } as Data,
     {
       title: 'Teamwork.tf',
       subtitle: 'Community Hub',
-      description: ['\"Provides a platform and tools to bring the TF2 community together. Between 2015 and 2020 we ran a network to support TF2 YouTubers. During a short break we came back with focus on community servers and statistics. And after a successful Patreon campaign, teamwork.tf has now brought back the \'yellow pages for TF2\'. Beside that we now also have great community tools for map makers, to get insight in player behaviour of maps.\"'],
+      description: [`\"Provides a platform and tools to bring the TF2 community together.
+      Between 2015 and 2020 we ran a network to support TF2 YouTubers.
+      During a short break we came back with focus on community servers and statistics.
+      And after a successful Patreon campaign, teamwork.tf has now brought back the \'yellow pages for TF2\'.
+      Beside that we now also have great community tools for map makers, to get insight in player behaviour of maps.\"`],
       links: [{ href: 'https://teamwork.tf/', text: 'Visit' } as Link],
       img: { src: '../../assets/img/teamworktf.png', alt: 'Teamwork.tf' }
     } as Data,
@@ -60,81 +82,6 @@ export class DataService {
       img: { src: '../../assets/img/tf2maps.jpg', alt: 'TF2Maps' }
     } as Data,
   ];
-
-  private projects = [
-    {
-      title: 'Creators.TF',
-      subtitle: 'Community Servers',
-      description: [
-        '\"Welcome to Creators.TF, a TF2 community celebration project that takes the initiative to provide new content for Team Fortress 2.\"',
-        '\"Using the help of community content creators, we can provide complete community-created events to our own servers through modding and plugins. Hats, weapons, maps, and much more! All of these will be created by the community, and implemented into our servers.\"'
-      ],
-      links: [
-        { href: 'https://creators.tf', text: 'Website' } as Link,
-        { href: 'https://creators.tf/discord', text: 'Discord' } as Link,
-        { href: 'https://twitter.com/creatorstf', text: 'Twitter' } as Link,
-      ],
-      img: { src: '../../assets/img/creators-halloween-2020.jpg', alt: 'Creators.TF' }
-    } as Data,
-    {
-      title: 'mastercomfig',
-      subtitle: 'Game Configuration',
-      description: ['\"A modern Team Fortress 2 performance and customization config.\"',],
-      links: [
-        { href: 'https://mastercomfig.com/', text: 'Website' } as Link,
-        { href: 'https://docs.mastercomfig.com/', text: 'Docs' } as Link,
-        { href: 'https://discord.gg/CuPb2zV', text: 'Discord' } as Link,
-        { href: 'https://steamcommunity.com/groups/comfig', text: 'Steam Group' } as Link,
-      ],
-      img: { src: '../../assets/img/mastercomfig.png', alt: 'mastercomfig' }
-    } as Data,
-    {
-      title: 'TF2 Classic',
-      subtitle: 'Game Mod',
-      description: ['\"A Team Fortress 2 mod aiming to re-imagine the 2008-2009 era, while also updating and adding new content. Developed by @EminomaTeam\"'],
-      links: [
-        { href: 'https://tf2classic.com/', text: 'Website' } as Link,
-        { href: 'https://discord.gg/3zMk4vn', text: 'Discord' } as Link,
-        { href: 'https://twitter.com/tf2classic', text: 'Twitter' } as Link,
-      ],
-      img: { src: '../../assets/img/tf2classic.png', alt: 'TF2 Classic' }
-    } as Data,
-    {
-      title: 'Open Fortress',
-      subtitle: 'Game Mod',
-      description: ['\"Open Fortress is a free and open-source passion project, lovingly crafted by nearly a hundred members of the Team Fortress community with an ideal of fun gameplay as well as maximum customizability.\"'],
-      links: [
-        { href: 'https://openfortress.fun/', text: 'Website' } as Link,
-        { href: 'https://discord.gg/Jk3NUb7', text: 'Discord' } as Link,
-        { href: 'https://www.youtube.com/channel/UCtqmIR--kRAAGRdJ-LtEu1A/videos', text: 'YouTube' } as Link,
-        { href: 'https://twitter.com/openfortress', text: 'Twitter' } as Link,
-        { href: 'https://github.com/KaydemonLP/Open-Fortress-Content-Source', text: 'GitHub' } as Link,
-      ],
-      img: { src: '../../assets/img/openfortress.jpg', alt: 'Open Fortress' }
-    } as Data,
-    {
-      title: 'Pre-Fortress 2',
-      subtitle: 'Game Mod',
-      description: ['\"A recreation mod, containing many elements from the beta and late alpha of TF2.\"'],
-      links: [
-        { href: 'https://t.co/ML25OsQfVL?amp=1', text: 'Discord' } as Link,
-        { href: 'https://twitter.com/prefortress2', text: 'Twitter' } as Link,
-      ],
-      img: { src: '../../assets/img/prefortress2.jpg', alt: 'Pre-Fortress 2' }
-    } as Data,
-    {
-      title: 'Team Comtress 2',
-      subtitle: 'Game Mod',
-      description: [
-        '\"Team Comtress 2 is a set of modifications on top of an older version of Team Fortress 2, with a community development team fixing bugs, improving performance, and adding quality of life features, with the goal of having those changes pulled upstream by Valve to the modern game.\"',
-        '\"TC2 is not an alternative, more stable game experience. TC2 is based on the 2017 TF2 source code leak, which contained an in-development version of Jungle Inferno. This build is rife with issues and incomplete features, and is not compatible with the modern game client.\"'
-      ],
-      links: [
-        { href: 'https://github.com/mastercomfig/team-comtress-2', text: 'GitHub' } as Link,
-      ],
-    } as Data,
-  ];
-
   private competitive = [
     {
       title: 'teamfortresstv',
@@ -152,7 +99,9 @@ export class DataService {
     {
       title: 'comp.tf',
       subtitle: 'Informational',
-      description: ['\"comp.tf is the Competitive TF2 Wiki. We aim to provide the community with a free, neutral and comprehensive summary of current and historical competitive TF2 knowledge. Players, teams, tournaments, maps and classes pages are our most popular forms of content.\"'],
+      description: [`\"comp.tf is the Competitive TF2 Wiki. We aim to provide the community with a free,
+      neutral and comprehensive summary of current and historical competitive TF2 knowledge.
+      Players, teams, tournaments, maps and classes pages are our most popular forms of content.\"`],
       links: [
         { href: 'https://comp.tf/', text: 'Website' } as Link,
         { href: 'https://twitter.com/comptfwiki', text: 'Twitter' } as Link,
@@ -163,7 +112,10 @@ export class DataService {
     {
       title: 'TF2 Center',
       subtitle: 'Pick-up Games',
-      description: ['\"TF2Center was created to help bridge the gap between public and competitive play for TF2. TF2Center is a place to play TF2 games based on specific competitive game-modes like 6v6 and Highlander. Newer players can take advantage of our lobby system to create games without needing to get a server personally, whilst more experienced players can ensure games are competitive by imposing restrictions.\"'],
+      description: [`\"TF2Center was created to help bridge the gap between public and competitive play for TF2.
+      TF2Center is a place to play TF2 games based on specific competitive game-modes like 6v6 and Highlander.
+      Newer players can take advantage of our lobby system to create games without needing to get a server personally,
+      whilst more experienced players can ensure games are competitive by imposing restrictions.\"`],
       links: [
         { href: 'https://tf2center.com/', text: 'Website' } as Link,
         { href: 'https://steamcommunity.com/groups/tf2-center', text: 'Steam Group' } as Link,
@@ -228,7 +180,12 @@ export class DataService {
       subtitle: 'Game Broadcaster',
       description: [
         '\"Broadcasting the best from the top Team Fortress 2 events.\"',
-        '\"For over 4 years we have powered and produced the largest events in Team Fortress 2. In 2015, starting as a production partner of TeamFortress.TV, we provided hardware that powered the broadcast of Multiplay’s Insomnia55 TF2 tournament to fans around the world. Since then we have expanded to organising our own online competitive TF2 events with sponsored prize pools and becoming the primary production organisation for the TF2 tournament at GAME’s Insomnia Gaming Festival events working alongside Player1 Events for the past 3 years running.\"'
+        `\"For over 4 years we have powered and produced the largest events in Team Fortress 2.
+        In 2015, starting as a production partner of TeamFortress.TV, we provided hardware that powered the broadcast of
+        Multiplay’s Insomnia55 TF2 tournament to fans around the world.
+        Since then we have expanded to organising our own online competitive TF2 events with sponsored prize pools
+        and becoming the primary production organisation for the TF2 tournament at GAME’s Insomnia Gaming Festival events
+        working alongside Player1 Events for the past 3 years running.\"`
       ],
       links: [
         { href: 'https://essentials.tf/', text: 'Website' } as Link,
@@ -242,7 +199,20 @@ export class DataService {
       img: { src: '../../assets/img/essentialstf.png', alt: 'EssentialsTF' }
     } as Data,
   ];
-
+  private enhancements = [
+    {
+      title: 'mastercomfig',
+      subtitle: 'Game Configuration',
+      description: ['\"A modern Team Fortress 2 performance and customization config.\"'],
+      links: [
+        { href: 'https://mastercomfig.com/', text: 'Website' } as Link,
+        { href: 'https://docs.mastercomfig.com/', text: 'Docs' } as Link,
+        { href: 'https://discord.gg/CuPb2zV', text: 'Discord' } as Link,
+        { href: 'https://steamcommunity.com/groups/comfig', text: 'Steam Group' } as Link,
+      ],
+      img: { src: '../../assets/img/mastercomfig.png', alt: 'mastercomfig' }
+    } as Data,
+  ];
   private marketplaces = [
     {
       title: 'Marketplace.tf',
@@ -256,14 +226,71 @@ export class DataService {
     {
       title: 'Mannco Trade',
       subtitle: 'mannco.trade',
-      description: ['\"We are an automated TF2 trading website, which allows you to get your desired items quick and easy. Mannco.trade was created back in September the 2017th and has been growing faster than expected ever since. This site is exclusive as it is because you’re able to trade items from different qualities, types and classes with each other, without needing to pay in Metals or Keys. Almost every item in the Team Fortress 2 Trading Community is being accepted by the Bots.\"'],
+      description: [`\"We are an automated TF2 trading website, which allows you to get your desired items quick and easy.
+      Mannco.trade was created back in September the 2017th and has been growing faster than expected ever since.
+      This site is exclusive as it is because you’re able to trade items from different qualities,
+      types and classes with each other, without needing to pay in Metals or Keys.
+      Almost every item in the Team Fortress 2 Trading Community is being accepted by the Bots.\"`],
       links: [
         { href: 'https://mannco.trade/', text: 'Website' } as Link,
       ],
       img: { src: '../../assets/img/manncotrade.jpg', alt: 'Mannco Trade' }
     } as Data,
   ];
-  
+  private mods = [
+    {
+      title: 'TF2 Classic',
+      subtitle: 'Game Mod',
+      description: [`\"A Team Fortress 2 mod aiming to re-imagine the 2008-2009 era,
+      while also updating and adding new content. Developed by @EminomaTeam\"`],
+      links: [
+        { href: 'https://tf2classic.com/', text: 'Website' } as Link,
+        { href: 'https://discord.gg/3zMk4vn', text: 'Discord' } as Link,
+        { href: 'https://twitter.com/tf2classic', text: 'Twitter' } as Link,
+      ],
+      img: { src: '../../assets/img/tf2classic.png', alt: 'TF2 Classic' }
+    } as Data,
+    {
+      title: 'Open Fortress',
+      subtitle: 'Game Mod',
+      description: [`\"Open Fortress is a free and open-source passion project,
+      lovingly crafted by nearly a hundred members of the Team Fortress community with an ideal of fun gameplay
+      as well as maximum customizability.\"`],
+      links: [
+        { href: 'https://openfortress.fun/', text: 'Website' } as Link,
+        { href: 'https://discord.gg/Jk3NUb7', text: 'Discord' } as Link,
+        { href: 'https://www.youtube.com/channel/UCtqmIR--kRAAGRdJ-LtEu1A/videos', text: 'YouTube' } as Link,
+        { href: 'https://twitter.com/openfortress', text: 'Twitter' } as Link,
+        { href: 'https://github.com/KaydemonLP/Open-Fortress-Content-Source', text: 'GitHub' } as Link,
+      ],
+      img: { src: '../../assets/img/openfortress.jpg', alt: 'Open Fortress' }
+    } as Data,
+    {
+      title: 'Pre-Fortress 2',
+      subtitle: 'Game Mod',
+      description: ['\"A recreation mod, containing many elements from the beta and late alpha of TF2.\"'],
+      links: [
+        { href: 'https://t.co/ML25OsQfVL?amp=1', text: 'Discord' } as Link,
+        { href: 'https://twitter.com/prefortress2', text: 'Twitter' } as Link,
+      ],
+      img: { src: '../../assets/img/prefortress2.jpg', alt: 'Pre-Fortress 2' }
+    } as Data,
+    {
+      title: 'Team Comtress 2',
+      subtitle: 'Game Mod',
+      description: [
+        `\"Team Comtress 2 is a set of modifications on top of an older version of Team Fortress 2,
+        with a community development team fixing bugs, improving performance, and adding quality of life features,
+        with the goal of having those changes pulled upstream by Valve to the modern game.\"`,
+        `\"TC2 is not an alternative, more stable game experience.
+        TC2 is based on the 2017 TF2 source code leak, which contained an in-development version of Jungle Inferno.
+        This build is rife with issues and incomplete features, and is not compatible with the modern game client.\"`
+      ],
+      links: [
+        { href: 'https://github.com/mastercomfig/team-comtress-2', text: 'GitHub' } as Link,
+      ],
+    } as Data,
+  ];
   private official = [
     {
       title: 'Official Website',
@@ -293,7 +320,6 @@ export class DataService {
       img: { src: '../../assets/img/twitter.jpg', alt: 'Official Twitter' }
     } as Data,
   ];
-
   private trading = [
     {
       title: 'backpack.tf',
@@ -307,7 +333,8 @@ export class DataService {
     {
       title: 'Trade.tf',
       subtitle: 'trade.tf',
-      description: ['\"Trade.tf is a website to search all trading websites at once with the ability to estimate how much profit can be made from the trades.\"'],
+      description: [`\"Trade.tf is a website to search all trading websites at once
+      with the ability to estimate how much profit can be made from the trades.\"`],
       links: [
         { href: 'https://trade.tf/', text: 'Visit' } as Link,
       ],
@@ -316,7 +343,9 @@ export class DataService {
     {
       title: 'Scrap.tf',
       subtitle: 'scrap.tf',
-      description: ['\"We are an automated trading website that helps everyone in Team Fortress 2 get items they want fast and easy. Scrap.TF was created back in August of 2012 and has grown very much over the past years. Since then we\'ve expanded from simply scrap banking to offering numerous services for players of many games.\"'],
+      description: [`\"We are an automated trading website that helps everyone in Team Fortress 2 get items they want fast and easy.
+      Scrap.TF was created back in August of 2012 and has grown very much over the past years.
+      Since then we\'ve expanded from simply scrap banking to offering numerous services for players of many games.\"`],
       links: [
         { href: 'https://scrap.tf/', text: 'Visit' } as Link,
       ],
@@ -351,27 +380,33 @@ export class DataService {
     } as Data,
   ];
 
-  getCommunities(): Data[] {
-    return this.communities;
-  }
-
-  getProjects(): Data[] {
-    return this.projects;
-  }
-
-  getCompetitive(): Data[] {
-    return this.competitive;
-  }
-
-  getMarketplaces(): Data[] {
-    return this.marketplaces;
-  }
-
-  getOfficial(): Data[] {
-    return this.official;
-  }
-
-  getTrading(): Data[] {
-    return this.trading;
+  getData(tag: Tag): Data[] {
+    switch (tag) {
+      case Tag.All:
+        return []
+          .concat(this.official)
+          .concat(this.communities)
+          .concat(this.competitive)
+          .concat(this.enhancements)
+          .concat(this.mods)
+          .concat(this.marketplaces)
+          .concat(this.trading);
+      case Tag.Communities:
+        return this.communities;
+      case Tag.Competitive:
+        return this.competitive;
+      case Tag.Enhancements:
+        return this.enhancements;
+      case Tag.Mods:
+        return this.mods;
+      case Tag.Official:
+        return this.official;
+      case Tag.Trading:
+        return this.trading;
+      case Tag.Marketplaces:
+        return this.marketplaces;
+      default:
+        throw new Error('Invalid tag.');
+    }
   }
 }
