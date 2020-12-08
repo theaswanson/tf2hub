@@ -1,71 +1,21 @@
-<div fxLayout="row" fxLayout.lt-lg="column" fxLayoutGap="2rem">
-  <div fxFlex="50">
-    <div class="card" routerLink="/official-sites">
-      <div class="card-content">
-        <div class="header">
-          <div class="title">Official Sites</div>
-        </div>
-      </div>
+<div class="welcome">
+  <div class="title">Welcome!</div>
+  <div class="text" fxLayout="column" fxLayoutGap="1rem">
+    <div>Here you can find all of the most popular TF2-related sites, including official sites,
+      trading sites, community projects, and more.</div>
+    <div>This site was created with the intent of helping newcomers to TF2 find helpful resources all in one place.
     </div>
+    <div>TF2Hub is still in development, but if you find a problem or would like to request a feature, please visit our
+      <a href="https://github.com/theaswanson/tf2hub" target="_blank">GitHub repo</a></div>
   </div>
-  <div fxFlex="50">
-    <div class="card" routerLink="/projects">
-      <div class="card-content">
-        <div class="header">
-          <div class="title">Projects</div>
-        </div>
+</div>
+<div class="filters" fxLayout="row" fxLayoutGap="1rem">
+  <div class="card" *ngFor="let tag of tags" (click)="selectTag(tag)">
+    <div class="card-content" [ngClass]="{'selected': (tag.selected)}">
+      <div class="header">
+        <div class="title"><span>{{tag.text}}</span></div>
       </div>
     </div>
   </div>
 </div>
-
-<div fxLayout="row" fxLayout.lt-lg="column" fxLayoutGap="2rem">
-  <div fxFlex="50">
-    <div class="card" routerLink="/communities">
-      <div class="card-content">
-        <div class="header">
-          <div class="title">Communities</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div fxFlex="50">
-    <div class="card" routerLink="/trading">
-      <div class="card-content">
-        <div class="header">
-          <div class="title">Trading</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div fxLayout="row" fxLayout.lt-lg="column" fxLayoutGap="2rem">
-  <div fxFlex="50">
-    <div class="card" routerLink="/marketplaces">
-      <div class="card-content">
-        <div class="header">
-          <div class="title">Marketplaces</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div fxFlex="50">
-    <div class="card" routerLink="/competitive">
-      <div class="card-content">
-        <div class="header">
-          <div class="title">Competitive</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<h1>Welcome!</h1>
-<p>Here you can find all of the most popular TF2-related sites, including official sites,
-  trading sites, community projects, and more.</p>
-<p>This site was created with the intent of helping newcomers to TF2 find helpful resources all in one place.</p>
-<p>
-  TF2Hub is still in development, but if you find a problem or would like to request a feature, please visit our
-  <a href="https://github.com/theaswanson/tf2hub" target="_blank">GitHub repo</a>.
-</p>
+<app-card-display [data]="data"></app-card-display>
