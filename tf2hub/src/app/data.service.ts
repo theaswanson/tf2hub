@@ -11,7 +11,6 @@ export class Data {
 
 export class Image {
   src: string;
-  alt: string;
 }
 
 export class Link {
@@ -41,14 +40,14 @@ export class DataService {
         { href: 'https://creators.tf/discord', text: 'Discord' } as Link,
         { href: 'https://twitter.com/creatorstf', text: 'Twitter' } as Link,
       ],
-      img: { src: '../../assets/img/creators-halloween-2020.jpg', alt: 'Creators.TF' }
+      img: { src: '../../assets/img/creators-halloween-2020.jpg' }
     } as Data,
     {
       title: 'Jump.tf',
       subtitle: 'Jumping Community',
       description: ['\"The TF2 Jumping community. Check it out.\"'],
       links: [{ href: 'https://jump.tf/', text: 'Visit' } as Link],
-      img: { src: '../../assets/img/jumptf.jpg', alt: 'Jump.tf' }
+      img: { src: '../../assets/img/jumptf.jpg' }
     } as Data,
     {
       title: 'Jump Academy',
@@ -56,7 +55,7 @@ export class DataService {
       description: [`\"We are a community of jumpers from all around the world
       who share the same passion for jumping in Team Fortress 2.\"`],
       links: [{ href: 'https://jumpacademy.tf/', text: 'Visit' } as Link],
-      img: { src: '../../assets/img/jumpacademy.jpg', alt: 'Jump Academy' }
+      img: { src: '../../assets/img/jumpacademy.jpg' }
     } as Data,
     {
       title: 'Teamwork.tf',
@@ -67,7 +66,7 @@ export class DataService {
       And after a successful Patreon campaign, teamwork.tf has now brought back the \'yellow pages for TF2\'.
       Beside that we now also have great community tools for map makers, to get insight in player behaviour of maps.\"`],
       links: [{ href: 'https://teamwork.tf/', text: 'Visit' } as Link],
-      img: { src: '../../assets/img/teamworktf.png', alt: 'Teamwork.tf' }
+      img: { src: '../../assets/img/teamworktf.png' }
     } as Data,
     {
       title: 'TF2Maps',
@@ -79,7 +78,7 @@ export class DataService {
         { href: 'http://steamcommunity.com/groups/TF2Mappers', text: 'Steam Group' } as Link,
         { href: 'https://discord.gg/wSYJN3r', text: 'Discord' } as Link,
       ],
-      img: { src: '../../assets/img/tf2maps.jpg', alt: 'TF2Maps' }
+      img: { src: '../../assets/img/tf2maps.jpg' }
     } as Data,
   ];
   private competitive = [
@@ -94,7 +93,7 @@ export class DataService {
         { href: 'http://youtube.com/user/teamfortresstv', text: 'YouTube' } as Link,
         { href: 'http://twitch.tv/teamfortresstv', text: 'Twitch' } as Link,
       ],
-      img: { src: '../../assets/img/teamfortresstv.jpg', alt: 'teamfortresstv' }
+      img: { src: '../../assets/img/teamfortresstv.jpg' }
     } as Data,
     {
       title: 'comp.tf',
@@ -107,7 +106,7 @@ export class DataService {
         { href: 'https://twitter.com/comptfwiki', text: 'Twitter' } as Link,
         { href: 'https://discord.gg/VvRZp7e', text: 'Discord' } as Link,
       ],
-      img: { src: '../../assets/img/comptf.jpg', alt: 'comp.tf' }
+      img: { src: '../../assets/img/comptf.jpg' }
     } as Data,
     {
       title: 'TF2 Center',
@@ -120,7 +119,7 @@ export class DataService {
         { href: 'https://tf2center.com/', text: 'Website' } as Link,
         { href: 'https://steamcommunity.com/groups/tf2-center', text: 'Steam Group' } as Link,
       ],
-      img: { src: '../../assets/img/tf2center.jpg', alt: 'TF2 Center' }
+      img: { src: '../../assets/img/tf2center.jpg' }
     } as Data,
     {
       title: 'serveme.tf',
@@ -134,7 +133,7 @@ export class DataService {
         { href: 'https://twitter.com/servemetf', text: 'Twitter' } as Link,
         { href: 'https://github.com/Arie/serveme', text: 'GitHub' } as Link,
       ],
-      img: { src: '../../assets/img/servemetf.png', alt: 'serveme.tf' }
+      img: { src: '../../assets/img/servemetf.png' }
     } as Data,
     {
       title: 'RGL',
@@ -148,7 +147,7 @@ export class DataService {
         { href: 'https://rgl.gg/PUGs', text: 'Discord' } as Link,
         { href: 'https://steamcommunity.com/groups/RGLgg', text: 'Steam Group' } as Link,
       ],
-      img: { src: '../../assets/img/rgl.png', alt: 'RGL' }
+      img: { src: '../../assets/img/rgl.png' }
     } as Data,
     {
       title: 'ETF2L',
@@ -160,7 +159,7 @@ export class DataService {
         { href: 'https://facebook.com/etf2l', text: 'Facebook' } as Link,
         { href: 'https://steamcommunity.com/groups/etf2l', text: 'Steam Group' } as Link,
       ],
-      img: { src: '../../assets/img/etf2l.png', alt: 'ETF2L' }
+      img: { src: '../../assets/img/etf2l.png' }
     } as Data,
     {
       title: 'UGC',
@@ -173,7 +172,7 @@ export class DataService {
         { href: 'https://twitter.com/ugcleague', text: 'Twitter' } as Link,
         { href: 'https://youtube.com/user/UGCLeagueTF2/videos', text: 'YouTube' } as Link,
       ],
-      img: { src: '../../assets/img/ugc.png', alt: 'UGC' }
+      img: { src: '../../assets/img/ugc.png' }
     } as Data,
     {
       title: 'EssentialsTF',
@@ -196,7 +195,7 @@ export class DataService {
         { href: 'https://instagram.com/essentialstf', text: 'Instagram' } as Link,
         { href: 'https://www.facebook.com/essentialstf/', text: 'Facebook' } as Link,
       ],
-      img: { src: '../../assets/img/essentialstf.png', alt: 'EssentialsTF' }
+      img: { src: '../../assets/img/essentialstf.png' }
     } as Data,
   ];
   private enhancements = [
@@ -210,7 +209,18 @@ export class DataService {
         { href: 'https://discord.gg/CuPb2zV', text: 'Discord' } as Link,
         { href: 'https://steamcommunity.com/groups/comfig', text: 'Steam Group' } as Link,
       ],
-      img: { src: '../../assets/img/mastercomfig.png', alt: 'mastercomfig' }
+      img: { src: '../../assets/img/mastercomfig.png' }
+    } as Data,
+    {
+      title: 'Huds.tf',
+      subtitle: 'Custom HUDs and Hitsounds',
+      description: ['\"Your online database for Team Fortress 2 HUDs.\"'],
+      links: [
+        { href: 'https://huds.tf/', text: 'Website' } as Link,
+        { href: 'http://discord.huds.tf/', text: 'Discord' } as Link,
+        { href: 'https://twitter.com/hudstf', text: 'Twitter' } as Link,
+      ],
+      img: { src: '../../assets/img/hudstf.jpg' }
     } as Data,
   ];
   private marketplaces = [
@@ -221,7 +231,7 @@ export class DataService {
       links: [
         { href: 'https://marketplace.tf/', text: 'Website' } as Link,
       ],
-      img: { src: '../../assets/img/marketplace.png', alt: 'Marketplace.tf' }
+      img: { src: '../../assets/img/marketplace.png' }
     } as Data,
     {
       title: 'Mannco Trade',
@@ -234,7 +244,7 @@ export class DataService {
       links: [
         { href: 'https://mannco.trade/', text: 'Website' } as Link,
       ],
-      img: { src: '../../assets/img/manncotrade.jpg', alt: 'Mannco Trade' }
+      img: { src: '../../assets/img/manncotrade.jpg' }
     } as Data,
   ];
   private mods = [
@@ -248,7 +258,7 @@ export class DataService {
         { href: 'https://discord.gg/3zMk4vn', text: 'Discord' } as Link,
         { href: 'https://twitter.com/tf2classic', text: 'Twitter' } as Link,
       ],
-      img: { src: '../../assets/img/tf2classic.png', alt: 'TF2 Classic' }
+      img: { src: '../../assets/img/tf2classic.png' }
     } as Data,
     {
       title: 'Open Fortress',
@@ -263,7 +273,7 @@ export class DataService {
         { href: 'https://twitter.com/openfortress', text: 'Twitter' } as Link,
         { href: 'https://github.com/KaydemonLP/Open-Fortress-Content-Source', text: 'GitHub' } as Link,
       ],
-      img: { src: '../../assets/img/openfortress.jpg', alt: 'Open Fortress' }
+      img: { src: '../../assets/img/openfortress.jpg' }
     } as Data,
     {
       title: 'Pre-Fortress 2',
@@ -273,7 +283,7 @@ export class DataService {
         { href: 'https://t.co/ML25OsQfVL?amp=1', text: 'Discord' } as Link,
         { href: 'https://twitter.com/prefortress2', text: 'Twitter' } as Link,
       ],
-      img: { src: '../../assets/img/prefortress2.jpg', alt: 'Pre-Fortress 2' }
+      img: { src: '../../assets/img/prefortress2.jpg' }
     } as Data,
     {
       title: 'Team Comtress 2',
@@ -299,7 +309,7 @@ export class DataService {
       links: [
         { href: 'https://www.teamfortress.com/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/teamfortress.com.png', alt: 'Official Website' }
+      img: { src: '../../assets/img/teamfortress.com.png' }
     } as Data,
     {
       title: 'Official Wiki',
@@ -308,7 +318,7 @@ export class DataService {
       links: [
         { href: 'https://wiki.teamfortress.com/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/wiki.png', alt: 'Official Wiki' }
+      img: { src: '../../assets/img/wiki.png' }
     } as Data,
     {
       title: 'Official Twitter',
@@ -317,7 +327,7 @@ export class DataService {
       links: [
         { href: 'https://twitter.com/TeamFortress', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/twitter.jpg', alt: 'Official Twitter' }
+      img: { src: '../../assets/img/twitter.jpg' }
     } as Data,
   ];
   private trading = [
@@ -328,7 +338,7 @@ export class DataService {
       links: [
         { href: 'https://backpack.tf/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/backpack.jpg', alt: 'backpack.tf' }
+      img: { src: '../../assets/img/backpack.jpg' }
     } as Data,
     {
       title: 'Trade.tf',
@@ -338,7 +348,7 @@ export class DataService {
       links: [
         { href: 'https://trade.tf/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/trade-logo.png', alt: 'Trade.tf' }
+      img: { src: '../../assets/img/trade-logo.png' }
     } as Data,
     {
       title: 'Scrap.tf',
@@ -349,7 +359,7 @@ export class DataService {
       links: [
         { href: 'https://scrap.tf/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/scrap.png', alt: 'Scrap.tf' }
+      img: { src: '../../assets/img/scrap.png' }
     } as Data,
     {
       title: 'Quicksell.store',
@@ -366,7 +376,7 @@ export class DataService {
       links: [
         { href: 'https://quicksell.store/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/quicksellstore.png', alt: 'Quicksell.store' }
+      img: { src: '../../assets/img/quicksellstore.png' }
     } as Data,
     {
       title: 'Team Fortress 2 Mart',
@@ -376,7 +386,7 @@ export class DataService {
       links: [
         { href: 'https://tf2mart.net/', text: 'Visit' } as Link,
       ],
-      img: { src: '../../assets/img/tf2mart.png', alt: 'Team Fortress 2 Mart' }
+      img: { src: '../../assets/img/tf2mart.png' }
     } as Data,
   ];
 
