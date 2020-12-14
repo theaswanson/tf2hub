@@ -34,7 +34,7 @@ jobs:
         
       # Build for production
       - name: Build for production
-        run: ng build --prod
+        run: pwd && ls -l && ng build --prod
         
       - name: output
         run: ls -l && ls -l dist/tf2hub
