@@ -23,10 +23,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - name: cd
-        run: cd tf2hub
-        
       - name: Install npm packages
+        working-directory: ./tf2hub
         run: npm i
         
       - name: Install Angular CLI
@@ -34,9 +32,11 @@ jobs:
         
       # Build for production
       - name: Build for production
+        working-directory: ./tf2hub
         run: pwd && ls -l && ng build --prod
         
       - name: output
+        working-directory: ./tf2hub
         run: ls -l && ls -l dist/tf2hub
         
       # Deploy to S3
