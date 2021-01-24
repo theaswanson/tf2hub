@@ -1,0 +1,63 @@
+[{
+  "title": "TF2 Classic",
+  "subtitle": "Game Mod",
+  "description": ["\"A Team Fortress 2 mod aiming to re-imagine the 2008-2009 era, while also updating and adding new content. Developed by @EminomaTeam\""],
+  "links": [{
+    "href": "https://tf2classic.com/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/3zMk4vn",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/tf2classic",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2classic.png"
+  }
+}, {
+  "title": "Open Fortress",
+  "subtitle": "Game Mod",
+  "description": ["\"Open Fortress is a free and open-source passion project, lovingly crafted by nearly a hundred members of the Team Fortress community with an ideal of fun gameplay as well as maximum customizability.\""],
+  "links": [{
+    "href": "https://openfortress.fun/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/Jk3NUb7",
+    "text": "Discord"
+  }, {
+    "href": "https://www.youtube.com/channel/UCtqmIR--kRAAGRdJ-LtEu1A/videos",
+    "text": "YouTube"
+  }, {
+    "href": "https://twitter.com/openfortress",
+    "text": "Twitter"
+  }, {
+    "href": "https://github.com/KaydemonLP/Open-Fortress-Content-Source",
+    "text": "GitHub"
+  }],
+  "img": {
+    "src": "../../assets/img/openfortress.jpg"
+  }
+}, {
+  "title": "Pre-Fortress 2",
+  "subtitle": "Game Mod",
+  "description": ["\"A recreation mod, containing many elements from the beta and late alpha of TF2.\""],
+  "links": [{
+    "href": "https://t.co/ML25OsQfVL?amp=1",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/prefortress2",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/prefortress2.jpg"
+  }
+}, {
+  "title": "Team Comtress 2",
+  "subtitle": "Game Mod",
+  "description": ["\"Team Comtress 2 is a set of modifications on top of an older version of Team Fortress 2,   with a community development team fixing bugs, improving performance, and adding quality of life features,   with the goal of having those changes pulled upstream by Valve to the modern game.\"", "\"TC2 is not an alternative, more stable game experience.   TC2 is based on the 2017 TF2 source code leak, which contained an in-development version of Jungle Inferno.   This build is rife with issues and incomplete features, and is not compatible with the modern game client.\""],
+  "links": [{
+    "href": "https://github.com/mastercomfig/team-comtress-2",
+    "text": "GitHub"
+  }]
+}]

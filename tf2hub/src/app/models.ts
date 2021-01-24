@@ -7,4 +7,5 @@ export enum Tag {
   Trading,
   Marketplaces,
   Competitive,
+  Tools
 }
