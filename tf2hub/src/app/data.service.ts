@@ -4,6 +4,7 @@ import official from './data/official.json';
 import communities from './data/communities.json';
 import competitive from './data/competitive.json';
 import enhancements from './data/enhancements.json';
+import tools from './data/tools.json'
 import mods from './data/mods.json';
 import marketplaces from './data/marketplaces.json';
 import trading from './data/trading.json';
@@ -34,6 +35,7 @@ export class DataService {
   communities: Data[] = communities;
   competitive: Data[] = competitive;
   enhancements: Data[] = enhancements;
+  tools: Data[] = tools;
   mods: Data[] = mods;
   marketplaces: Data[] = marketplaces;
   trading: Data[] = trading;
@@ -48,6 +50,7 @@ export class DataService {
           .concat(this.communities)
           .concat(this.competitive)
           .concat(this.enhancements)
+          .concat(this.tools)
           .concat(this.mods)
           .concat(this.marketplaces)
           .concat(this.trading);
@@ -57,6 +60,8 @@ export class DataService {
         return this.competitive;
       case Tag.Enhancements:
         return this.enhancements;
+      case Tag.Tools:
+        return this.tools;
       case Tag.Mods:
         return this.mods;
       case Tag.Official:
