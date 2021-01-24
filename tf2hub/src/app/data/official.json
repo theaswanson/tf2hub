@@ -1,0 +1,34 @@
+[{
+  "title": "Official Website",
+  "subtitle": "teamfortress.com",
+  "description": ["The official website for Team Fortress 2."],
+  "links": [{
+    "href": "https://www.teamfortress.com/",
+    "text": "Visit"
+  }],
+  "img": {
+    "src": "../../assets/img/teamfortress.com.png"
+  }
+}, {
+  "title": "Official Wiki",
+  "subtitle": "wiki.teamfortress.com",
+  "description": ["\"The official resource for the Team Fortress series.\""],
+  "links": [{
+    "href": "https://wiki.teamfortress.com/",
+    "text": "Visit"
+  }],
+  "img": {
+    "src": "../../assets/img/wiki.png"
+  }
+}, {
+  "title": "Official Twitter",
+  "subtitle": "twitter.com/TeamFortress",
+  "description": ["Official Twitter account of the Team Fortress team."],
+  "links": [{
+    "href": "https://twitter.com/TeamFortress",
+    "text": "Visit"
+  }],
+  "img": {
+    "src": "../../assets/img/twitter.jpg"
+  }
+}]

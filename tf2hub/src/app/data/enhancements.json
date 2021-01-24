@@ -1,0 +1,38 @@
+[{
+  "title": "mastercomfig",
+  "subtitle": "Game Configuration",
+  "description": ["\"A modern Team Fortress 2 performance and customization config.\""],
+  "links": [{
+    "href": "https://mastercomfig.com/",
+    "text": "Website"
+  }, {
+    "href": "https://docs.mastercomfig.com/",
+    "text": "Docs"
+  }, {
+    "href": "https://discord.gg/CuPb2zV",
+    "text": "Discord"
+  }, {
+    "href": "https://steamcommunity.com/groups/comfig",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/mastercomfig.png"
+  }
+}, {
+  "title": "Huds.tf",
+  "subtitle": "Custom HUDs and Hitsounds",
+  "description": ["\"Your online database for Team Fortress 2 HUDs.\""],
+  "links": [{
+    "href": "https://huds.tf/",
+    "text": "Website"
+  }, {
+    "href": "http://discord.huds.tf/",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/hudstf",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/hudstf.jpg"
+  }
+}]

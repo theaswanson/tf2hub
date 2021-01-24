@@ -1,0 +1,179 @@
+[{
+  "title": "teamfortresstv",
+  "subtitle": "Game Broadcaster, Competitive Community",
+  "description": ["\"The home of competitive Team Fortress 2.\""],
+  "links": [{
+    "href": "https://www.teamfortress.tv/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/teamfortresstv",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/0if53iRT2W4nyL6t",
+    "text": "Discord"
+  }, {
+    "href": "http://youtube.com/user/teamfortresstv",
+    "text": "YouTube"
+  }, {
+    "href": "http://twitch.tv/teamfortresstv",
+    "text": "Twitch"
+  }],
+  "img": {
+    "src": "../../assets/img/teamfortresstv.jpg"
+  }
+}, {
+  "title": "comp.tf",
+  "subtitle": "Informational",
+  "description": ["\"comp.tf is the Competitive TF2 Wiki. We aim to provide the community with a free, neutral and comprehensive summary of current and historical competitive TF2 knowledge. Players, teams, tournaments, maps and classes pages are our most popular forms of content.\""],
+  "links": [{
+    "href": "https://comp.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/comptfwiki",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/VvRZp7e",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/comptf.jpg"
+  }
+}, {
+  "title": "TF2 Center",
+  "subtitle": "Pick-up Games",
+  "description": ["\"TF2Center was created to help bridge the gap between public and competitive play for TF2. TF2Center is a place to play TF2 games based on specific competitive game-modes like 6v6 and Highlander. Newer players can take advantage of our lobby system to create games without needing to get a server personally, whilst more experienced players can ensure games are competitive by imposing restrictions.\""],
+  "links": [{
+    "href": "https://tf2center.com/",
+    "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/tf2-center",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2center.jpg"
+  }
+}, {
+  "title": "serveme.tf",
+  "subtitle": "Server Hosting",
+  "description": ["\"The easiest way to get a TF2 server.\""],
+  "links": [{
+    "href": "https://serveme.tf/",
+    "text": "EU Website"
+  }, {
+    "href": "https://na.serveme.tf/",
+    "text": "NA Website"
+  }, {
+    "href": "https://sea.serveme.tf/",
+    "text": "SEA Website"
+  }, {
+    "href": "https://discord.gg/0s38RdItLiCmARMm",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/servemetf",
+    "text": "Twitter"
+  }, {
+    "href": "https://github.com/Arie/serveme",
+    "text": "GitHub"
+  }],
+  "img": {
+    "src": "../../assets/img/servemetf.png"
+  }
+}, {
+  "title": "RGL",
+  "subtitle": "TF2 League (North America)",
+  "description": ["\"RGL.gg is the largest NA TF2 league. Focused on evolving, growing and pushing the TF2 competitive community forward.\""],
+  "links": [{
+    "href": "https://rgl.gg/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/RGLgg",
+    "text": "Twitch"
+  }, {
+    "href": "https://youtube.com/c/RGLgg",
+    "text": "YouTube"
+  }, {
+    "href": "https://twitter.com/RGL_gg",
+    "text": "Twitter"
+  }, {
+    "href": "https://rgl.gg/PUGs",
+    "text": "Discord"
+  }, {
+    "href": "https://steamcommunity.com/groups/RGLgg",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/rgl.png"
+  }
+}, {
+  "title": "ETF2L",
+  "subtitle": "TF2 League (European Union)",
+  "description": ["\"The European Team Fortress 2 League.\""],
+  "links": [{
+    "href": "https://etf2l.org/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/ETF2L",
+    "text": "Twitter"
+  }, {
+    "href": "https://facebook.com/etf2l",
+    "text": "Facebook"
+  }, {
+    "href": "https://steamcommunity.com/groups/etf2l",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/etf2l.png"
+  }
+}, {
+  "title": "UGC",
+  "subtitle": "TF2 League",
+  "description": ["Leagues for Highlander, 6v6, 4v4, and Ultiduo."],
+  "links": [{
+    "href": "https://ugcleague.com/index.cfm",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/ugcleague",
+    "text": "Twitch"
+  }, {
+    "href": "https://facebook.com/UnitedGamingClans",
+    "text": "Facebook"
+  }, {
+    "href": "https://twitter.com/ugcleague",
+    "text": "Twitter"
+  }, {
+    "href": "https://youtube.com/user/UGCLeagueTF2/videos",
+    "text": "YouTube"
+  }],
+  "img": {
+    "src": "../../assets/img/ugc.png"
+  }
+}, {
+  "title": "EssentialsTF",
+  "subtitle": "Game Broadcaster",
+  "description": ["\"Broadcasting the best from the top Team Fortress 2 events.\"", "\"For over 4 years we have powered and produced the largest events in Team Fortress 2.   In 2015, starting as a production partner of TeamFortress.TV, we provided hardware that powered the broadcast of   Multiplay’s Insomnia55 TF2 tournament to fans around the world.   Since then we have expanded to organising our own online competitive TF2 events with sponsored prize pools   and becoming the primary production organisation for the TF2 tournament at GAME’s Insomnia Gaming Festival events   working alongside Player1 Events for the past 3 years running.\""],
+  "links": [{
+    "href": "https://essentials.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/essentialstf",
+    "text": "Twitch"
+  }, {
+    "href": "https://www.youtube.com/essentialstf",
+    "text": "YouTube"
+  }, {
+    "href": "https://discord.gg/hyQrEjw",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/tf2essentials",
+    "text": "Twitter"
+  }, {
+    "href": "https://instagram.com/essentialstf",
+    "text": "Instagram"
+  }, {
+    "href": "https://www.facebook.com/essentialstf/",
+    "text": "Facebook"
+  }],
+  "img": {
+    "src": "../../assets/img/essentialstf.png"
+  }
+}]
