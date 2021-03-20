@@ -1,6 +1,7 @@
 [{
   "title": "mastercomfig",
   "subtitle": "Game Configuration",
+  "tag": 3,
   "description": ["\"A modern Team Fortress 2 performance and customization config.\""],
   "links": [{
     "href": "https://mastercomfig.com/",
@@ -21,6 +22,7 @@
 }, {
   "title": "Huds.tf",
   "subtitle": "Custom HUDs and Hitsounds",
+  "tag": 3,
   "description": ["\"Your online database for Team Fortress 2 HUDs.\""],
   "links": [{
     "href": "https://huds.tf/",
