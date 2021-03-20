@@ -18,6 +18,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
 import { DataService } from './data.service';
 import { CardDisplayComponent } from './card-display/card-display.component';
+import { FormsModule } from '@angular/forms';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -43,7 +44,8 @@ const ROUTES = [
     MatListModule,
     MatCardModule,
     MatGridListModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
