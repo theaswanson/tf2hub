@@ -1,6 +1,7 @@
 [{
   "title": "backpack.tf",
   "subtitle": "backpack.tf",
+  "tag": 5,
   "description": ["Item trading, price tracking, backpack viewing, and more!"],
   "links": [{
     "href": "https://backpack.tf/",
@@ -12,6 +13,7 @@
 }, {
   "title": "Trade.tf",
   "subtitle": "trade.tf",
+  "tag": 5,
   "description": ["\"Trade.tf is a website to search all trading websites at once with the ability to estimate how much profit can be made from the trades.\""],
   "links": [{
     "href": "https://trade.tf/",
@@ -23,6 +25,7 @@
 }, {
   "title": "Scrap.tf",
   "subtitle": "scrap.tf",
+  "tag": 5,
   "description": ["\"We are an automated trading website that helps everyone in Team Fortress 2 get items they want fast and easy. Scrap.TF was created back in August of 2012 and has grown very much over the past years. Since then we've expanded from simply scrap banking to offering numerous services for players of many games.\""],
   "links": [{
     "href": "https://scrap.tf/",
@@ -34,6 +37,7 @@
 }, {
   "title": "Quicksell.store",
   "subtitle": "quicksell.store",
+  "tag": 5,
   "description": ["\"Quicksell.store is a Team Fortress 2 trading site whose main purpose and drive is to help you have the best possible experience when buying and selling all kinds of items. Be it australiums, painted items or unusual hats, you never know what we might have in stock! With thousands of items and unusuals available we are prepared for any type of trade, no matter how big. Our competitive prices, efficient service and innovative mechanics make us a great choice to become your next home for anything trading related. The site has been trading since 2019.\""],
   "links": [{
     "href": "https://quicksell.store/",
@@ -45,6 +49,7 @@
 }, {
   "title": "Team Fortress 2 Mart",
   "subtitle": "tf2mart.net",
+  "tag": 5,
   "description": ["\"Our fast automatic trading service will help you to exchange TF2 items you have for items you need. We have huge selection of items from cheapest crates to unusual accessories.\""],
   "links": [{
     "href": "https://tf2mart.net/",

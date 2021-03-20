@@ -1,6 +1,7 @@
 [{
   "title": "Official Website",
   "subtitle": "teamfortress.com",
+  "tag": 1,
   "description": ["The official website for Team Fortress 2."],
   "links": [{
     "href": "https://www.teamfortress.com/",
@@ -12,6 +13,7 @@
 }, {
   "title": "Official Wiki",
   "subtitle": "wiki.teamfortress.com",
+  "tag": 1,
   "description": ["\"The official resource for the Team Fortress series.\""],
   "links": [{
     "href": "https://wiki.teamfortress.com/",
@@ -23,6 +25,7 @@
 }, {
   "title": "Official Twitter",
   "subtitle": "twitter.com/TeamFortress",
+  "tag": 1,
   "description": ["Official Twitter account of the Team Fortress team."],
   "links": [{
     "href": "https://twitter.com/TeamFortress",

@@ -1,6 +1,7 @@
 [{
   "title": "teamfortresstv",
   "subtitle": "Game Broadcaster, Competitive Community",
+  "tag": 7,
   "description": ["\"The home of competitive Team Fortress 2.\""],
   "links": [{
     "href": "https://www.teamfortress.tv/",
@@ -24,6 +25,7 @@
 }, {
   "title": "comp.tf",
   "subtitle": "Informational",
+  "tag": 7,
   "description": ["\"comp.tf is the Competitive TF2 Wiki. We aim to provide the community with a free, neutral and comprehensive summary of current and historical competitive TF2 knowledge. Players, teams, tournaments, maps and classes pages are our most popular forms of content.\""],
   "links": [{
     "href": "https://comp.tf/",
@@ -41,6 +43,7 @@
 }, {
   "title": "TF2 Center",
   "subtitle": "Pick-up Games",
+  "tag": 7,
   "description": ["\"TF2Center was created to help bridge the gap between public and competitive play for TF2. TF2Center is a place to play TF2 games based on specific competitive game-modes like 6v6 and Highlander. Newer players can take advantage of our lobby system to create games without needing to get a server personally, whilst more experienced players can ensure games are competitive by imposing restrictions.\""],
   "links": [{
     "href": "https://tf2center.com/",
@@ -55,6 +58,7 @@
 }, {
   "title": "serveme.tf",
   "subtitle": "Server Hosting",
+  "tag": 7,
   "description": ["\"The easiest way to get a TF2 server.\""],
   "links": [{
     "href": "https://serveme.tf/",
@@ -81,6 +85,7 @@
 }, {
   "title": "RGL",
   "subtitle": "TF2 League (North America)",
+  "tag": 7,
   "description": ["\"RGL.gg is the largest NA TF2 league. Focused on evolving, growing and pushing the TF2 competitive community forward.\""],
   "links": [{
     "href": "https://rgl.gg/",
@@ -107,6 +112,7 @@
 }, {
   "title": "ETF2L",
   "subtitle": "TF2 League (European Union)",
+  "tag": 7,
   "description": ["\"The European Team Fortress 2 League.\""],
   "links": [{
     "href": "https://etf2l.org/",
@@ -127,6 +133,7 @@
 }, {
   "title": "UGC",
   "subtitle": "TF2 League",
+  "tag": 7,
   "description": ["Leagues for Highlander, 6v6, 4v4, and Ultiduo."],
   "links": [{
     "href": "https://ugcleague.com/index.cfm",
@@ -150,6 +157,7 @@
 }, {
   "title": "EssentialsTF",
   "subtitle": "Game Broadcaster",
+  "tag": 7,
   "description": ["\"Broadcasting the best from the top Team Fortress 2 events.\"", "\"For over 4 years we have powered and produced the largest events in Team Fortress 2.   In 2015, starting as a production partner of TeamFortress.TV, we provided hardware that powered the broadcast of   Multiplay’s Insomnia55 TF2 tournament to fans around the world.   Since then we have expanded to organising our own online competitive TF2 events with sponsored prize pools   and becoming the primary production organisation for the TF2 tournament at GAME’s Insomnia Gaming Festival events   working alongside Player1 Events for the past 3 years running.\""],
   "links": [{
     "href": "https://essentials.tf/",

@@ -12,6 +12,7 @@ import trading from './data/trading.json';
 export class Data {
   title: string;
   subtitle: string;
+  tag: Tag;
   description: string[];
   links: Link[];
   img?: Image;
@@ -26,52 +27,53 @@ export class Link {
   text: string;
 }
 
+export class Filter {
+  tag: Tag;
+  search: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  official: Data[] = official;
-  communities: Data[] = communities;
-  competitive: Data[] = competitive;
-  enhancements: Data[] = enhancements;
-  tools: Data[] = tools;
-  mods: Data[] = mods;
-  marketplaces: Data[] = marketplaces;
-  trading: Data[] = trading;
+  data: Data[];
 
-  constructor() { }
+  constructor() {
+    this.data = []
+      .concat(official)
+      .concat(communities)
+      .concat(competitive)
+      .concat(enhancements)
+      .concat(tools)
+      .concat(mods)
+      .concat(marketplaces)
+      .concat(trading);
+  }
 
-  getData(tag: Tag): Data[] {
-    switch (tag) {
-      case Tag.All:
-        return []
-          .concat(this.official)
-          .concat(this.communities)
-          .concat(this.competitive)
-          .concat(this.enhancements)
-          .concat(this.tools)
-          .concat(this.mods)
-          .concat(this.marketplaces)
-          .concat(this.trading);
-      case Tag.Communities:
-        return this.communities;
-      case Tag.Competitive:
-        return this.competitive;
-      case Tag.Enhancements:
-        return this.enhancements;
-      case Tag.Tools:
-        return this.tools;
-      case Tag.Mods:
-        return this.mods;
-      case Tag.Official:
-        return this.official;
-      case Tag.Trading:
-        return this.trading;
-      case Tag.Marketplaces:
-        return this.marketplaces;
-      default:
-        throw new Error('Invalid tag.');
+  getData(filter: Filter): Data[] {
+    let filtered = this.data;
+    filtered = this.filterByTag(filter.tag, filtered);
+    filtered = this.filterBySearch(filter.search, filtered);
+    return filtered;
+  }
+
+  private filterBySearch(search: string, filtered: Data[]) {
+    if (search && search.trim().length > 0) {
+      search = search.trim();
+      filtered = filtered.filter(x => this.includes(x.title, search) || this.includes(x.description.join('.'), search));
     }
+    return filtered;
+  }
+
+  private filterByTag(tag: Tag, filtered: Data[]) {
+    if (tag) {
+      filtered = filtered.filter(x => x.tag == tag);
+    }
+    return filtered;
+  }
+
+  includes(one: string, two: string): boolean {
+    return one.toLowerCase().includes(two.toLowerCase());
   }
 }

@@ -14,23 +14,25 @@ export class TagFilter {
 })
 export class HomeComponent implements OnInit {
 
-  tags: TagFilter[] = [
-    { text: 'All', value: Tag.All, selected: true } as TagFilter,
-    { text: 'Official Sites', value: Tag.Official, selected: false } as TagFilter,
-    { text: 'Mods', value: Tag.Mods, selected: false } as TagFilter,
-    { text: 'Enhancements', value: Tag.Enhancements, selected: false } as TagFilter,
-    { text: 'Tools', value: Tag.Tools, selected: false } as TagFilter,
-    { text: 'Communities', value: Tag.Communities, selected: false } as TagFilter,
-    { text: 'Trading', value: Tag.Trading, selected: false } as TagFilter,
-    { text: 'Marketplaces', value: Tag.Marketplaces, selected: false } as TagFilter,
-    { text: 'Competitive', value: Tag.Competitive, selected: false } as TagFilter,
-  ];
-
+  tags: TagFilter[];
   data: Data[];
   selectedTag: TagFilter;
+  searchText: string;
 
   constructor(private dataService: DataService) {
-    this.selectedTag = this.tags.find(x => x.value === Tag.All);
+    this.tags = [
+      { text: 'All', selected: true } as TagFilter,
+      { text: 'Official Sites', value: Tag.Official, selected: false } as TagFilter,
+      { text: 'Mods', value: Tag.Mods, selected: false } as TagFilter,
+      { text: 'Enhancements', value: Tag.Enhancements, selected: false } as TagFilter,
+      { text: 'Tools', value: Tag.Tools, selected: false } as TagFilter,
+      { text: 'Communities', value: Tag.Communities, selected: false } as TagFilter,
+      { text: 'Trading', value: Tag.Trading, selected: false } as TagFilter,
+      { text: 'Marketplaces', value: Tag.Marketplaces, selected: false } as TagFilter,
+      { text: 'Competitive', value: Tag.Competitive, selected: false } as TagFilter,
+    ];
+    this.selectedTag = this.tags[0];
+    this.searchText = "";
   }
 
   ngOnInit(): void {
@@ -47,7 +49,15 @@ export class HomeComponent implements OnInit {
   }
 
   getData(): void {
-    this.data = this.dataService.getData(this.selectedTag.value);
+    this.data = this.dataService.getData({
+      tag: this.selectedTag.value,
+      search: this.searchText
+    });
+  }
+
+  searchChanged(value: any): void {
+    this.searchText = value;
+    this.getData();
   }
 
 }
