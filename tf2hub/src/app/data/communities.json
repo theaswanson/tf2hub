@@ -16,8 +16,25 @@
   "img": {
     "src": "../../assets/img/creators-halloween-2020.jpg"
   }
-}
-, {
+}, {
+  "title": "FACEIT TF2",
+  "subtitle": "Community Servers",
+  "tag": 4,
+  "description": ["\"The home of TF2 on FACEIT.\"", "Play 12v12 casual matches with fewer cheaters and improved gameplay, and earn rewards just for playing."],
+  "links": [{
+    "href": "https://fce.gg/FACEITTF2",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/FACEITTF2",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/faceittf2",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/faceit.jpg"
+  }
+}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "tag": 4,
