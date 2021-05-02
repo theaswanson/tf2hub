@@ -44,13 +44,19 @@
   "title": "Pre-Fortress 2",
   "subtitle": "Game Mod",
   "tag": 2,
-  "description": ["\"A recreation mod, containing many elements from the beta and late alpha of TF2.\""],
+  "description": ["\"Pre-Fortress 2 is a TF2 sourcemod that aims to bridge the gap between Team Fortress Classic and Team Fortress 2 to provide a fresh new experiences by combining the fast paced action of Team Fortress Classic with the streamlined Team Fortress 2.\""],
   "links": [{
-    "href": "https://t.co/ML25OsQfVL?amp=1",
+    "href": "https://prefortress.ml/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/D3Fzdew",
     "text": "Discord"
   }, {
     "href": "https://twitter.com/prefortress2",
     "text": "Twitter"
+  }, {
+    "href": "https://www.youtube.com/channel/UCiq_1q67x00inzrY4WIQPng",
+    "text": "YouTube"
   }],
   "img": {
     "src": "../../assets/img/prefortress2.jpg"
