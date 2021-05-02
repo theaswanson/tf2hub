@@ -197,6 +197,33 @@
     "src": "../../assets/img/tf2reddit-wide.png"
   }
 }, {
+  "title": "KritzKast",
+  "subtitle": "TF2 Podcast",
+  "tags": [4],
+  "description": ["\"Welcome to KritzKast, the weekly TF2 Podkast. Covering everything from updates and unlocks to fan creations and events.\""],
+  "links": [{
+    "href": "http://www.kritzkast.com/",
+    "text": "Website"
+  }, {
+    "href": "http://discord.kritzkast.com/",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/KritzKast",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.youtube.com/KritzKast",
+    "text": "YouTube"
+  }, {
+    "href": "https://steamcommunity.com/groups/KritzKast",
+    "text": "Steam Group"
+  }, {
+    "href": "https://www.facebook.com/KritzKast",
+    "text": "Facebook"
+  }],
+  "img": {
+    "src": "../../assets/img/kritzkast.png"
+  }
+}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "url": "jump.tf",
