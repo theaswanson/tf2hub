@@ -605,6 +605,19 @@
     "src": "../../assets/img/essentialstf.png"
   }
 }, {
+  "title": "Whitelist.tf",
+  "subtitle": "Custom Whitelist Generator",
+  "url": "whitelist.tf",
+  "tags": [7, 8],
+  "description": ["\"Launched on September 1st, 2013, whitelist.tf was created by Wiethoofd to give users the ability to easily generate a custom whitelist for use in Team Fortress 2's tournament mode. The site allows users to create every possible whitelist imaginable, while respecting original weapons every time new items are added by Valve. whitelist.tf is always up to date with the latest itemschema, making it perfect for server owners or configuration maintainers.\""],
+  "links": [{
+    "href": "https://whitelist.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/whitelisttf.png"
+  }
+}, {
   "title": "heatmaps.tf",
   "subtitle": "Game Statistics",
   "url": "heatmaps.tf",
