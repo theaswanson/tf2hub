@@ -741,4 +741,23 @@
   "img": {
     "src": "../../assets/img/tipofthehats.png"
   }
+}, {
+  "title": "Hugs.tf",
+  "subtitle": "Charity Event",
+  "url": "hugs.tf",
+  "tags": [10],
+  "description": ["\"hugs.tf is an annual charity live stream event benefiting SpecialEffect: the gamers charity. Over the last 5 years, we have raised over £40,000 through events related to our favourite game: Team Fortress 2.\"", "\"TF2's community is the heart of our operation, and we love creating events that everybody can enjoy - whilst also supporting great causes.\""],
+  "links": [{
+    "href": "https://hugs.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/hugstf",
+    "text": "Twitch"
+  }, {
+    "href": "https://twitter.com/hugs_tf",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/hugstf.png"
+  }
 }]
