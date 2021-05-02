@@ -525,6 +525,28 @@
     "src": "../../assets/img/matchtf.png"
   }
 }, {
+  "title": "Ready Steady Pan",
+  "subtitle": "Competitive Format",
+  "url": "pan.tf",
+  "tags": [7],
+  "description": ["\"Ready Steady Pan is a competitive 6v6 Team Fortress format revolving around the use of stock melee in the form of a frying pan. As both a fun format, and a way of introducing players to the 6v6 format and mindset, the basic requirement is for every player to have a Frying Pan equipped. Classes that cannot equip the pan are banned, i.e. Engineer and Spy, alongside Heavy and Medic for their high health and health regeneration abilities respectively.\""],
+  "links": [{
+    "href": "https://pan.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/2Jzr43T",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/ReadySteadyPan",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.youtube.com/channel/UC4t7pdKGQZKgrrO7zU7XeJQ",
+    "text": "YouTube"
+  }],
+  "img": {
+    "src": "../../assets/img/pan.png"
+  }
+}, {
   "title": "EssentialsTF",
   "subtitle": "Broadcaster",
   "url": "essentials.tf",
