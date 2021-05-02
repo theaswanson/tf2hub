@@ -155,6 +155,21 @@
     "src": "../../assets/img/hudstf.jpg"
   }
 }, {
+  "title": "TF2 Coaching Central",
+  "subtitle": "Coaching",
+  "tags": [4, 7],
+  "description": ["\"A friendly community focused on helping out new players and introducing players to competitive TF2 with an active pug scene as well as special events and tournaments. Whether you're looking to dip your toes in competitive, a more experienced player looking to mentor newbies, or even a fresh install, feel free to join - we welcome all skill levels!\""],
+  "links": [{
+    "href": "https://disboard.org/server/727627956058325052",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/HmVuUxZcrk",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2cc-wide.jpg"
+  }
+}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "url": "jump.tf",
