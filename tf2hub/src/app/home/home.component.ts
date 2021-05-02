@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Data, DataService } from '../data.service';
+import { Data, DataService, Filter } from '../data.service';
 import { Tag } from '../models';
 
 export class TagFilter {
@@ -23,13 +23,14 @@ export class HomeComponent implements OnInit {
     this.tags = [
       { text: 'All', selected: true } as TagFilter,
       { text: 'Official Sites', value: Tag.Official, selected: false } as TagFilter,
-      { text: 'Mods', value: Tag.Mods, selected: false } as TagFilter,
+      { text: 'Community Servers', value: Tag.CommunityServers, selected: false } as TagFilter,
+      { text: 'Communities', value: Tag.Communities, selected: false } as TagFilter,
       { text: 'Enhancements', value: Tag.Enhancements, selected: false } as TagFilter,
       { text: 'Tools', value: Tag.Tools, selected: false } as TagFilter,
-      { text: 'Communities', value: Tag.Communities, selected: false } as TagFilter,
+      { text: 'Mods', value: Tag.Mods, selected: false } as TagFilter,
+      { text: 'Competitive', value: Tag.Competitive, selected: false } as TagFilter,
       { text: 'Trading', value: Tag.Trading, selected: false } as TagFilter,
       { text: 'Marketplaces', value: Tag.Marketplaces, selected: false } as TagFilter,
-      { text: 'Competitive', value: Tag.Competitive, selected: false } as TagFilter,
     ];
     this.selectedTag = this.tags[0];
     this.searchText = "";
@@ -52,7 +53,7 @@ export class HomeComponent implements OnInit {
     this.data = this.dataService.getData({
       tag: this.selectedTag.value,
       search: this.searchText
-    });
+    } as Filter);
   }
 
   searchChanged(value: any): void {

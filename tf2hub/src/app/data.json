@@ -155,44 +155,6 @@
     "src": "../../assets/img/hudstf.jpg"
   }
 }, {
-  "title": "Creators.TF",
-  "subtitle": "Community Servers",
-  "url": "creators.tf",
-  "tag": 4,
-  "description": ["\"Welcome to Creators.TF, a TF2 community celebration project that takes the initiative to provide new content for Team Fortress 2.\"", "\"Using the help of community content creators, we can provide complete community-created events to our own servers through modding and plugins. Hats, weapons, maps, and much more! All of these will be created by the community,    and implemented into our servers.\""],
-  "links": [{
-    "href": "https://creators.tf",
-    "text": "Website"
-  }, {
-    "href": "https://creators.tf/discord",
-    "text": "Discord"
-  }, {
-    "href": "https://twitter.com/creatorstf",
-    "text": "Twitter"
-  }],
-  "img": {
-    "src": "../../assets/img/creators-halloween-2020.jpg"
-  }
-}, {
-  "title": "FACEIT TF2",
-  "subtitle": "Community Servers",
-  "url": "faceit.com",
-  "tag": 4,
-  "description": ["\"The home of TF2 on FACEIT.\"", "Play 12v12 casual matches with fewer cheaters and improved gameplay, and earn rewards just for playing."],
-  "links": [{
-    "href": "https://fce.gg/FACEITTF2",
-    "text": "Website"
-  }, {
-    "href": "https://twitter.com/FACEITTF2",
-    "text": "Twitter"
-  }, {
-    "href": "https://discord.gg/faceittf2",
-    "text": "Discord"
-  }],
-  "img": {
-    "src": "../../assets/img/faceit.jpg"
-  }
-}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "url": "jump.tf",
@@ -577,4 +539,42 @@
     "href": "https://github.com/mkrl/cfgtf",
     "text": "GitHub"
   }]
+}, {
+  "title": "Creators.TF",
+  "subtitle": "Community Servers",
+  "url": "creators.tf",
+  "tag": 9,
+  "description": ["\"Welcome to Creators.TF, a TF2 community celebration project that takes the initiative to provide new content for Team Fortress 2.\"", "\"Using the help of community content creators, we can provide complete community-created events to our own servers through modding and plugins. Hats, weapons, maps, and much more! All of these will be created by the community,    and implemented into our servers.\""],
+  "links": [{
+    "href": "https://creators.tf",
+    "text": "Website"
+  }, {
+    "href": "https://creators.tf/discord",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/creatorstf",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/creators-halloween-2020.jpg"
+  }
+}, {
+  "title": "FACEIT TF2",
+  "subtitle": "Community Servers",
+  "url": "faceit.com",
+  "tag": 9,
+  "description": ["\"The home of TF2 on FACEIT.\"", "Play 12v12 casual matches with fewer cheaters and improved gameplay, and earn rewards just for playing."],
+  "links": [{
+    "href": "https://fce.gg/FACEITTF2",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/FACEITTF2",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/faceittf2",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/faceit.jpg"
+  }
 }]

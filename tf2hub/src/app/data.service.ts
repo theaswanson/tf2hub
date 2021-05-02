@@ -32,6 +32,7 @@ export class Filter {
 export class DataService {
 
   data: Data[];
+  tagOrder = Object.values(Tag);
 
   constructor() {
     this.data = data;
@@ -41,6 +42,7 @@ export class DataService {
     let filtered = this.data;
     filtered = this.filterByTag(filter.tag, filtered);
     filtered = this.filterBySearch(filter.search, filtered);
+    filtered.sort((a, b) => this.tagOrder.indexOf(a.tag) - this.tagOrder.indexOf(b.tag));
     return filtered;
   }
 
