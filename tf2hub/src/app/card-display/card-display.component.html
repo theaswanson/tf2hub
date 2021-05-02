@@ -3,12 +3,15 @@
     <div class="card">
       <div class="card-content">
         <div class="header">
-          <div class="title">{{item.title}}</div>
-          <div class="subtitle">{{item.subtitle}}</div>
+          <div class="top">
+            <div class="title">{{item.title}}</div>
+            <div class="subtitle">{{item.subtitle}}</div>
+          </div>
+          <div class="subtitle">{{item.url}}</div>
         </div>
         <div class="text" fxLayout="column" fxLayoutGap="1rem">
-          <div *ngFor="let desc of item.description">
-            {{desc}}
+          <div *ngFor="let descriptionLine of item.description">
+            {{descriptionLine}}
           </div>
         </div>
         <div class="links">

@@ -15,3 +15,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

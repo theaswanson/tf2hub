@@ -5,6 +5,7 @@ import data from './data.json';
 export class Data {
   title: string;
   subtitle: string;
+  url: string;
   tag: Tag;
   description: string[];
   links: Link[];
