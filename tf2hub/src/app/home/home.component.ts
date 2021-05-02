@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
       { text: 'Official Sites', value: Tag.Official, selected: false } as TagFilter,
       { text: 'Community Servers', value: Tag.CommunityServers, selected: false } as TagFilter,
       { text: 'Communities', value: Tag.Communities, selected: false } as TagFilter,
+      { text: 'Events', value: Tag.Events, selected: false } as TagFilter,
       { text: 'Enhancements', value: Tag.Enhancements, selected: false } as TagFilter,
       { text: 'Tools', value: Tag.Tools, selected: false } as TagFilter,
       { text: 'Mods', value: Tag.Mods, selected: false } as TagFilter,
