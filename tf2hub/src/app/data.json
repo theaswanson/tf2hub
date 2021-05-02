@@ -512,6 +512,19 @@
     "src": "../../assets/img/ugc.png"
   }
 }, {
+  "title": "Match.tf",
+  "subtitle": "Tournament Hosting",
+  "url": "match.tf",
+  "tags": [7],
+  "description": ["\"A TF2 tournament host system powered by BroadcastTF.\"", "\"This is a tournament hosting platform. Unlike third-party sites, our goal is to exclusively support Team Fortress 2 and unite all the tournaments or LANs that do not have a website like leagues do. There is no longer need in hosting your own website just to run 1 tournament.\""],
+  "links": [{
+    "href": "https://match.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/matchtf.png"
+  }
+}, {
   "title": "EssentialsTF",
   "subtitle": "Broadcaster",
   "url": "essentials.tf",
