@@ -7,7 +7,7 @@
             <div class="title">{{item.title}}</div>
             <div class="subtitle">{{item.subtitle}}</div>
           </div>
-          <div class="subtitle">{{item.url}}</div>
+          <div class="subtitle" *ngIf="item.url">{{item.url}}</div>
         </div>
         <div class="text" fxLayout="column" fxLayoutGap="1rem">
           <div *ngFor="let descriptionLine of item.description">
