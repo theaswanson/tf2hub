@@ -19,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DataService } from './data.service';
 import { CardDisplayComponent } from './card-display/card-display.component';
 import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -45,7 +46,8 @@ const ROUTES = [
     MatCardModule,
     MatGridListModule,
     FlexLayoutModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

@@ -1,17 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Tag } from './models';
-import official from './data/official.json';
-import communities from './data/communities.json';
-import competitive from './data/competitive.json';
-import enhancements from './data/enhancements.json';
-import tools from './data/tools.json'
-import mods from './data/mods.json';
-import marketplaces from './data/marketplaces.json';
-import trading from './data/trading.json';
+import data from './data.json';
 
 export class Data {
   title: string;
   subtitle: string;
+  url: string;
   tag: Tag;
   description: string[];
   links: Link[];
@@ -40,15 +34,7 @@ export class DataService {
   data: Data[];
 
   constructor() {
-    this.data = []
-      .concat(official)
-      .concat(communities)
-      .concat(competitive)
-      .concat(enhancements)
-      .concat(tools)
-      .concat(mods)
-      .concat(marketplaces)
-      .concat(trading);
+    this.data = data;
   }
 
   getData(filter: Filter): Data[] {

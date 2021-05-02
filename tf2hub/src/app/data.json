@@ -1,0 +1,577 @@
+[{
+  "title": "Official Website",
+  "subtitle": "Official",
+  "url": "teamfortress.com",
+  "tag": 1,
+  "description": ["The official website for Team Fortress 2."],
+  "links": [{
+    "href": "https://www.teamfortress.com/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/teamfortress.com.png"
+  }
+}, {
+  "title": "Official Wiki",
+  "subtitle": "Official",
+  "url": "wiki.teamfortress.com",
+  "tag": 1,
+  "description": ["\"The official resource for the Team Fortress series.\""],
+  "links": [{
+    "href": "https://wiki.teamfortress.com/",
+    "text": "Docs"
+  }],
+  "img": {
+    "src": "../../assets/img/wiki.png"
+  }
+}, {
+  "title": "Official Twitter",
+  "subtitle": "Official",
+  "url": "twitter.com/TeamFortress",
+  "tag": 1,
+  "description": ["The official Twitter account of the Team Fortress team."],
+  "links": [{
+    "href": "https://twitter.com/TeamFortress",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/twitter.jpg"
+  }
+}, {
+  "title": "TF2 Classic",
+  "subtitle": "Game Mod",
+  "url": "tf2classic.com",
+  "tag": 2,
+  "description": ["\"A Team Fortress 2 mod aiming to re-imagine the 2008-2009 era, while also updating and adding new content. Developed by @EminomaTeam\""],
+  "links": [{
+    "href": "https://tf2classic.com/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/3zMk4vn",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/tf2classic",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2classic.png"
+  }
+}, {
+  "title": "Open Fortress",
+  "subtitle": "Game Mod",
+  "url": "openfortress.fun",
+  "tag": 2,
+  "description": ["\"Open Fortress is a free and open-source passion project, lovingly crafted by nearly a hundred members of the Team Fortress community with an ideal of fun gameplay as well as maximum customizability.\""],
+  "links": [{
+    "href": "https://openfortress.fun/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/Jk3NUb7",
+    "text": "Discord"
+  }, {
+    "href": "https://www.youtube.com/channel/UCtqmIR--kRAAGRdJ-LtEu1A/videos",
+    "text": "YouTube"
+  }, {
+    "href": "https://twitter.com/openfortress",
+    "text": "Twitter"
+  }, {
+    "href": "https://github.com/KaydemonLP/Open-Fortress-Content-Source",
+    "text": "GitHub"
+  }],
+  "img": {
+    "src": "../../assets/img/openfortress.jpg"
+  }
+}, {
+  "title": "Pre-Fortress 2",
+  "subtitle": "Game Mod",
+  "url": "prefortress.ml",
+  "tag": 2,
+  "description": ["\"Pre-Fortress 2 is a TF2 sourcemod that aims to bridge the gap between Team Fortress Classic and Team Fortress 2 to provide a fresh new experiences by combining the fast paced action of Team Fortress Classic with the streamlined Team Fortress 2.\""],
+  "links": [{
+    "href": "https://prefortress.ml/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/D3Fzdew",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/prefortress2",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.youtube.com/channel/UCiq_1q67x00inzrY4WIQPng",
+    "text": "YouTube"
+  }],
+  "img": {
+    "src": "../../assets/img/prefortress2.jpg"
+  }
+}, {
+  "title": "Team Comtress 2",
+  "subtitle": "Game Mod",
+  "url": "github.com/mastercomfig/team-comtress-2",
+  "tag": 2,
+  "description": ["\"Team Comtress 2 is a set of modifications on top of an older version of Team Fortress 2,   with a community development team fixing bugs, improving performance, and adding quality of life features,   with the goal of having those changes pulled upstream by Valve to the modern game.\"", "\"TC2 is not an alternative, more stable game experience.   TC2 is based on the 2017 TF2 source code leak, which contained an in-development version of Jungle Inferno.   This build is rife with issues and incomplete features, and is not compatible with the modern game client.\""],
+  "links": [{
+    "href": "https://github.com/mastercomfig/team-comtress-2",
+    "text": "GitHub"
+  }]
+}, {
+  "title": "mastercomfig",
+  "subtitle": "Game Configuration",
+  "url": "mastercomfig.com",
+  "tag": 3,
+  "description": ["\"A modern Team Fortress 2 performance and customization config.\""],
+  "links": [{
+    "href": "https://mastercomfig.com/",
+    "text": "Website"
+  }, {
+    "href": "https://docs.mastercomfig.com/",
+    "text": "Docs"
+  }, {
+    "href": "https://discord.gg/CuPb2zV",
+    "text": "Discord"
+  }, {
+    "href": "https://steamcommunity.com/groups/comfig",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/mastercomfig.png"
+  }
+}, {
+  "title": "Huds.tf",
+  "subtitle": "Custom HUDs and Hitsounds",
+  "url": "huds.tf",
+  "tag": 3,
+  "description": ["\"Your online database for Team Fortress 2 HUDs.\""],
+  "links": [{
+    "href": "https://huds.tf/",
+    "text": "Website"
+  }, {
+    "href": "http://discord.huds.tf/",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/hudstf",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/hudstf.jpg"
+  }
+}, {
+  "title": "Creators.TF",
+  "subtitle": "Community Servers",
+  "url": "creators.tf",
+  "tag": 4,
+  "description": ["\"Welcome to Creators.TF, a TF2 community celebration project that takes the initiative to provide new content for Team Fortress 2.\"", "\"Using the help of community content creators, we can provide complete community-created events to our own servers through modding and plugins. Hats, weapons, maps, and much more! All of these will be created by the community,    and implemented into our servers.\""],
+  "links": [{
+    "href": "https://creators.tf",
+    "text": "Website"
+  }, {
+    "href": "https://creators.tf/discord",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/creatorstf",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/creators-halloween-2020.jpg"
+  }
+}, {
+  "title": "FACEIT TF2",
+  "subtitle": "Community Servers",
+  "url": "faceit.com",
+  "tag": 4,
+  "description": ["\"The home of TF2 on FACEIT.\"", "Play 12v12 casual matches with fewer cheaters and improved gameplay, and earn rewards just for playing."],
+  "links": [{
+    "href": "https://fce.gg/FACEITTF2",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/FACEITTF2",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/faceittf2",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/faceit.jpg"
+  }
+}, {
+  "title": "Jump.tf",
+  "subtitle": "Jumping Community",
+  "url": "jump.tf",
+  "tag": 4,
+  "description": ["\"The TF2 Jumping community. Check it out.\""],
+  "links": [{
+    "href": "https://jump.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/jumptf.jpg"
+  }
+}, {
+  "title": "Jump Academy",
+  "subtitle": "Jumping Community",
+  "url": "jumpacademy.tf",
+  "tag": 4,
+  "description": ["\"We are a community of jumpers from all around the world who share the same passion for jumping in Team Fortress 2.\""],
+  "links": [{
+    "href": "https://jumpacademy.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/jumpacademy.jpg"
+  }
+}, {
+  "title": "Teamwork.tf",
+  "subtitle": "Community Hub",
+  "url": "teamwork.tf",
+  "tag": 4,
+  "description": ["\"Provides a platform and tools to bring the TF2 community together. Between 2015 and 2020 we ran a network to support TF2 YouTubers. During a short break we came back with focus on community servers and statistics. And after a successful Patreon campaign, teamwork.tf has now brought back the 'yellow pages for TF2'. Beside that we now also have great community tools for map makers, to get insight in player behaviour of maps.\""],
+  "links": [{
+    "href": "https://teamwork.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/teamworktf.png"
+  }
+}, {
+  "title": "TF2Maps",
+  "subtitle": "Map Creators",
+  "url": "tf2maps.net",
+  "tag": 4,
+  "description": ["Mapping tutorials, contests, forums, and more!"],
+  "links": [{
+    "href": "https://tf2maps.net/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/tf2maps",
+    "text": "Twitter"
+  }, {
+    "href": "http://steamcommunity.com/groups/TF2Mappers",
+    "text": "Steam Group"
+  }, {
+    "href": "https://discord.gg/wSYJN3r",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2maps.jpg"
+  }
+}, {
+  "title": "backpack.tf",
+  "subtitle": "Trading",
+  "url": "backpack.tf",
+  "tag": 5,
+  "description": ["Item trading, price tracking, backpack viewing, and more!"],
+  "links": [{
+    "href": "https://backpack.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/backpack.jpg"
+  }
+}, {
+  "title": "Trade.tf",
+  "subtitle": "Trading",
+  "url": "trade.tf",
+  "tag": 5,
+  "description": ["\"Trade.tf is a website to search all trading websites at once with the ability to estimate how much profit can be made from the trades.\""],
+  "links": [{
+    "href": "https://trade.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/trade-logo.png"
+  }
+}, {
+  "title": "Scrap.tf",
+  "subtitle": "Trading",
+  "url": "scrap.tf",
+  "tag": 5,
+  "description": ["\"We are an automated trading website that helps everyone in Team Fortress 2 get items they want fast and easy. Scrap.TF was created back in August of 2012 and has grown very much over the past years. Since then we've expanded from simply scrap banking to offering numerous services for players of many games.\""],
+  "links": [{
+    "href": "https://scrap.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/scrap.png"
+  }
+}, {
+  "title": "Quicksell.store",
+  "subtitle": "Trading",
+  "url": "quicksell.store",
+  "tag": 5,
+  "description": ["\"Quicksell.store is a Team Fortress 2 trading site whose main purpose and drive is to help you have the best possible experience when buying and selling all kinds of items. Be it australiums, painted items or unusual hats, you never know what we might have in stock! With thousands of items and unusuals available we are prepared for any type of trade, no matter how big. Our competitive prices, efficient service and innovative mechanics make us a great choice to become your next home for anything trading related. The site has been trading since 2019.\""],
+  "links": [{
+    "href": "https://quicksell.store/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/quicksellstore.png"
+  }
+}, {
+  "title": "Team Fortress 2 Mart",
+  "subtitle": "Trading",
+  "url": "tf2mart.net",
+  "tag": 5,
+  "description": ["\"Our fast automatic trading service will help you to exchange TF2 items you have for items you need. We have huge selection of items from cheapest crates to unusual accessories.\""],
+  "links": [{
+    "href": "https://tf2mart.net/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2mart.png"
+  }
+}, {
+  "title": "Marketplace.tf",
+  "subtitle": "Marketplace",
+  "url": "marketplace.tf",
+  "tag": 6,
+  "description": ["\"Securely buy and sell TF2 and Dota 2 items.\""],
+  "links": [{
+    "href": "https://marketplace.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/marketplace.png"
+  }
+}, {
+  "title": "Mannco Trade",
+  "subtitle": "Marketplace",
+  "url": "mannco.trade",
+  "tag": 6,
+  "description": ["\"We are an automated TF2 trading website, which allows you to get your desired items quick and easy. Mannco.trade was created back in September the 2017th and has been growing faster than expected ever since. This site is exclusive as it is because you’re able to trade items from different qualities, types and classes with each other, without needing to pay in Metals or Keys. Almost every item in the Team Fortress 2 Trading Community is being accepted by the Bots.\""],
+  "links": [{
+    "href": "https://mannco.trade/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/manncotrade.jpg"
+  }
+}, {
+  "title": "teamfortresstv",
+  "subtitle": "Broadcaster & Community",
+  "url": "teamfortress.tv",
+  "tag": 7,
+  "description": ["\"The home of competitive Team Fortress 2.\""],
+  "links": [{
+    "href": "https://www.teamfortress.tv/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/teamfortresstv",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/0if53iRT2W4nyL6t",
+    "text": "Discord"
+  }, {
+    "href": "http://youtube.com/user/teamfortresstv",
+    "text": "YouTube"
+  }, {
+    "href": "http://twitch.tv/teamfortresstv",
+    "text": "Twitch"
+  }],
+  "img": {
+    "src": "../../assets/img/teamfortresstv.jpg"
+  }
+}, {
+  "title": "comp.tf",
+  "subtitle": "Informational",
+  "url": "comp.tf",
+  "tag": 7,
+  "description": ["\"comp.tf is the Competitive TF2 Wiki. We aim to provide the community with a free, neutral and comprehensive summary of current and historical competitive TF2 knowledge. Players, teams, tournaments, maps and classes pages are our most popular forms of content.\""],
+  "links": [{
+    "href": "https://comp.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/comptfwiki",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/VvRZp7e",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/comptf.jpg"
+  }
+}, {
+  "title": "TF2 Center",
+  "subtitle": "Pick-up Games",
+  "url": "tf2center.com",
+  "tag": 7,
+  "description": ["\"TF2Center was created to help bridge the gap between public and competitive play for TF2. TF2Center is a place to play TF2 games based on specific competitive game-modes like 6v6 and Highlander. Newer players can take advantage of our lobby system to create games without needing to get a server personally, whilst more experienced players can ensure games are competitive by imposing restrictions.\""],
+  "links": [{
+    "href": "https://tf2center.com/",
+    "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/tf2-center",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2center.jpg"
+  }
+}, {
+  "title": "serveme.tf",
+  "subtitle": "Server Hosting",
+  "url": "serveme.tf",
+  "tag": 7,
+  "description": ["\"The easiest way to get a TF2 server.\""],
+  "links": [{
+    "href": "https://serveme.tf/",
+    "text": "EU Website"
+  }, {
+    "href": "https://na.serveme.tf/",
+    "text": "NA Website"
+  }, {
+    "href": "https://sea.serveme.tf/",
+    "text": "SEA Website"
+  }, {
+    "href": "https://discord.gg/0s38RdItLiCmARMm",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/servemetf",
+    "text": "Twitter"
+  }, {
+    "href": "https://github.com/Arie/serveme",
+    "text": "GitHub"
+  }],
+  "img": {
+    "src": "../../assets/img/servemetf.png"
+  }
+}, {
+  "title": "RGL",
+  "subtitle": "TF2 League (North America)",
+  "url": "rgl.gg",
+  "tag": 7,
+  "description": ["\"RGL.gg is the largest NA TF2 league. Focused on evolving, growing and pushing the TF2 competitive community forward.\""],
+  "links": [{
+    "href": "https://rgl.gg/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/RGLgg",
+    "text": "Twitch"
+  }, {
+    "href": "https://youtube.com/c/RGLgg",
+    "text": "YouTube"
+  }, {
+    "href": "https://twitter.com/RGL_gg",
+    "text": "Twitter"
+  }, {
+    "href": "https://rgl.gg/PUGs",
+    "text": "Discord"
+  }, {
+    "href": "https://steamcommunity.com/groups/RGLgg",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/rgl.png"
+  }
+}, {
+  "title": "ETF2L",
+  "subtitle": "TF2 League (European Union)",
+  "url": "etf2l.org",
+  "tag": 7,
+  "description": ["\"The European Team Fortress 2 League.\""],
+  "links": [{
+    "href": "https://etf2l.org/",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/ETF2L",
+    "text": "Twitter"
+  }, {
+    "href": "https://facebook.com/etf2l",
+    "text": "Facebook"
+  }, {
+    "href": "https://steamcommunity.com/groups/etf2l",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/etf2l.png"
+  }
+}, {
+  "title": "UGC",
+  "subtitle": "TF2 League",
+  "url": "ugcleague.com",
+  "tag": 7,
+  "description": ["Leagues for Highlander, 6v6, 4v4, and Ultiduo."],
+  "links": [{
+    "href": "https://ugcleague.com/index.cfm",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/ugcleague",
+    "text": "Twitch"
+  }, {
+    "href": "https://facebook.com/UnitedGamingClans",
+    "text": "Facebook"
+  }, {
+    "href": "https://twitter.com/ugcleague",
+    "text": "Twitter"
+  }, {
+    "href": "https://youtube.com/user/UGCLeagueTF2/videos",
+    "text": "YouTube"
+  }],
+  "img": {
+    "src": "../../assets/img/ugc.png"
+  }
+}, {
+  "title": "EssentialsTF",
+  "subtitle": "Broadcaster",
+  "url": "essentials.tf",
+  "tag": 7,
+  "description": ["\"Broadcasting the best from the top Team Fortress 2 events.\"", "\"For over 4 years we have powered and produced the largest events in Team Fortress 2.   In 2015, starting as a production partner of TeamFortress.TV, we provided hardware that powered the broadcast of   Multiplay’s Insomnia55 TF2 tournament to fans around the world.   Since then we have expanded to organising our own online competitive TF2 events with sponsored prize pools   and becoming the primary production organisation for the TF2 tournament at GAME’s Insomnia Gaming Festival events   working alongside Player1 Events for the past 3 years running.\""],
+  "links": [{
+    "href": "https://essentials.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/essentialstf",
+    "text": "Twitch"
+  }, {
+    "href": "https://www.youtube.com/essentialstf",
+    "text": "YouTube"
+  }, {
+    "href": "https://discord.gg/hyQrEjw",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/tf2essentials",
+    "text": "Twitter"
+  }, {
+    "href": "https://instagram.com/essentialstf",
+    "text": "Instagram"
+  }, {
+    "href": "https://www.facebook.com/essentialstf/",
+    "text": "Facebook"
+  }],
+  "img": {
+    "src": "../../assets/img/essentialstf.png"
+  }
+}, {
+  "title": "heatmaps.tf",
+  "subtitle": "Game Statistics",
+  "url": "heatmaps.tf",
+  "tag": 8,
+  "description": ["View player positions across popular maps as a heatmap."],
+  "links": [{
+    "href": "https://heatmaps.tf/",
+    "text": "Website"
+  }]
+}, {
+  "title": "loadout.tf",
+  "subtitle": "Loadout Viewer",
+  "url": "loadout.tf",
+  "tag": 8,
+  "description": ["Try out different loadouts, cosmetics, unusuals, taunts, and more!"],
+  "links": [{
+    "href": "https://loadout.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/tf2loadout",
+    "text": "Steam Group"
+  }]
+}, {
+  "title": "cfg.tf",
+  "subtitle": "Game Configuration",
+  "url": "cfg.tf",
+  "tag": 8,
+  "description": ["\"CFG.TF is a free open-source cross-platform Team Fortress 2 config generator. Even if TF2 is an old game, it has gone through so much updates and patches that it is now nearly impossible to make it run at constant 120+ frames per second on mid-tier PC. And that is absolutely required for playing fast paced shooter comfortably. Ever dreamed of optimizing your game experience in just a few clicks? Well, here is your chance. This app generates a set of premade settings that helps your game to run faster and smoother.\""],
+  "links": [{
+    "href": "https://cfg.tf",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/79cbsTu",
+    "text": "Discord"
+  }]
+}]

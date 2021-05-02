@@ -34,6 +34,7 @@ body {
   background-size: cover;
 }
 
+a,
 a:visited {
   color: orange;
 }
@@ -89,10 +90,10 @@ a:visited {
     }
 
     .links {
+      display: flex;
+      justify-content: space-evenly;
+      
       .mat-button {
-        border: solid white 1px;
-        margin-right: 1rem;
-
         &:hover {
           background-color: rgba(255, 255, 255, 0.1);
         }
