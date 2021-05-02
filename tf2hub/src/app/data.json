@@ -6,7 +6,7 @@
   "description": ["The official website for Team Fortress 2."],
   "links": [{
     "href": "https://www.teamfortress.com/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/teamfortress.com.png"
@@ -19,7 +19,7 @@
   "description": ["\"The official resource for the Team Fortress series.\""],
   "links": [{
     "href": "https://wiki.teamfortress.com/",
-    "text": "Visit"
+    "text": "Docs"
   }],
   "img": {
     "src": "../../assets/img/wiki.png"
@@ -32,7 +32,7 @@
   "description": ["The official Twitter account of the Team Fortress team."],
   "links": [{
     "href": "https://twitter.com/TeamFortress",
-    "text": "Visit"
+    "text": "Twitter"
   }],
   "img": {
     "src": "../../assets/img/twitter.jpg"
@@ -200,7 +200,7 @@
   "description": ["\"The TF2 Jumping community. Check it out.\""],
   "links": [{
     "href": "https://jump.tf/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/jumptf.jpg"
@@ -213,7 +213,7 @@
   "description": ["\"We are a community of jumpers from all around the world who share the same passion for jumping in Team Fortress 2.\""],
   "links": [{
     "href": "https://jumpacademy.tf/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/jumpacademy.jpg"
@@ -226,7 +226,7 @@
   "description": ["\"Provides a platform and tools to bring the TF2 community together. Between 2015 and 2020 we ran a network to support TF2 YouTubers. During a short break we came back with focus on community servers and statistics. And after a successful Patreon campaign, teamwork.tf has now brought back the 'yellow pages for TF2'. Beside that we now also have great community tools for map makers, to get insight in player behaviour of maps.\""],
   "links": [{
     "href": "https://teamwork.tf/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/teamworktf.png"
@@ -261,7 +261,7 @@
   "description": ["Item trading, price tracking, backpack viewing, and more!"],
   "links": [{
     "href": "https://backpack.tf/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/backpack.jpg"
@@ -274,7 +274,7 @@
   "description": ["\"Trade.tf is a website to search all trading websites at once with the ability to estimate how much profit can be made from the trades.\""],
   "links": [{
     "href": "https://trade.tf/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/trade-logo.png"
@@ -287,7 +287,7 @@
   "description": ["\"We are an automated trading website that helps everyone in Team Fortress 2 get items they want fast and easy. Scrap.TF was created back in August of 2012 and has grown very much over the past years. Since then we've expanded from simply scrap banking to offering numerous services for players of many games.\""],
   "links": [{
     "href": "https://scrap.tf/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/scrap.png"
@@ -300,7 +300,7 @@
   "description": ["\"Quicksell.store is a Team Fortress 2 trading site whose main purpose and drive is to help you have the best possible experience when buying and selling all kinds of items. Be it australiums, painted items or unusual hats, you never know what we might have in stock! With thousands of items and unusuals available we are prepared for any type of trade, no matter how big. Our competitive prices, efficient service and innovative mechanics make us a great choice to become your next home for anything trading related. The site has been trading since 2019.\""],
   "links": [{
     "href": "https://quicksell.store/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/quicksellstore.png"
@@ -313,7 +313,7 @@
   "description": ["\"Our fast automatic trading service will help you to exchange TF2 items you have for items you need. We have huge selection of items from cheapest crates to unusual accessories.\""],
   "links": [{
     "href": "https://tf2mart.net/",
-    "text": "Visit"
+    "text": "Website"
   }],
   "img": {
     "src": "../../assets/img/tf2mart.png"
