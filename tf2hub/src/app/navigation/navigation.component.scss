@@ -4,13 +4,13 @@
   .mat-toolbar-row {
     backdrop-filter: blur(30px) brightness(115%) opacity(50%);
     -webkit-backdrop-filter: blur(30px);
-    padding: 1rem 2rem;
     height: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
     .nav-items {
+      display: flex;
+      justify-content: center;
       font-family: TF2 Secondary;
 
       a {

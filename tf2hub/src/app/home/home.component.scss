@@ -5,6 +5,8 @@
 }
 
 .welcome {
+  text-align: center;
+  
   .title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -74,6 +76,12 @@
       color: white;
       font-size: 1.2rem;
       width: 100%;
+      text-align: center;
+
+      &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
     }
   }
 }

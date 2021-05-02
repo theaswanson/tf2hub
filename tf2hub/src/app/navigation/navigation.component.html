@@ -4,22 +4,21 @@
       <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
         <mat-icon>menu</mat-icon>
       </button>
+      <span class="menu-spacer" fxHide.lt-md></span>
       <div class="title">
         <span class="title" routerLink="/">TF2 Hub</span>
         <img src="/assets/img/logo_small.png" style="padding-left: 1rem; height: 50px" />
       </div>
-      <span class="menu-spacer"></span>
       <div class="nav-items" fxShow="true" fxHide.lt-md>
-        <a mat-button routerLink="/">Home</a>
         <a mat-button href="https://github.com/sponsors/theaswanson" target="_blank">Become a Sponsor</a>
       </div>
+      <span class="menu-spacer" fxHide.gt-sm></span>
     </mat-toolbar-row>
   </mat-toolbar>
 
   <mat-sidenav-container fxFlexFill>
     <mat-sidenav #sidenav>
       <mat-nav-list>
-        <a mat-list-item (click)="sidenav.toggle()" routerLink="/">Home</a>
         <a mat-button href="https://github.com/sponsors/theaswanson" target="_blank">Become a Sponsor</a>
       </mat-nav-list>
     </mat-sidenav>
