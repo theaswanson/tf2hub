@@ -710,4 +710,35 @@
   "img": {
     "src": "../../assets/img/uncletopia.jpg"
   }
+}, {
+  "title": "Tip of the Hats",
+  "subtitle": "Charity Event",
+  "url": "tipofthehats.org",
+  "tags": [10],
+  "description": ["\"Tip of the Hats is a charity event hosted and supported by a group of friends originating from the Team Fortress 2 community. Since 2013, it has raised over $1,358,000 for Children's Oncology Services, Inc., which offers camps and other educational and excursion programs throughout the year that allow children with cancer to just be kids. With your help, COSI can offer attendance to kids at little to no cost to their families.\""],
+  "links": [{
+    "href": "https://tipofthehats.org/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/tipofthehats",
+    "text": "Twitch"
+  }, {
+    "href": "https://steamcommunity.com/groups/tipofthehats",
+    "text": "Steam Group"
+  }, {
+    "href": "https://twitter.com/tipofthehats",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.instagram.com/tipofthehats.official/",
+    "text": "Instagram"
+  }, {
+    "href": "https://www.youtube.com/user/tipofthehats",
+    "text": "YouTube"
+  }, {
+    "href": "http://www.discord.gg/tipofthehats",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tipofthehats.png"
+  }
 }]
