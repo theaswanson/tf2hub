@@ -185,6 +185,18 @@
     "src": "../../assets/img/tf2discord.png"
   }
 }, {
+  "title": "TF2 Subreddit",
+  "subtitle": "Online Community",
+  "tags": [4],
+  "description": ["\"This subreddit is dedicated to Team Fortress 2, created by Valve Corporation in 2007. After nine years in development, hopefully it was worth the wait.\""],
+  "links": [{
+    "href": "https://www.reddit.com/r/tf2/",
+    "text": "Reddit"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2reddit-wide.png"
+  }
+}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "url": "jump.tf",
