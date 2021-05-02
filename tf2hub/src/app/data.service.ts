@@ -6,7 +6,7 @@ export class Data {
   title: string;
   subtitle: string;
   url: string;
-  tag: Tag;
+  tags: Tag[];
   description: string[];
   links: Link[];
   img?: Image;
@@ -32,6 +32,7 @@ export class Filter {
 export class DataService {
 
   data: Data[];
+  tagOrder = Object.values(Tag);
 
   constructor() {
     this.data = data;
@@ -41,7 +42,16 @@ export class DataService {
     let filtered = this.data;
     filtered = this.filterByTag(filter.tag, filtered);
     filtered = this.filterBySearch(filter.search, filtered);
+    this.sortByTags(filtered);
     return filtered;
+  }
+
+  private sortByTags(filtered: Data[]) {
+    filtered.sort((a, b) => {
+      const first = a.tags.sort((x, y) => x - y)[0];
+      const second = b.tags.sort((x, y) => x - y)[0];
+      return this.tagOrder.indexOf(first) - this.tagOrder.indexOf(second);
+    });
   }
 
   private filterBySearch(search: string, filtered: Data[]) {
@@ -54,7 +64,7 @@ export class DataService {
 
   private filterByTag(tag: Tag, filtered: Data[]) {
     if (tag) {
-      filtered = filtered.filter(x => x.tag == tag);
+      filtered = filtered.filter(x => x.tags.findIndex(t => t === tag) !== -1);
     }
     return filtered;
   }

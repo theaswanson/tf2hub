@@ -1,11 +1,12 @@
 export enum Tag {
-  All,
-  Official,
-  Mods,
-  Enhancements,
-  Communities,
-  Trading,
-  Marketplaces,
-  Competitive,
-  Tools
+  All = 0,
+  Official = 1,
+  CommunityServers = 9,
+  Communities = 4,
+  Enhancements = 3,
+  Tools = 8,
+  Mods = 2,
+  Competitive = 7,
+  Trading = 5,
+  Marketplaces = 6,
 }
