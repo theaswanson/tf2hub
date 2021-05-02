@@ -170,6 +170,21 @@
     "src": "../../assets/img/tf2cc-wide.jpg"
   }
 }, {
+  "title": "TF2 Discord",
+  "subtitle": "Online Community",
+  "tags": [4],
+  "description": ["\"The Unofficial Official TF2 Discord.\""],
+  "links": [{
+    "href": "https://tf2.me/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/tf2",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2discord.png"
+  }
+}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "url": "jump.tf",
