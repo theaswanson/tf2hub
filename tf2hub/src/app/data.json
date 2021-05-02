@@ -577,4 +577,20 @@
   "img": {
     "src": "../../assets/img/faceit.jpg"
   }
+}, {
+  "title": "Uncletopia",
+  "subtitle": "Community Servers",
+  "url": "uncledane.com/servers",
+  "tags": [9],
+  "description": ["Enhanced community servers run by the legend Uncle Dane. Hosted in the US, EU, and Australia.", "No random crits. No random bullet spread. Class limits. Power to the players."],
+  "links": [{
+    "href": "https://uncledane.com/servers",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/danekevincook",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/uncletopia.jpg"
+  }
 }]
