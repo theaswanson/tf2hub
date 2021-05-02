@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { faDiscord, faFacebook, faGithub, faInstagram, faSteam, faTwitch, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faFacebook, faGithub, faInstagram, faReddit, faSteam, faTwitch, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { IconDefinition } from '@fortawesome/free-regular-svg-icons';
 import { faBook, faGlobe, faGlobeAmericas, faGlobeAsia, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 import { Data } from '../data.service';
@@ -24,6 +24,7 @@ export class CardDisplayComponent implements OnInit {
   faFacebook = faFacebook;
   faInstagram = faInstagram;
   faBook = faBook;
+  faReddit = faReddit;
 
   theData: Data[];
   get data(): Data[] {
@@ -48,6 +49,8 @@ export class CardDisplayComponent implements OnInit {
         return this.faTwitter;
       case 'Twitch':
         return this.faTwitch;
+      case 'Reddit':
+        return this.faReddit;
       case 'YouTube':
         return this.faYouTube;
       case 'Discord':

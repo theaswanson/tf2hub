@@ -155,6 +155,75 @@
     "src": "../../assets/img/hudstf.jpg"
   }
 }, {
+  "title": "TF2 Coaching Central",
+  "subtitle": "Coaching",
+  "tags": [4, 7],
+  "description": ["\"A friendly community focused on helping out new players and introducing players to competitive TF2 with an active pug scene as well as special events and tournaments. Whether you're looking to dip your toes in competitive, a more experienced player looking to mentor newbies, or even a fresh install, feel free to join - we welcome all skill levels!\""],
+  "links": [{
+    "href": "https://disboard.org/server/727627956058325052",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/HmVuUxZcrk",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2cc-wide.jpg"
+  }
+}, {
+  "title": "TF2 Discord",
+  "subtitle": "Online Community",
+  "tags": [4],
+  "description": ["\"The Unofficial Official TF2 Discord.\""],
+  "links": [{
+    "href": "https://tf2.me/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/tf2",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2discord.png"
+  }
+}, {
+  "title": "TF2 Subreddit",
+  "subtitle": "Online Community",
+  "tags": [4],
+  "description": ["\"This subreddit is dedicated to Team Fortress 2, created by Valve Corporation in 2007. After nine years in development, hopefully it was worth the wait.\""],
+  "links": [{
+    "href": "https://www.reddit.com/r/tf2/",
+    "text": "Reddit"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2reddit-wide.png"
+  }
+}, {
+  "title": "KritzKast",
+  "subtitle": "TF2 Podcast",
+  "tags": [4],
+  "description": ["\"Welcome to KritzKast, the weekly TF2 Podkast. Covering everything from updates and unlocks to fan creations and events.\""],
+  "links": [{
+    "href": "http://www.kritzkast.com/",
+    "text": "Website"
+  }, {
+    "href": "http://discord.kritzkast.com/",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/KritzKast",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.youtube.com/KritzKast",
+    "text": "YouTube"
+  }, {
+    "href": "https://steamcommunity.com/groups/KritzKast",
+    "text": "Steam Group"
+  }, {
+    "href": "https://www.facebook.com/KritzKast",
+    "text": "Facebook"
+  }],
+  "img": {
+    "src": "../../assets/img/kritzkast.png"
+  }
+}, {
   "title": "Jump.tf",
   "subtitle": "Jumping Community",
   "url": "jump.tf",
@@ -470,6 +539,41 @@
     "src": "../../assets/img/ugc.png"
   }
 }, {
+  "title": "Match.tf",
+  "subtitle": "Tournament Hosting",
+  "url": "match.tf",
+  "tags": [7],
+  "description": ["\"A TF2 tournament host system powered by BroadcastTF.\"", "\"This is a tournament hosting platform. Unlike third-party sites, our goal is to exclusively support Team Fortress 2 and unite all the tournaments or LANs that do not have a website like leagues do. There is no longer need in hosting your own website just to run 1 tournament.\""],
+  "links": [{
+    "href": "https://match.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/matchtf.png"
+  }
+}, {
+  "title": "Ready Steady Pan",
+  "subtitle": "Competitive Format",
+  "url": "pan.tf",
+  "tags": [7],
+  "description": ["\"Ready Steady Pan is a competitive 6v6 Team Fortress format revolving around the use of stock melee in the form of a frying pan. As both a fun format, and a way of introducing players to the 6v6 format and mindset, the basic requirement is for every player to have a Frying Pan equipped. Classes that cannot equip the pan are banned, i.e. Engineer and Spy, alongside Heavy and Medic for their high health and health regeneration abilities respectively.\""],
+  "links": [{
+    "href": "https://pan.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/2Jzr43T",
+    "text": "Discord"
+  }, {
+    "href": "https://twitter.com/ReadySteadyPan",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.youtube.com/channel/UC4t7pdKGQZKgrrO7zU7XeJQ",
+    "text": "YouTube"
+  }],
+  "img": {
+    "src": "../../assets/img/pan.png"
+  }
+}, {
   "title": "EssentialsTF",
   "subtitle": "Broadcaster",
   "url": "essentials.tf",
@@ -499,6 +603,19 @@
   }],
   "img": {
     "src": "../../assets/img/essentialstf.png"
+  }
+}, {
+  "title": "Whitelist.tf",
+  "subtitle": "Custom Whitelist Generator",
+  "url": "whitelist.tf",
+  "tags": [7, 8],
+  "description": ["\"Launched on September 1st, 2013, whitelist.tf was created by Wiethoofd to give users the ability to easily generate a custom whitelist for use in Team Fortress 2's tournament mode. The site allows users to create every possible whitelist imaginable, while respecting original weapons every time new items are added by Valve. whitelist.tf is always up to date with the latest itemschema, making it perfect for server owners or configuration maintainers.\""],
+  "links": [{
+    "href": "https://whitelist.tf/",
+    "text": "Website"
+  }],
+  "img": {
+    "src": "../../assets/img/whitelisttf.png"
   }
 }, {
   "title": "heatmaps.tf",
@@ -556,7 +673,7 @@
     "text": "Twitter"
   }],
   "img": {
-    "src": "../../assets/img/creators-halloween-2020.jpg"
+    "src": "../../assets/img/creators-dd.jpg"
   }
 }, {
   "title": "FACEIT TF2",
@@ -576,5 +693,71 @@
   }],
   "img": {
     "src": "../../assets/img/faceit.jpg"
+  }
+}, {
+  "title": "Uncletopia",
+  "subtitle": "Community Servers",
+  "url": "uncledane.com/servers",
+  "tags": [9],
+  "description": ["Enhanced community servers run by the legend Uncle Dane. Hosted in the US, EU, and Australia.", "No random crits. No random bullet spread. Class limits. Power to the players."],
+  "links": [{
+    "href": "https://uncledane.com/servers",
+    "text": "Website"
+  }, {
+    "href": "https://twitter.com/danekevincook",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/uncletopia.jpg"
+  }
+}, {
+  "title": "Tip of the Hats",
+  "subtitle": "Charity Event",
+  "url": "tipofthehats.org",
+  "tags": [10],
+  "description": ["\"Tip of the Hats is a charity event hosted and supported by a group of friends originating from the Team Fortress 2 community. Since 2013, it has raised over $1,358,000 for Children's Oncology Services, Inc., which offers camps and other educational and excursion programs throughout the year that allow children with cancer to just be kids. With your help, COSI can offer attendance to kids at little to no cost to their families.\""],
+  "links": [{
+    "href": "https://tipofthehats.org/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/tipofthehats",
+    "text": "Twitch"
+  }, {
+    "href": "https://steamcommunity.com/groups/tipofthehats",
+    "text": "Steam Group"
+  }, {
+    "href": "https://twitter.com/tipofthehats",
+    "text": "Twitter"
+  }, {
+    "href": "https://www.instagram.com/tipofthehats.official/",
+    "text": "Instagram"
+  }, {
+    "href": "https://www.youtube.com/user/tipofthehats",
+    "text": "YouTube"
+  }, {
+    "href": "http://www.discord.gg/tipofthehats",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/tipofthehats.png"
+  }
+}, {
+  "title": "Hugs.tf",
+  "subtitle": "Charity Event",
+  "url": "hugs.tf",
+  "tags": [10],
+  "description": ["\"hugs.tf is an annual charity live stream event benefiting SpecialEffect: the gamers charity. Over the last 5 years, we have raised over £40,000 through events related to our favourite game: Team Fortress 2.\"", "\"TF2's community is the heart of our operation, and we love creating events that everybody can enjoy - whilst also supporting great causes.\""],
+  "links": [{
+    "href": "https://hugs.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://twitch.tv/hugstf",
+    "text": "Twitch"
+  }, {
+    "href": "https://twitter.com/hugs_tf",
+    "text": "Twitter"
+  }],
+  "img": {
+    "src": "../../assets/img/hugstf.png"
   }
 }]
