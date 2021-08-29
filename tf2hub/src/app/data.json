@@ -654,6 +654,28 @@
     "src": "../../assets/img/hammerplusplus.png"
   }
 }, {
+  "title": "TF2 Hud Editor",
+  "subtitle": "HUD Editor",
+  "url": "www.editor.criticalflaw.ca",
+  "tags": [8],
+  "description": ["\"Install and customize your favorite custom Team Fortress 2 HUDs.\""],
+  "links": [{
+    "href": "https://www.editor.criticalflaw.ca/",
+    "text": "Website"
+  }, {
+    "href": "https://github.com/CriticalFlaw/TF2HUD.Editor/",
+    "text": "GitHub"
+  }, {
+    "href": "https://discord.gg/hTdtK9vBhE",
+    "text": "Discord"
+  }, {
+    "href": "https://www.editor.criticalflaw.ca/",
+    "text": "Docs"
+  }],
+  "img": {
+    "src": "../../assets/img/tf2hudeditor.png"
+  }
+}, {
   "title": "cfg.tf",
   "subtitle": "Game Configuration",
   "url": "cfg.tf",
