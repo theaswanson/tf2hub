@@ -9,5 +9,5 @@ export enum Tag {
   Mods = 2,
   Competitive = 7,
   Trading = 5,
-  Marketplaces = 6,
+  Marketplaces = 6
 }

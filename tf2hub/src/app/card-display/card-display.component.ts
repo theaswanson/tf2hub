@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { faDiscord, faFacebook, faGithub, faInstagram, faReddit, faSteam, faTwitch, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { IconDefinition } from '@fortawesome/free-regular-svg-icons';
 import { faBook, faGlobe, faGlobeAmericas, faGlobeAsia, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
-import { Data } from '../data.service';
+import { Data } from '../models/Data';
 
 @Component({
   selector: 'app-card-display',

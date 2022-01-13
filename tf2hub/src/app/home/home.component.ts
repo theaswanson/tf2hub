@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Data, DataService, Filter } from '../data.service';
-import { Tag } from '../models';
+import { DataService } from '../data.service';
+import { Data } from '../models/Data';
+import { Filter } from '../models/Filter';
+import { Tag } from '../models/Tag';
 
 export class TagFilter {
   text: string;

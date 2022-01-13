@@ -1,30 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Tag } from './models';
 import data from './data.json';
-
-export class Data {
-  title: string;
-  subtitle: string;
-  url?: string;
-  tags: Tag[];
-  description: string[];
-  links: Link[];
-  img?: Image;
-}
-
-export class Image {
-  src: string;
-}
-
-export class Link {
-  href: string;
-  text: string;
-}
-
-export class Filter {
-  tag: Tag;
-  search: string;
-}
+import { Data } from './models/Data';
+import { Filter } from './models/Filter';
+import { Tag } from './models/Tag';
 
 @Injectable({
   providedIn: 'root'

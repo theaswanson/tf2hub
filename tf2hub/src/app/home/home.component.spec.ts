@@ -1,4 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CardDisplayComponent } from '../card-display/card-display.component';
 
 import { HomeComponent } from './home.component';
 
@@ -8,7 +11,14 @@ describe('HomeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeComponent ]
+      declarations: [
+        HomeComponent,
+        CardDisplayComponent
+      ],
+      imports: [
+        FormsModule,
+        FontAwesomeModule
+      ]
     })
     .compileComponents();
   });
