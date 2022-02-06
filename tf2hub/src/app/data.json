@@ -602,16 +602,6 @@
     "src": "../../assets/img/whitelisttf.png"
   }
 }, {
-  "title": "heatmaps.tf",
-  "subtitle": "Game Statistics",
-  "url": "heatmaps.tf",
-  "tags": [8],
-  "description": ["View player positions across popular maps as a heatmap."],
-  "links": [{
-    "href": "https://heatmaps.tf/",
-    "text": "Website"
-  }]
-}, {
   "title": "loadout.tf",
   "subtitle": "Loadout Viewer",
   "url": "loadout.tf",
