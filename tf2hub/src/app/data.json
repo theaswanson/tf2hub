@@ -112,7 +112,13 @@
   "links": [{
     "href": "https://github.com/mastercomfig/team-comtress-2",
     "text": "GitHub"
-  }]
+  }, {
+    "href": "https://discord.com/invite/CuPb2zV",
+    "text": "Discord"
+  }],
+  "img": {
+    "src": "../../assets/img/team-comtress-2.png"
+  }
 }, {
   "title": "mastercomfig",
   "subtitle": "Game Configuration",
