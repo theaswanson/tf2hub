@@ -352,6 +352,22 @@
     "src": "../../assets/img/trade-logo.png"
   }
 }, {
+  "title": "Bazaar.tf",
+  "subtitle": "Trading",
+  "url": "bazaar.tf",
+  "tags": [5],
+  "description": [
+    "\"A nostalgic Steam trading site.\"",
+    "\"Built from the ground up in 2012, Bazaar.tf is now the last remaining classic person to person trading site swimming in a sea of automated bot trading.\""
+  ],
+  "links": [{
+    "href": "https://bazaar.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/tf2bazaar",
+    "text": "Steam Group"
+  }]
+}, {
   "title": "Quicksell.store",
   "subtitle": "Trading",
   "url": "quicksell.store",
