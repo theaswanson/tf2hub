@@ -1,0 +1,27 @@
+.welcome {
+  text-align: center;
+  padding-bottom: 1rem;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .text {
+    padding-top: 1rem;
+  }
+}
+
+.settings {
+  padding-bottom: 2rem;
+
+  textarea {
+    resize: vertical;
+    width: 100%;
+  }
+
+  input {
+    font-family: monospace;
+  }
+}

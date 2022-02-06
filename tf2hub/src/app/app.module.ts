@@ -13,9 +13,11 @@ import { FooterComponent } from './footer/footer.component';
 import { DataService } from './data.service';
 import { CardDisplayComponent } from './card-display/card-display.component';
 import { MaterialModule } from './material.module';
+import { TrashcanComponent } from './trashcan/trashcan.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'trashcan', component: TrashcanComponent, pathMatch: 'full' },
 ] as Routes;
 
 @NgModule({
@@ -24,7 +26,8 @@ const ROUTES = [
     HomeComponent,
     NavigationComponent,
     FooterComponent,
-    CardDisplayComponent
+    CardDisplayComponent,
+    TrashcanComponent
   ],
   imports: [
     MaterialModule,
