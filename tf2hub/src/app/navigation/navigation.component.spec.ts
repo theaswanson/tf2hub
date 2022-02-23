@@ -18,7 +18,7 @@ describe('NavigationComponent', () => {
         FooterComponent
       ],
       imports: [
-        RouterModule.forRoot([]),
+        RouterModule.forRoot([], { relativeLinkResolution: 'legacy' }),
         NoopAnimationsModule,
         LayoutModule,
         MaterialModule,

@@ -32,7 +32,7 @@ const ROUTES = [
   imports: [
     MaterialModule,
     BrowserModule,
-    RouterModule.forRoot(ROUTES),
+    RouterModule.forRoot(ROUTES, { relativeLinkResolution: 'legacy' }),
     BrowserAnimationsModule,
     LayoutModule,
     FlexLayoutModule,
