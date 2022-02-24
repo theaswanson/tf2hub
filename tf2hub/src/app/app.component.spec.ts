@@ -19,7 +19,7 @@ describe('AppComponent', () => {
       imports: [
         NoopAnimationsModule,
         MaterialModule,
-        RouterModule.forRoot([])
+        RouterModule.forRoot([], { relativeLinkResolution: 'legacy' })
       ]
     }).compileComponents();
   });
