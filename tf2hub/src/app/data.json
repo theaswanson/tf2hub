@@ -720,25 +720,6 @@
     "src": "../../assets/img/uncletopia.jpg"
   }
 }, {
-  "title": "Creators.TF",
-  "subtitle": "Community Servers",
-  "url": "creators.tf",
-  "tags": [9],
-  "description": ["\"Welcome to Creators.TF, a TF2 community celebration project that takes the initiative to provide new content for Team Fortress 2.\"", "\"Using the help of community content creators, we can provide complete community-created events to our own servers through modding and plugins. Hats, weapons, maps, and much more! All of these will be created by the community,    and implemented into our servers.\""],
-  "links": [{
-    "href": "https://creators.tf",
-    "text": "Website"
-  }, {
-    "href": "https://creators.tf/discord",
-    "text": "Discord"
-  }, {
-    "href": "https://twitter.com/creatorstf",
-    "text": "Twitter"
-  }],
-  "img": {
-    "src": "../../assets/img/creatorstf-wide.jpg"
-  }
-}, {
   "title": "FACEIT TF2",
   "subtitle": "Community Servers",
   "url": "faceit.com",
