@@ -596,6 +596,25 @@
     "src": "../../assets/img/matchtf.png"
   }
 }, {
+  "title": "newbie.tf",
+  "subtitle": "Pick-up games, Coaching",
+  "url": "newbie.tf",
+  "tags": [7],
+  "description": ["\"Come play your first games of competitive TF2 with other new players, led by an experienced coach.\""],
+  "links": [{
+    "href": "https://newbie.tf/",
+    "text": "Website"
+  }, {
+    "href": "https://discord.gg/9uDQNcs",
+    "text": "Discord"
+  }, {
+    "href": "https://steamcommunity.com/groups/na6v6newbiemix",
+    "text": "Steam Group"
+  }],
+  "img": {
+    "src": "../../assets/img/newbie.png"
+  }
+}, {
   "title": "EssentialsTF",
   "subtitle": "Broadcaster",
   "url": "essentials.tf",
