@@ -327,6 +327,9 @@
     "href": "https://tf2maps.net/",
     "text": "Website"
   }, {
+    "href": "https://twitch.tv/tf2maps",
+    "text": "Twitch"
+  }, {
     "href": "https://twitter.com/tf2maps",
     "text": "Twitter"
   }, {
@@ -335,6 +338,12 @@
   }, {
     "href": "https://discord.gg/wSYJN3r",
     "text": "Discord"
+  }, {
+    "href": "https://youtube.com/user/tf2mapsnet",
+    "text": "YouTube"
+  }, {
+    "href": "https://github.com/TF2Maps",
+    "text": "GitHub"
   }],
   "img": {
     "src": "../../assets/img/tf2maps.jpg"
