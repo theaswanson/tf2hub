@@ -465,6 +465,9 @@
   "links": [{
     "href": "https://marketplace.tf/",
     "text": "Website"
+  }, {
+    "href": "https://discord.gg/Xbu6XCf",
+    "text": "Discord"
   }],
   "img": {
     "src": "../../assets/img/marketplace.png"
