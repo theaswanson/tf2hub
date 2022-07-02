@@ -433,6 +433,9 @@
   "links": [{
     "href": "https://quicksell.store/",
     "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/qsstore",
+    "text": "Steam Group"
   }],
   "img": {
     "src": "../../assets/img/quicksellstore.png"
