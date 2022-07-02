@@ -401,6 +401,9 @@
   "links": [{
     "href": "https://trade.tf/",
     "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/trade_tf",
+    "text": "Steam Group"
   }],
   "img": {
     "src": "../../assets/img/trade-logo.png"
