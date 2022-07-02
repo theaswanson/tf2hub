@@ -379,6 +379,15 @@
   "links": [{
     "href": "https://backpack.tf/",
     "text": "Website"
+  }, {
+    "href": "https://discord.gg/f5VS7cr",
+    "text": "Discord"
+  }, {
+    "href": "http://steamcommunity.com/groups/meetthestats",
+    "text": "Steam Group"
+  }, {
+    "href": "https://twitter.com/backpacktf",
+    "text": "Twitter"
   }],
   "img": {
     "src": "../../assets/img/backpack.jpg"
