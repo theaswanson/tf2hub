@@ -64,7 +64,7 @@
   "subtitle": "Game Mod",
   "url": "tf2classic.com",
   "tags": [2],
-  "description": ["\"A Team Fortress 2 mod aiming to re-imagine the 2008-2009 era, while also updating and adding new content. Developed by @EminomaTeam\""],
+  "description": ["\"Team Fortress 2 Classic is a free mod that re-imagines the 2008/2009 era of the original Team Fortress 2, with features ranging from old scrapped mechanics to entirely new content, such as new weapons and gamemodes like VIP, Domination, and Four-Team.\""],
   "links": [{
     "href": "https://tf2classic.com/",
     "text": "Website"
@@ -74,6 +74,12 @@
   }, {
     "href": "https://twitter.com/tf2classic",
     "text": "Twitter"
+  }, {
+    "href": "https://reddit.com/r/tf2classic/",
+    "text": "Reddit"
+  }, {
+    "href": "https://wiki.tf2classic.com/wiki/Main_Page",
+    "text": "Docs"
   }],
   "img": {
     "src": "../../assets/img/tf2classic.png"
