@@ -672,6 +672,9 @@
   "links": [{
     "href": "https://match.tf/",
     "text": "Website"
+  }, {
+    "href": "https://discord.match.tf/",
+    "text": "Discord"
   }],
   "img": {
     "src": "../../assets/img/matchtf.png"
