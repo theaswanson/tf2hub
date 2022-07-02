@@ -273,6 +273,24 @@
   "links": [{
     "href": "https://jumpacademy.tf/",
     "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/tf2jumpacademy",
+    "text": "Steam Group"
+  }, {
+    "href": "https://twitch.tv/jumpacademytf2",
+    "text": "Twitch"
+  }, {
+    "href": "https://discord.me/jumpacademy",
+    "text": "Discord"
+  }, {
+    "href": "https://youtube.com/channel/UC0lIJMfXEmKB1Svbn6OjJNQ",
+    "text": "YouTube"
+  }, {
+    "href": "https://facebook.com/jumpacademy.tf",
+    "text": "Facebook"
+  }, {
+    "href": "https://twitter.com/tf2jumpacademy",
+    "text": "Twitter"
   }],
   "img": {
     "src": "../../assets/img/jumpacademy.jpg"
