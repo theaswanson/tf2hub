@@ -449,6 +449,9 @@
   "links": [{
     "href": "https://tf2mart.net/",
     "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/tf2mart",
+    "text": "Steam Group"
   }],
   "img": {
     "src": "../../assets/img/tf2mart.png"
