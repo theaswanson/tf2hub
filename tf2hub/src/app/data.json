@@ -732,8 +732,11 @@
     "href": "https://uncletopia.com/servers",
     "text": "Website"
   }, {
-    "href": "https://twitter.com/danekevincook",
-    "text": "Twitter"
+    "href": "https://youtube.com/thedanechannel",
+    "text": "YouTube"
+  }, {
+    "href": "https://uncletopia.com/discord",
+    "text": "Discord"
   }],
   "img": {
     "src": "../../assets/img/uncletopia.jpg"
