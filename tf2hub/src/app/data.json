@@ -710,11 +710,11 @@
 }, {
   "title": "Hammer++",
   "subtitle": "Map Editor",
-  "url": "ficool2.github.io/HammerPlusPlus-Website",
+  "url": "hammerplusplus.com",
   "tags": [8],
   "description": ["\"Hammer++ is a free, extensive modification of Valve's Hammer editor for the Source engine, with the premise of being a more stable, up-to-date version, with many bugfixes and several improvements present in modern level editors. After 6 months in development, hopefully it will have been worth the wait.\""],
   "links": [{
-    "href": "https://ficool2.github.io/HammerPlusPlus-Website/",
+    "href": "http://hammerplusplus.com/",
     "text": "Website"
   }],
   "img": {
