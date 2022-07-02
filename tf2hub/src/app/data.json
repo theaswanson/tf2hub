@@ -481,6 +481,15 @@
   "links": [{
     "href": "https://mannco.trade/",
     "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/manncodottrade",
+    "text": "Steam Group"
+  }, {
+    "href": "https://twitter.com/Mannco_Trade",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/j8PB7tB",
+    "text": "Discord"
   }],
   "img": {
     "src": "../../assets/img/manncotrade.jpg"
