@@ -134,5 +134,9 @@ a:visited {
 
 .container {
   flex: 1 0 auto;
+  padding: 0;
+
+  @media (min-width: 900px) {
   padding: 1rem;
+  }
 }

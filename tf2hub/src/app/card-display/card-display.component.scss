@@ -1,20 +1,17 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  gap: 2rem;
-}
+  gap: 1rem;
 
-@media (min-width: 900px) {
-  .grid-container {
+  @media (min-width: 900px) {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-
-@media (min-width: 2000px) {
-  .grid-container {
+  
+  @media (min-width: 2000px) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 
 .top {
   display: flex;
