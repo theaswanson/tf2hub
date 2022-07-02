@@ -119,7 +119,7 @@
     "href": "https://prefortress.com/",
     "text": "Website"
   }, {
-    "href": "https://discord.gg/D3Fzdew",
+    "href": "https://discord.gg/ra68rM5nuE",
     "text": "Discord"
   }, {
     "href": "https://twitter.com/prefortress2",
@@ -127,6 +127,9 @@
   }, {
     "href": "https://www.youtube.com/channel/UCiq_1q67x00inzrY4WIQPng",
     "text": "YouTube"
+  }, {
+    "href": "https://github.com/Arie/serveme",
+    "text": "GitHub"
   }],
   "img": {
     "src": "../../assets/img/prefortress2.jpg"
