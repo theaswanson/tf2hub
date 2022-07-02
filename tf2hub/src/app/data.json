@@ -304,6 +304,15 @@
   "links": [{
     "href": "https://teamwork.tf/",
     "text": "Website"
+  }, {
+    "href": "https://steamcommunity.com/groups/teamworkTF",
+    "text": "Steam Group"
+  }, {
+    "href": "https://twitter.com/TF2teamwork",
+    "text": "Twitter"
+  }, {
+    "href": "https://discord.gg/zKj8aEt",
+    "text": "Discord"
   }],
   "img": {
     "src": "../../assets/img/teamworktf.png"
