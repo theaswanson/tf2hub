@@ -65,7 +65,6 @@ a:visited {
 
   .card-content {
     padding: 1.5rem;
-    border-radius: 1rem;
     height: calc(100% - 3rem);
     backdrop-filter: blur(30px) brightness(115%);
     -webkit-backdrop-filter: blur(30px);
@@ -137,6 +136,6 @@ a:visited {
   padding: 0;
 
   @media (min-width: 900px) {
-  padding: 1rem;
+    padding: 1rem;
   }
 }
