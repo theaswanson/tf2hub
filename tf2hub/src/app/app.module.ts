@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
@@ -14,9 +14,11 @@ import { DataService } from './data.service';
 import { CardDisplayComponent } from './card-display/card-display.component';
 import { MaterialModule } from './material.module';
 import { TrashcanComponent } from './trashcan/trashcan.component';
+import { CleanTf2Component } from './clean-tf2/clean-tf2.component';
 
 const ROUTES = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'cleantf2', component: CleanTf2Component, pathMatch: 'full' },
   { path: 'trashcan', component: TrashcanComponent, pathMatch: 'full' },
 ] as Routes;
 
@@ -27,7 +29,8 @@ const ROUTES = [
     NavigationComponent,
     FooterComponent,
     CardDisplayComponent,
-    TrashcanComponent
+    TrashcanComponent,
+    CleanTf2Component
   ],
   imports: [
     MaterialModule,
@@ -40,6 +43,7 @@ const ROUTES = [
     FontAwesomeModule
   ],
   providers: [DataService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent], 
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

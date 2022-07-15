@@ -54,6 +54,20 @@ a:visited {
   user-select: none;
 }
 
+.welcome {
+  text-align: center;
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .text {
+    padding-top: 1rem;
+  }
+}
+
 .card {
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.1) 0% 0% no-repeat padding-box;

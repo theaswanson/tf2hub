@@ -1,23 +1,5 @@
 @import "../../styles";
 
-.home {
-  padding: 1rem;
-}
-
-.welcome {
-  text-align: center;
-  
-  .title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-  }
-
-  .text {
-    padding-top: 1rem;
-  }
-}
-
 .filters {
   flex-wrap: wrap;
   justify-content: center;
