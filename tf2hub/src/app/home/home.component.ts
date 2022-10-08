@@ -9,6 +9,7 @@ export class TagFilter {
   value: Tag;
   selected: boolean;
 }
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -24,6 +25,7 @@ export class HomeComponent implements OnInit {
   constructor(private dataService: DataService) {
     this.tags = [
       { text: 'All', selected: true } as TagFilter,
+      { text: 'Featured', value: Tag.Featured, selected: false } as TagFilter,
       { text: 'Official Sites', value: Tag.Official, selected: false } as TagFilter,
       { text: 'Community Servers', value: Tag.CommunityServers, selected: false } as TagFilter,
       { text: 'Communities', value: Tag.Communities, selected: false } as TagFilter,

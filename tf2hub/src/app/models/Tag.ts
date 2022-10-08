@@ -1,5 +1,6 @@
 export enum Tag {
   All = 0,
+  Featured = 11,
   Official = 1,
   CommunityServers = 9,
   Communities = 4,
