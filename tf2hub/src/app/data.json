@@ -1198,6 +1198,27 @@
     }
   },
   {
+    "title": "DemoMan",
+    "subtitle": "Demo Viewer",
+    "url": "",
+    "tags": [
+      8,
+      11
+    ],
+    "description": [
+      "\"A TF2 demo manager for Linux, Windows and MacOS built with Electron.\""
+    ],
+    "links": [
+      {
+        "href": "https://github.com/Narcha/DemoMan",
+        "text": "GitHub"
+      }
+    ],
+    "img": {
+      "src": "../../assets/img/demoman.png"
+    }
+  },
+  {
     "title": "cfg.tf",
     "subtitle": "Game Configuration",
     "url": "cfg.tf",
