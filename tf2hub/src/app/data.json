@@ -1253,6 +1253,32 @@
     }
   },
   {
+    "title": "Logs.tf",
+    "subtitle": "Match Logs",
+    "url": "logs.tf",
+    "tags": [
+      7,
+      8,
+      11
+    ],
+    "description": [
+      "\"Competitive Team Fortress 2 Stats. Automatically generated stats from server logs.\""
+    ],
+    "links": [
+      {
+        "href": "https://logs.tf/",
+        "text": "Website"
+      },
+      {
+        "href": "https://logs.tf/about",
+        "text": "Docs"
+      }
+    ],
+    "img": {
+      "src": "../../assets/img/logstf.png"
+    }
+  },
+  {
     "title": "cfg.tf",
     "subtitle": "Game Configuration",
     "url": "cfg.tf",
