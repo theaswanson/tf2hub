@@ -1219,6 +1219,36 @@
     }
   },
   {
+    "title": "Trends.tf",
+    "subtitle": "Game Statistics",
+    "url": "trends.tf",
+    "tags": [
+      7,
+      8,
+      11
+    ],
+    "description": [
+      "View logs from competitive matches, lookup individual players, and more!"
+    ],
+    "links": [
+      {
+        "href": "https://trends.tf/",
+        "text": "Website"
+      },
+      {
+        "href": "https://github.com/Forty-Bot/trends.tf",
+        "text": "GitHub"
+      },
+      {
+        "href": "https://discord.gg/szeZmthBa4",
+        "text": "Discord"
+      }
+    ],
+    "img": {
+      "src": "../../assets/img/trendstf.png"
+    }
+  },
+  {
     "title": "cfg.tf",
     "subtitle": "Game Configuration",
     "url": "cfg.tf",
