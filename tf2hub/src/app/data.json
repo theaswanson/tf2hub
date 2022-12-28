@@ -1139,7 +1139,7 @@
   {
     "title": "TF2 Hud Editor",
     "subtitle": "HUD Editor",
-    "url": "www.editor.criticalflaw.ca",
+    "url": "criticalflaw.ca/TF2HUD.Editor",
     "tags": [
       8
     ],
@@ -1148,7 +1148,7 @@
     ],
     "links": [
       {
-        "href": "https://www.editor.criticalflaw.ca/",
+        "href": "https://www.criticalflaw.ca/TF2HUD.Editor/",
         "text": "Website"
       },
       {
@@ -1156,11 +1156,15 @@
         "text": "GitHub"
       },
       {
+        "href": "https://twitter.com/CriticalFlaw_",
+        "text": "Twitter"
+      },
+      {
         "href": "https://discord.gg/hTdtK9vBhE",
         "text": "Discord"
       },
       {
-        "href": "https://www.editor.criticalflaw.ca/",
+        "href": "https://www.criticalflaw.ca/TF2HUD.Editor/",
         "text": "Docs"
       }
     ],
