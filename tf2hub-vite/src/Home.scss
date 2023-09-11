@@ -32,8 +32,9 @@
   }
 
   .card-content {
-    padding: 1rem;
-
+    &.filter {
+      padding: 1rem;
+    }
     .header {
       .title {
         display: flex;

@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Tag } from "./models/Tag";
 import "./Home.scss";
+import { DataService } from "./services/data-service";
+import { Data } from "./models/Data";
+import CardDisplay from "./CardDisplay";
 
-export class TagFilter {
-  text?: string;
-  value?: Tag;
+export interface TagFilter {
+  text: string;
+  value: Tag;
 }
 
 function Home() {
@@ -44,6 +47,17 @@ function Home() {
   const [selectedTag, setSelectedTag] = useState(tags[0]);
   const [searchText, setSearchText] = useState("");
 
+  const [data, setData] = useState<Data[]>([]);
+
+  useEffect(() => {
+    const dataService = new DataService();
+    const data = dataService.getData({
+      tag: selectedTag.value,
+      search: searchText,
+    });
+    setData(data);
+  }, [searchText, selectedTag]);
+
   return (
     <>
       <div className="welcome">
@@ -75,7 +89,7 @@ function Home() {
         {tags.map((tag, i) => (
           <div className="card" key={i} onClick={() => setSelectedTag(tag)}>
             <div
-              className={`card-content ${
+              className={`card-content filter ${
                 tag.text === selectedTag.text ? "selected" : ""
               }`}
             >
@@ -100,8 +114,7 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* <CardDisplay /> */}
-      {/* <app-card-display [data]="data"></app-card-display> */}
+      <CardDisplay data={data} />
     </>
   );
 }
