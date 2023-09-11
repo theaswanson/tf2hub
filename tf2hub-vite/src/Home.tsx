@@ -59,7 +59,7 @@ function Home() {
   }, [searchText, selectedTag]);
 
   return (
-    <>
+    <div className="home">
       <div className="welcome">
         <div className="title">Welcome!</div>
         <div
@@ -115,7 +115,7 @@ function Home() {
         </div>
       </div>
       <CardDisplay data={data} />
-    </>
+    </div>
   );
 }
 
