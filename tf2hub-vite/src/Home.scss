@@ -1,12 +1,6 @@
 @import "./styles.scss";
 
 .home {
-  margin: 0 1rem;
-
-  @media (min-width: 900px) {
-    margin: 0 15vw;
-  }
-
   .filters {
     flex-wrap: wrap;
     justify-content: center;

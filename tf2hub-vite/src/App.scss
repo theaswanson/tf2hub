@@ -1,0 +1,12 @@
+@import "./variables";
+
+.content-container {
+  margin-top: calc($navigation-height + 1rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @media (min-width: 900px) {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+}
