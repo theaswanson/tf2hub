@@ -20,6 +20,8 @@ import {
   faXTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Button, createTheme } from "@mui/material";
+import { ThemeProvider } from "@emotion/react";
 
 function CardDisplay({ data }: { data: Data[] }) {
   const getIcon = (linkText: string): IconDefinition => {
@@ -57,6 +59,14 @@ function CardDisplay({ data }: { data: Data[] }) {
     }
   };
 
+  const iconTheme = createTheme({
+    palette: {
+      primary: {
+        main: "#fff",
+      },
+    },
+  });
+
   return (
     <div className="grid-container">
       {data.map((item, i) => (
@@ -81,11 +91,15 @@ function CardDisplay({ data }: { data: Data[] }) {
                 {item.description.map((descriptionLine) => descriptionLine)}
               </div>
               <div className="links">
-                {item.links.map((link, i) => (
-                  <a href={link.href} target="_blank" key={i}>
-                    <FontAwesomeIcon icon={getIcon(link.text)} size="lg" />
-                  </a>
-                ))}
+                <ThemeProvider theme={iconTheme}>
+                  {item.links.map((link, i) => (
+                    <a href={link.href} target="_blank" key={i}>
+                      <Button variant="text">
+                        <FontAwesomeIcon icon={getIcon(link.text)} size="lg" />
+                      </Button>
+                    </a>
+                  ))}
+                </ThemeProvider>
               </div>
               {item.img && (
                 <div className="image">
