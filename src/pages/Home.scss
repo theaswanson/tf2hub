@@ -1,0 +1,80 @@
+@import "@/styles.scss";
+
+.home {
+  .filters {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+
+    .card {
+      margin: 0.5rem 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .selected {
+    // box-sizing: border-box;
+    // -moz-box-sizing: border-box;
+    // -webkit-box-sizing: border-box;
+    // border: 0.2rem solid white;
+    -webkit-box-shadow: inset 0px 0px 0px 0.25rem white;
+    -moz-box-shadow: inset 0px 0px 0px 0.25rem white;
+    box-shadow: inset 0px 0px 0px 0.25rem white;
+  }
+
+  .card {
+    @extend .no-select;
+
+    &:focus {
+      outline: none;
+    }
+
+    .card-content {
+      &.filter {
+        padding: 1rem;
+      }
+      .header {
+        .title {
+          display: flex;
+          justify-content: center;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .search {
+    padding-bottom: 1rem;
+
+    .card {
+      &:hover {
+        cursor: default;
+      }
+
+      .card-content {
+        padding: 1rem;
+
+        input {
+          background: none;
+          border: none;
+          outline: none;
+          font-family: TF2 Build, sans-serif;
+          letter-spacing: 1px;
+          color: white;
+          font-size: 1.2rem;
+          width: 100%;
+          text-align: center;
+
+          &::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1; /* Firefox */
+          }
+        }
+      }
+    }
+  }
+}

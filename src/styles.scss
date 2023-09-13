@@ -1,0 +1,155 @@
+// @import 'theme';
+
+@font-face {
+  font-family: TF2;
+  src: url("/fonts/TF2.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Build;
+  src: url("/fonts/tf2build.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Professor;
+  src: url("/fonts/tf2professor.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: TF2 Secondary;
+  src: url("/fonts/TF2secondary.ttf") format("truetype");
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    transparent url("/img/alpine.jpg") 0% 0% no-repeat padding-box;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a,
+a:visited {
+  color: orange;
+}
+
+.no-select {
+  /* iOS Safari */
+  -webkit-touch-callout: none;
+  /* Safari */
+  -webkit-user-select: none;
+  /* Konqueror HTML */
+  -khtml-user-select: none;
+  /* Old versions of Firefox */
+  -moz-user-select: none;
+  /* Internet Explorer/Edge */
+  -ms-user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  user-select: none;
+}
+
+.welcome {
+  text-align: center;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .text {
+    padding-top: 1rem;
+  }
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1) 0% 0% no-repeat padding-box;
+  height: 100%;
+
+  // &:hover {
+  //   background: rgba(255, 255, 255, 0.2) 0% 0% no-repeat padding-box;
+  // }
+
+  .card-content {
+    padding: 1.5rem;
+    height: calc(100% - 3rem);
+    backdrop-filter: blur(30px) brightness(115%);
+    -webkit-backdrop-filter: blur(30px);
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title {
+        font-size: 1.5rem;
+        font-family: TF2 Build, sans-serif;
+        letter-spacing: 1px;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+        font-family: TF2 Secondary, sans-serif;
+      }
+    }
+
+    .text,
+    .links {
+      padding-top: 1.5rem;
+    }
+
+    .text {
+      align-items: center;
+      text-align: center;
+    }
+
+    .links {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .mat-button {
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+    .image {
+      padding-top: 1rem;
+      height: 100%;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+  padding: 0;
+
+  @media (min-width: 900px) {
+    padding: 1rem;
+  }
+}

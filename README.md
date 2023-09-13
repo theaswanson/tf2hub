@@ -2,9 +2,14 @@
 
 ![TF2 Hub screenshot](screenshot.jpg "TF2 Hub homepage")
 
-This is the code for the [tf2hub.com](https://tf2hub.com) website, written in Angular 10. Feel free to take a look around and submit new issues if you run into any problems.
+This is the code for the [tf2hub.com](https://tf2hub.com) website, written with React and Vite. Feel free to take a look around and submit new issues if you run into any problems.
 
-To run the site locally, you'll need the [Angular CLI](https://cli.angular.io/). Just follow the directions in the README file under the `tf2hub` folder.
+## Setup
+
+```shell
+npm i
+npm run dev
+```
 
 ## Making a Feature Request
 

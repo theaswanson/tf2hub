@@ -1,0 +1,14 @@
+@import "@/variables";
+
+.content-container {
+  margin-top: calc($mobile-navigation-height + 1rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  @media (min-width: 900px) {
+    margin-top: calc($desktop-navigation-height + 1rem);
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+}

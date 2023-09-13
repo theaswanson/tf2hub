@@ -25,15 +25,10 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Install npm packages
-        working-directory: ./tf2hub
         run: npm i
         
-      - name: Install Angular CLI
-        run: sudo npm i -g @angular/cli@13.2.5 > /dev/null
-  
-      - name: Build for production
-        working-directory: ./tf2hub
-        run: ng build --prod
+      - name: Build
+        run: npm run build
       
       - name: Deploy to S3
         uses: shallwefootball/s3-upload-action@master
@@ -41,5 +36,5 @@ jobs:
           aws_key_id: ${{ secrets.AWS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_bucket: ${{ secrets.AWS_BUCKET }}
-          source_dir: 'tf2hub/dist/tf2hub'
+          source_dir: 'dist'
           destination_dir: ''
