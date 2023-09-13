@@ -21,8 +21,12 @@ export class DataService {
 
   private sortByTags(filtered: Data[]) {
     filtered.sort((a, b) => {
-      const first = a.tags.sort((x, y) => x - y)[0];
-      const second = b.tags.sort((x, y) => x - y)[0];
+      a.tags.sort((x, y) => x - y);
+      b.tags.sort((x, y) => x - y);
+
+      const first = a.tags[0];
+      const second = b.tags[0];
+
       return this.tagOrder.indexOf(first) - this.tagOrder.indexOf(second);
     });
   }
