@@ -8,6 +8,10 @@
 
     .card {
       margin: 0.5rem 0;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -23,10 +27,6 @@
 
   .card {
     @extend .no-select;
-
-    &:hover {
-      cursor: pointer;
-    }
 
     &:focus {
       outline: none;
