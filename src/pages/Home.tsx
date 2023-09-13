@@ -86,8 +86,12 @@ function Home() {
         </div>
       </div>
       <div className="filters" style={{ display: "flex", gap: "0 1rem" }}>
-        {tags.map((tag, i) => (
-          <div className="card" key={i} onClick={() => setSelectedTag(tag)}>
+        {tags.map((tag) => (
+          <div
+            className="card"
+            key={tag.text}
+            onClick={() => setSelectedTag(tag)}
+          >
             <div
               className={`card-content filter ${
                 tag.text === selectedTag.text ? "selected" : ""
