@@ -3,12 +3,8 @@
     "title": "Official Website",
     "subtitle": "Official",
     "url": "teamfortress.com",
-    "tags": [
-      1
-    ],
-    "description": [
-      "The official website for Team Fortress 2."
-    ],
+    "tags": [1],
+    "description": ["The official website for Team Fortress 2."],
     "links": [
       {
         "href": "https://www.teamfortress.com/",
@@ -23,12 +19,8 @@
     "title": "Official Wiki",
     "subtitle": "Official",
     "url": "wiki.teamfortress.com",
-    "tags": [
-      1
-    ],
-    "description": [
-      "\"The official resource for the Team Fortress series.\""
-    ],
+    "tags": [1],
+    "description": ["\"The official resource for the Team Fortress series.\""],
     "links": [
       {
         "href": "https://wiki.teamfortress.com/",
@@ -43,12 +35,8 @@
     "title": "Official Twitter",
     "subtitle": "Official",
     "url": "twitter.com/TeamFortress",
-    "tags": [
-      1
-    ],
-    "description": [
-      "The official Twitter account of the Team Fortress team."
-    ],
+    "tags": [1],
+    "description": ["The official Twitter account of the Team Fortress team."],
     "links": [
       {
         "href": "https://twitter.com/TeamFortress",
@@ -63,9 +51,7 @@
     "title": "TF: Source 2",
     "subtitle": "Game Mod",
     "url": "tfsource2.com",
-    "tags": [
-      2
-    ],
+    "tags": [2],
     "description": [
       "\"We aim to recreate, improve and iterate a new Team Fortress experience in Source 2 using s&box.\""
     ],
@@ -95,9 +81,7 @@
     "title": "TF2 Classic",
     "subtitle": "Game Mod",
     "url": "tf2classic.com",
-    "tags": [
-      2
-    ],
+    "tags": [2],
     "description": [
       "\"Team Fortress 2 Classic is a free mod that re-imagines the 2008/2009 era of the original Team Fortress 2, with features ranging from old scrapped mechanics to entirely new content, such as new weapons and gamemodes like VIP, Domination, and Four-Team.\""
     ],
@@ -131,9 +115,7 @@
     "title": "Open Fortress",
     "subtitle": "Game Mod",
     "url": "openfortress.fun",
-    "tags": [
-      2
-    ],
+    "tags": [2],
     "description": [
       "\"Open Fortress is a free and open-source passion project, lovingly crafted by nearly a hundred members of the Team Fortress community with an ideal of fun gameplay as well as maximum customizability.\""
     ],
@@ -167,9 +149,7 @@
     "title": "Pre-Fortress 2",
     "subtitle": "Game Mod",
     "url": "prefortress.com",
-    "tags": [
-      2
-    ],
+    "tags": [2],
     "description": [
       "\"Pre-Fortress 2 is a TF2 sourcemod that aims to bridge the gap between Team Fortress Classic and Team Fortress 2 to provide a fresh new experiences by combining the fast paced action of Team Fortress Classic with the streamlined Team Fortress 2.\""
     ],
@@ -203,9 +183,7 @@
     "title": "Team Comtress 2",
     "subtitle": "Game Mod",
     "url": "github.com/mastercomfig/team-comtress-2",
-    "tags": [
-      2
-    ],
+    "tags": [2],
     "description": [
       "\"Team Comtress 2 is a set of modifications on top of an older version of Team Fortress 2,   with a community development team fixing bugs, improving performance, and adding quality of life features,   with the goal of having those changes pulled upstream by Valve to the modern game.\"",
       "\"TC2 is not an alternative, more stable game experience.   TC2 is based on the 2017 TF2 source code leak, which contained an in-development version of Jungle Inferno.   This build is rife with issues and incomplete features, and is not compatible with the modern game client.\""
@@ -228,10 +206,7 @@
     "title": "mastercomfig",
     "subtitle": "Game Configuration",
     "url": "mastercomfig.com",
-    "tags": [
-      3,
-      11
-    ],
+    "tags": [3, 11],
     "description": [
       "\"A modern Team Fortress 2 performance and customization config.\""
     ],
@@ -261,12 +236,8 @@
     "title": "Huds.tf",
     "subtitle": "Custom HUDs and Hitsounds",
     "url": "huds.tf",
-    "tags": [
-      3
-    ],
-    "description": [
-      "\"Your online database for Team Fortress 2 HUDs.\""
-    ],
+    "tags": [3],
+    "description": ["\"Your online database for Team Fortress 2 HUDs.\""],
     "links": [
       {
         "href": "https://huds.tf/",
@@ -288,10 +259,7 @@
   {
     "title": "TF2 Coaching Central",
     "subtitle": "Coaching",
-    "tags": [
-      4,
-      7
-    ],
+    "tags": [4, 7],
     "description": [
       "\"A friendly community focused on helping out new players and introducing players to competitive TF2 with an active pug scene as well as special events and tournaments. Whether you're looking to dip your toes in competitive, a more experienced player looking to mentor newbies, or even a fresh install, feel free to join - we welcome all skill levels!\""
     ],
@@ -312,12 +280,8 @@
   {
     "title": "TF2 Discord",
     "subtitle": "Online Community",
-    "tags": [
-      4
-    ],
-    "description": [
-      "\"The Unofficial Official TF2 Discord.\""
-    ],
+    "tags": [4],
+    "description": ["\"The Unofficial Official TF2 Discord.\""],
     "links": [
       {
         "href": "https://tf2.me/",
@@ -335,9 +299,7 @@
   {
     "title": "TF2 Subreddit",
     "subtitle": "Online Community",
-    "tags": [
-      4
-    ],
+    "tags": [4],
     "description": [
       "\"This subreddit is dedicated to Team Fortress 2, created by Valve Corporation in 2007. After nine years in development, hopefully it was worth the wait.\""
     ],
@@ -354,9 +316,7 @@
   {
     "title": "KritzKast",
     "subtitle": "TF2 Podcast",
-    "tags": [
-      4
-    ],
+    "tags": [4],
     "description": [
       "\"Welcome to KritzKast, the weekly TF2 Podkast. Covering everything from updates and unlocks to fan creations and events.\""
     ],
@@ -394,12 +354,8 @@
     "title": "Jump.tf",
     "subtitle": "Jumping Community",
     "url": "jump.tf",
-    "tags": [
-      4
-    ],
-    "description": [
-      "\"The TF2 Jumping community. Check it out.\""
-    ],
+    "tags": [4],
+    "description": ["\"The TF2 Jumping community. Check it out.\""],
     "links": [
       {
         "href": "https://jump.tf/",
@@ -414,9 +370,7 @@
     "title": "Jump Academy",
     "subtitle": "Jumping Community",
     "url": "jumpacademy.tf",
-    "tags": [
-      4
-    ],
+    "tags": [4],
     "description": [
       "\"We are a community of jumpers from all around the world who share the same passion for jumping in Team Fortress 2.\""
     ],
@@ -458,9 +412,7 @@
     "title": "Teamwork.tf",
     "subtitle": "Community Hub",
     "url": "teamwork.tf",
-    "tags": [
-      4
-    ],
+    "tags": [4],
     "description": [
       "\"Provides a platform and tools to bring the TF2 community together. Between 2015 and 2020 we ran a network to support TF2 YouTubers. During a short break we came back with focus on community servers and statistics. And after a successful Patreon campaign, teamwork.tf has now brought back the 'yellow pages for TF2'. Beside that we now also have great community tools for map makers, to get insight in player behaviour of maps.\""
     ],
@@ -490,12 +442,8 @@
     "title": "TF2Maps",
     "subtitle": "Map Creators",
     "url": "tf2maps.net",
-    "tags": [
-      4
-    ],
-    "description": [
-      "Mapping tutorials, contests, forums, and more!"
-    ],
+    "tags": [4],
+    "description": ["Mapping tutorials, contests, forums, and more!"],
     "links": [
       {
         "href": "https://tf2maps.net/",
@@ -534,9 +482,7 @@
     "title": "Scrap.tf",
     "subtitle": "Trading",
     "url": "scrap.tf",
-    "tags": [
-      5
-    ],
+    "tags": [5],
     "description": [
       "\"We are an automated trading website that helps everyone in Team Fortress 2 get items they want fast and easy. Scrap.TF was created back in August of 2012 and has grown very much over the past years. Since then we've expanded from simply scrap banking to offering numerous services for players of many games.\""
     ],
@@ -554,9 +500,7 @@
     "title": "backpack.tf",
     "subtitle": "Trading",
     "url": "backpack.tf",
-    "tags": [
-      5
-    ],
+    "tags": [5],
     "description": [
       "Item trading, price tracking, backpack viewing, and more!"
     ],
@@ -586,9 +530,7 @@
     "title": "Trade.tf",
     "subtitle": "Trading",
     "url": "trade.tf",
-    "tags": [
-      5
-    ],
+    "tags": [5],
     "description": [
       "\"Trade.tf is a website to search all trading websites at once with the ability to estimate how much profit can be made from the trades.\""
     ],
@@ -610,9 +552,7 @@
     "title": "Bazaar.tf",
     "subtitle": "Trading",
     "url": "bazaar.tf",
-    "tags": [
-      5
-    ],
+    "tags": [5],
     "description": [
       "\"A nostalgic Steam trading site.\"",
       "\"Built from the ground up in 2012, Bazaar.tf is now the last remaining classic person to person trading site swimming in a sea of automated bot trading.\""
@@ -632,9 +572,7 @@
     "title": "Quicksell.store",
     "subtitle": "Trading",
     "url": "quicksell.store",
-    "tags": [
-      5
-    ],
+    "tags": [5],
     "description": [
       "\"Quicksell.store is a Team Fortress 2 trading site whose main purpose and drive is to help you have the best possible experience when buying and selling all kinds of items. Be it australiums, painted items or unusual hats, you never know what we might have in stock! With thousands of items and unusuals available we are prepared for any type of trade, no matter how big. Our competitive prices, efficient service and innovative mechanics make us a great choice to become your next home for anything trading related. The site has been trading since 2019.\""
     ],
@@ -656,9 +594,7 @@
     "title": "Team Fortress 2 Mart",
     "subtitle": "Trading",
     "url": "tf2mart.net",
-    "tags": [
-      5
-    ],
+    "tags": [5],
     "description": [
       "\"Our fast automatic trading service will help you to exchange TF2 items you have for items you need. We have huge selection of items from cheapest crates to unusual accessories.\""
     ],
@@ -680,12 +616,8 @@
     "title": "Marketplace.tf",
     "subtitle": "Marketplace",
     "url": "marketplace.tf",
-    "tags": [
-      6
-    ],
-    "description": [
-      "\"Securely buy and sell TF2 and Dota 2 items.\""
-    ],
+    "tags": [6],
+    "description": ["\"Securely buy and sell TF2 and Dota 2 items.\""],
     "links": [
       {
         "href": "https://marketplace.tf/",
@@ -704,9 +636,7 @@
     "title": "Mannco Trade",
     "subtitle": "Marketplace",
     "url": "mannco.trade",
-    "tags": [
-      6
-    ],
+    "tags": [6],
     "description": [
       "\"We are an automated TF2 trading website, which allows you to get your desired items quick and easy. Mannco.trade was created back in September the 2017th and has been growing faster than expected ever since. This site is exclusive as it is because you’re able to trade items from different qualities, types and classes with each other, without needing to pay in Metals or Keys. Almost every item in the Team Fortress 2 Trading Community is being accepted by the Bots.\""
     ],
@@ -736,12 +666,8 @@
     "title": "teamfortresstv",
     "subtitle": "Broadcaster & Community",
     "url": "teamfortress.tv",
-    "tags": [
-      7
-    ],
-    "description": [
-      "\"The home of competitive Team Fortress 2.\""
-    ],
+    "tags": [7],
+    "description": ["\"The home of competitive Team Fortress 2.\""],
     "links": [
       {
         "href": "https://www.teamfortress.tv/",
@@ -772,9 +698,7 @@
     "title": "comp.tf",
     "subtitle": "Informational",
     "url": "comp.tf",
-    "tags": [
-      7
-    ],
+    "tags": [7],
     "description": [
       "\"comp.tf is the Competitive TF2 Wiki. We aim to provide the community with a free, neutral and comprehensive summary of current and historical competitive TF2 knowledge. Players, teams, tournaments, maps and classes pages are our most popular forms of content.\""
     ],
@@ -800,9 +724,7 @@
     "title": "TF2 Center",
     "subtitle": "Pick-up Games",
     "url": "tf2center.com",
-    "tags": [
-      7
-    ],
+    "tags": [7],
     "description": [
       "\"TF2Center was created to help bridge the gap between public and competitive play for TF2. TF2Center is a place to play TF2 games based on specific competitive game-modes like 6v6 and Highlander. Newer players can take advantage of our lobby system to create games without needing to get a server personally, whilst more experienced players can ensure games are competitive by imposing restrictions.\""
     ],
@@ -824,12 +746,8 @@
     "title": "serveme.tf",
     "subtitle": "Server Hosting",
     "url": "serveme.tf",
-    "tags": [
-      7
-    ],
-    "description": [
-      "\"The easiest way to get a TF2 server.\""
-    ],
+    "tags": [7],
+    "description": ["\"The easiest way to get a TF2 server.\""],
     "links": [
       {
         "href": "https://serveme.tf/",
@@ -864,9 +782,7 @@
     "title": "RGL",
     "subtitle": "TF2 League (North America)",
     "url": "rgl.gg",
-    "tags": [
-      7
-    ],
+    "tags": [7],
     "description": [
       "\"RGL.gg is the largest NA TF2 league. Focused on evolving, growing and pushing the TF2 competitive community forward.\""
     ],
@@ -904,12 +820,8 @@
     "title": "ETF2L",
     "subtitle": "TF2 League (European Union)",
     "url": "etf2l.org",
-    "tags": [
-      7
-    ],
-    "description": [
-      "\"The European Team Fortress 2 League.\""
-    ],
+    "tags": [7],
+    "description": ["\"The European Team Fortress 2 League.\""],
     "links": [
       {
         "href": "https://etf2l.org/",
@@ -940,12 +852,8 @@
     "title": "UGC",
     "subtitle": "TF2 League",
     "url": "ugcleague.com",
-    "tags": [
-      7
-    ],
-    "description": [
-      "Leagues for Highlander, 6v6, 4v4, and Ultiduo."
-    ],
+    "tags": [7],
+    "description": ["Leagues for Highlander, 6v6, 4v4, and Ultiduo."],
     "links": [
       {
         "href": "https://ugcleague.com/index.cfm",
@@ -980,9 +888,7 @@
     "title": "Match.tf",
     "subtitle": "Tournament Hosting",
     "url": "match.tf",
-    "tags": [
-      7
-    ],
+    "tags": [7],
     "description": [
       "\"A TF2 tournament host system powered by BroadcastTF.\"",
       "\"This is a tournament hosting platform. Unlike third-party sites, our goal is to exclusively support Team Fortress 2 and unite all the tournaments or LANs that do not have a website like leagues do. There is no longer need in hosting your own website just to run 1 tournament.\""
@@ -1005,9 +911,7 @@
     "title": "newbie.tf",
     "subtitle": "Pick-up games, Coaching",
     "url": "newbie.tf",
-    "tags": [
-      7
-    ],
+    "tags": [7],
     "description": [
       "\"Come play your first games of competitive TF2 with other new players, led by an experienced coach.\""
     ],
@@ -1033,9 +937,7 @@
     "title": "EssentialsTF",
     "subtitle": "Broadcaster",
     "url": "essentials.tf",
-    "tags": [
-      7
-    ],
+    "tags": [7],
     "description": [
       "\"Broadcasting the best from the top Team Fortress 2 events.\"",
       "\"For over 4 years we have powered and produced the largest events in Team Fortress 2.   In 2015, starting as a production partner of TeamFortress.TV, we provided hardware that powered the broadcast of   Multiplay’s Insomnia55 TF2 tournament to fans around the world.   Since then we have expanded to organising our own online competitive TF2 events with sponsored prize pools   and becoming the primary production organisation for the TF2 tournament at GAME’s Insomnia Gaming Festival events   working alongside Player1 Events for the past 3 years running.\""
@@ -1078,10 +980,7 @@
     "title": "Whitelist.tf",
     "subtitle": "Custom Whitelist Generator",
     "url": "whitelist.tf",
-    "tags": [
-      7,
-      8
-    ],
+    "tags": [7, 8],
     "description": [
       "\"Launched on September 1st, 2013, whitelist.tf was created by Wiethoofd to give users the ability to easily generate a custom whitelist for use in Team Fortress 2's tournament mode. The site allows users to create every possible whitelist imaginable, while respecting original weapons every time new items are added by Valve. whitelist.tf is always up to date with the latest itemschema, making it perfect for server owners or configuration maintainers.\""
     ],
@@ -1099,9 +998,7 @@
     "title": "loadout.tf",
     "subtitle": "Loadout Viewer",
     "url": "loadout.tf",
-    "tags": [
-      8
-    ],
+    "tags": [8, 11],
     "description": [
       "Try out different loadouts, cosmetics, unusuals, taunts, and more!"
     ],
@@ -1120,9 +1017,7 @@
     "title": "Hammer++",
     "subtitle": "Map Editor",
     "url": "hammerplusplus.com",
-    "tags": [
-      8
-    ],
+    "tags": [8],
     "description": [
       "\"Hammer++ is a free, extensive modification of Valve's Hammer editor for the Source engine, with the premise of being a more stable, up-to-date version, with many bugfixes and several improvements present in modern level editors. After 6 months in development, hopefully it will have been worth the wait.\""
     ],
@@ -1140,9 +1035,7 @@
     "title": "TF2 Hud Editor",
     "subtitle": "HUD Editor",
     "url": "criticalflaw.ca/TF2HUD.Editor",
-    "tags": [
-      8
-    ],
+    "tags": [8],
     "description": [
       "\"Install and customize your favorite custom Team Fortress 2 HUDs.\""
     ],
@@ -1176,10 +1069,7 @@
     "title": "Demos.tf",
     "subtitle": "Demo Viewer",
     "url": "demos.tf",
-    "tags": [
-      8,
-      11
-    ],
+    "tags": [8],
     "description": [
       "\"demos.tf is a hosting platform for Team Fortress 2 demo files and automatic stv demo uploader.\""
     ],
@@ -1205,10 +1095,7 @@
     "title": "DemoMan",
     "subtitle": "Demo Viewer",
     "url": "",
-    "tags": [
-      8,
-      11
-    ],
+    "tags": [8],
     "description": [
       "\"A TF2 demo manager for Linux, Windows and MacOS built with Electron.\""
     ],
@@ -1230,11 +1117,7 @@
     "title": "Trends.tf",
     "subtitle": "Game Statistics",
     "url": "trends.tf",
-    "tags": [
-      7,
-      8,
-      11
-    ],
+    "tags": [7, 8],
     "description": [
       "View logs from competitive matches, lookup individual players, and more!"
     ],
@@ -1260,11 +1143,7 @@
     "title": "Logs.tf",
     "subtitle": "Match Logs",
     "url": "logs.tf",
-    "tags": [
-      7,
-      8,
-      11
-    ],
+    "tags": [7, 8],
     "description": [
       "\"Competitive Team Fortress 2 Stats. Automatically generated stats from server logs.\""
     ],
@@ -1286,10 +1165,7 @@
     "title": "cfg.tf",
     "subtitle": "Game Configuration",
     "url": "cfg.tf",
-    "tags": [
-      3,
-      8
-    ],
+    "tags": [3, 8],
     "description": [
       "\"CFG.TF is a free open-source cross-platform Team Fortress 2 config generator. Even if TF2 is an old game, it has gone through so much updates and patches that it is now nearly impossible to make it run at constant 120+ frames per second on mid-tier PC. And that is absolutely required for playing fast paced shooter comfortably. Ever dreamed of optimizing your game experience in just a few clicks? Well, here is your chance. This app generates a set of premade settings that helps your game to run faster and smoother.\""
     ],
@@ -1312,10 +1188,7 @@
     "title": "Uncletopia",
     "subtitle": "Community Servers",
     "url": "uncletopia.com/servers",
-    "tags": [
-      9,
-      11
-    ],
+    "tags": [9, 11],
     "description": [
       "Enhanced community servers run by the legend Uncle Dane. Hosted in the US, EU, and Australia.",
       "No random crits. No random bullet spread. Class limits. Power to the players."
@@ -1342,9 +1215,7 @@
     "title": "Hugs.tf",
     "subtitle": "Charity Event",
     "url": "hugs.tf",
-    "tags": [
-      10
-    ],
+    "tags": [10],
     "description": [
       "\"hugs.tf is an annual charity live stream event benefiting SpecialEffect: the gamers charity. Over the last 5 years, we have raised over £40,000 through events related to our favourite game: Team Fortress 2.\"",
       "\"TF2's community is the heart of our operation, and we love creating events that everybody can enjoy - whilst also supporting great causes.\""
@@ -1365,6 +1236,40 @@
     ],
     "img": {
       "src": "/img/hugstf.png"
+    }
+  },
+  {
+    "title": "TFConnect",
+    "subtitle": "Charity Event",
+    "url": "tfconnect.org",
+    "tags": [10, 11],
+    "description": [
+      "\"TFConnect is a charity fundraising organization originating from the Team Fortress 2, hosting annual community livestream events. Since 2018, we have raised over $50,000 in support of various charities such as SpecialEffect!\""
+    ],
+    "links": [
+      {
+        "href": "https://tfconnect.org",
+        "text": "Website"
+      },
+      {
+        "href": "https://youtube.com/channel/UCMHy9TegtfhdYoLiXs8YMJw",
+        "text": "YouTube"
+      },
+      {
+        "href": "https://twitter.com/TF_Connect",
+        "text": "Twitter"
+      },
+      {
+        "href": "https://twitch.tv/tfconnect",
+        "text": "Twitch"
+      },
+      {
+        "href": "https://steamcommunity.com/groups/TF2Connect",
+        "text": "Steam"
+      }
+    ],
+    "img": {
+      "src": "/img/tfconnect.png"
     }
   }
 ]
