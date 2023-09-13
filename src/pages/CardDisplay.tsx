@@ -69,8 +69,8 @@ function CardDisplay({ data }: { data: Data[] }) {
 
   return (
     <div className="grid-container">
-      {data.map((item, i) => (
-        <div className="grid-item" key={i}>
+      {data.map((item) => (
+        <div className="grid-item" key={item.title}>
           <div className="card">
             <div className="card-content">
               <div className="header">
@@ -92,8 +92,8 @@ function CardDisplay({ data }: { data: Data[] }) {
               </div>
               <div className="links">
                 <ThemeProvider theme={iconTheme}>
-                  {item.links.map((link, i) => (
-                    <a href={link.href} target="_blank" key={i}>
+                  {item.links.map((link) => (
+                    <a href={link.href} target="_blank" key={link.text}>
                       <Button variant="text">
                         <FontAwesomeIcon icon={getIcon(link.text)} size="lg" />
                       </Button>
