@@ -2,12 +2,12 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
-import CompareImg1Normal from "./assets/img/cleantf2/1-normal.jpg";
-import CompareImg1Flat from "./assets/img/cleantf2/1-flat.jpg";
-import CompareImg2Normal from "./assets/img/cleantf2/2-normal.jpg";
-import CompareImg2Flat from "./assets/img/cleantf2/2-flat.jpg";
-import CompareImg3Normal from "./assets/img/cleantf2/3-normal.jpg";
-import CompareImg3Flat from "./assets/img/cleantf2/3-flat.jpg";
+import CompareImg1Normal from "/img/cleantf2/1-normal.jpg";
+import CompareImg1Flat from "/img/cleantf2/1-flat.jpg";
+import CompareImg2Normal from "/img/cleantf2/2-normal.jpg";
+import CompareImg2Flat from "/img/cleantf2/2-flat.jpg";
+import CompareImg3Normal from "/img/cleantf2/3-normal.jpg";
+import CompareImg3Flat from "/img/cleantf2/3-flat.jpg";
 
 import "./CleanTF2.scss";
 

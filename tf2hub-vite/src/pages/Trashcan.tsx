@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Trashcan.scss";
-import { TrashcanService } from "./services/trashcan-service";
+import { TrashcanService } from "@services/trashcan-service";
 
 function Trashcan() {
   const [bindsText, setBindsText] = useState("");

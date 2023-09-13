@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
-import Home from "./Home.tsx";
-import CleanTF2 from "./CleanTF2.tsx";
-import Trashcan from "./Trashcan.tsx";
+import Home from "@pages/Home";
+import CleanTF2 from "@pages/CleanTF2";
+import Trashcan from "@pages/Trashcan";
 
 const router = createBrowserRouter([
   {

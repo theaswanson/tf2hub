@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Tag } from "./models/Tag";
+import { Tag } from "@models/Tag";
 import "./Home.scss";
-import { DataService } from "./services/data-service";
-import { Data } from "./models/Data";
+import { DataService } from "@services/data-service";
+import { Data } from "@models/Data";
 import CardDisplay from "./CardDisplay";
 
 export interface TagFilter {

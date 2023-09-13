@@ -1,4 +1,4 @@
-import { Data } from "./models/Data";
+import { Data } from "@models/Data";
 import "./CardDisplay.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
