@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "./Navigation";
 import "./App.scss";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="content-container">
         <Outlet />
       </div>
+      <Footer />
     </>
   );
 }
