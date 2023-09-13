@@ -1,6 +1,4 @@
 export class TrashcanService {
-  constructor() {}
-
   build(binds: string[], bindKey: string): string {
     const commands = this.getCommands(binds, bindKey);
     return commands.join("\n");
