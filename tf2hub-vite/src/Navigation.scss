@@ -1,12 +1,10 @@
 @import "./variables";
 
 .navigation {
-  height: $navigation-height;
+  height: $mobile-navigation-height;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
   position: fixed;
   top: 0;
@@ -15,12 +13,30 @@
 
   background-color: #000;
 
+  @media (min-width: 900px) {
+    height: $desktop-navigation-height;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger-btn {
+    color: #fff;
+
+    @media (min-width: 900px) {
+      display: none;
+    }
+  }
+
   .title {
     font-family: TF2 Build;
     font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 
     &:hover {
       cursor: pointer;
@@ -37,8 +53,7 @@
   }
 
   .nav-items {
-    display: flex;
-    justify-content: center;
+    display: none;
     font-family: TF2 Secondary;
 
     a {
@@ -47,5 +62,15 @@
       line-height: 36px;
       padding: 0 1rem 0 1rem;
     }
+
+    @media (min-width: 900px) {
+      display: flex;
+      justify-content: center;
+    }
   }
+}
+
+.mobile-nav a {
+  color: inherit;
+  text-decoration: none;
 }
