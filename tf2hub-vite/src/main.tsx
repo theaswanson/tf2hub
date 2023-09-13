@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import Home from "./Home.tsx";
 import CleanTF2 from "./CleanTF2.tsx";
+import Trashcan from "./Trashcan.tsx";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/trashcan",
-        element: <div>Testing Trashcan</div>,
+        element: <Trashcan />,
       },
     ],
   },
