@@ -35,13 +35,15 @@ function Navigation() {
       <Button className="hamburger-btn" onClick={toggleDrawer(true)}>
         <FontAwesomeIcon icon={faBars} size="xl" />
       </Button>
-      <div className="title">
-        <span className="title">TF2 Hub</span>
-        <img
-          src="/img/logo_small.png"
-          className="padding-left: 1rem; height: 50px"
-        />
-      </div>
+      <NavLink to={"/"}>
+        <div className="title">
+          <span className="title">TF2 Hub</span>
+          <img
+            src="/img/logo_small.png"
+            className="padding-left: 1rem; height: 50px"
+          />
+        </div>
+      </NavLink>
       <div className="nav-items">
         <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/cleantf2"}>CleanTF2</NavLink>
