@@ -203,30 +203,6 @@
     }
   },
   {
-    "title": "Huds.tf",
-    "subtitle": "Custom HUDs and Hitsounds",
-    "url": "huds.tf",
-    "tags": [3],
-    "description": ["\"Your online database for Team Fortress 2 HUDs.\""],
-    "links": [
-      {
-        "href": "https://huds.tf/",
-        "text": "Website"
-      },
-      {
-        "href": "http://discord.huds.tf/",
-        "text": "Discord"
-      },
-      {
-        "href": "https://twitter.com/hudstf",
-        "text": "Twitter"
-      }
-    ],
-    "img": {
-      "src": "/img/hudstf.jpg"
-    }
-  },
-  {
     "title": "TF2 Coaching Central",
     "subtitle": "Coaching",
     "tags": [4, 7],
