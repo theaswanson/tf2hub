@@ -48,36 +48,6 @@
     }
   },
   {
-    "title": "TF: Source 2",
-    "subtitle": "Game Mod",
-    "url": "tfsource2.com",
-    "tags": [2],
-    "description": [
-      "\"We aim to recreate, improve and iterate a new Team Fortress experience in Source 2 using s&box.\""
-    ],
-    "links": [
-      {
-        "href": "https://tfsource2.com/",
-        "text": "Website"
-      },
-      {
-        "href": "https://discord.gg/tfs2",
-        "text": "Discord"
-      },
-      {
-        "href": "https://twitter.com/TeamFortressS2",
-        "text": "Twitter"
-      },
-      {
-        "href": "https://steamcommunity.com/groups/ampersoftware",
-        "text": "Steam Group"
-      }
-    ],
-    "img": {
-      "src": "/img/tfs2.png"
-    }
-  },
-  {
     "title": "TF2 Classic",
     "subtitle": "Game Mod",
     "url": "tf2classic.com",
