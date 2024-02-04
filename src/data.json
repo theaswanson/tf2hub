@@ -1043,7 +1043,7 @@
     "title": "dribble.tf",
     "subtitle": "Demo Viewer",
     "url": "dribble.tf",
-    "tags": [8],
+    "tags": [8, 11],
     "description": [
       "\"View your Team Fortress 2 STV demo files directly in the browser.\""
     ],
@@ -1190,7 +1190,7 @@
     "title": "TFConnect",
     "subtitle": "Charity Event",
     "url": "tfconnect.org",
-    "tags": [10, 11],
+    "tags": [10],
     "description": [
       "\"TFConnect is a charity fundraising organization originating from the Team Fortress 2, hosting annual community livestream events. Since 2018, we have raised over $50,000 in support of various charities such as SpecialEffect!\""
     ],
