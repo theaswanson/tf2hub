@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
-import { Tag } from "@models/Tag";
-import "./Home.scss";
-import { DataService } from "@services/data-service";
 import { Data } from "@models/Data";
+import { Tag } from "@models/Tag";
+import { DataService } from "@services/data-service";
+import { useEffect, useState } from "react";
 import CardDisplay from "./CardDisplay";
+import "./Home.scss";
 
 export interface TagFilter {
   text: string;
@@ -59,11 +59,11 @@ function Home() {
   }, [searchText, selectedTag]);
 
   return (
-    <div className="home">
-      <div className="welcome">
-        <div className="title">Welcome!</div>
+    <div className='home'>
+      <div className='welcome'>
+        <div className='title'>Welcome!</div>
         <div
-          className="text"
+          className='text'
           style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
         >
           <div>
@@ -76,19 +76,19 @@ function Home() {
             find helpful resources all in one place.
           </div>
           <div>
-            TF2 Hub is still in development, but if you find a problem or would
-            like to request a feature, please visit our{" "}
-            <a href="https://github.com/theaswanson/tf2hub" target="_blank">
+            If you find a problem or would like to request a feature, please
+            visit our{" "}
+            <a href='https://github.com/theaswanson/tf2hub' target='_blank'>
               GitHub repo
             </a>
             .
           </div>
         </div>
       </div>
-      <div className="filters" style={{ display: "flex", gap: "0 1rem" }}>
+      <div className='filters' style={{ display: "flex", gap: "0 1rem" }}>
         {tags.map((tag) => (
           <div
-            className="card"
+            className='card'
             key={tag.text}
             onClick={() => setSelectedTag(tag)}
           >
@@ -97,8 +97,8 @@ function Home() {
                 tag.text === selectedTag.text ? "selected" : ""
               }`}
             >
-              <div className="header">
-                <div className="title">
+              <div className='header'>
+                <div className='title'>
                   <span>{tag.text}</span>
                 </div>
               </div>
@@ -106,12 +106,12 @@ function Home() {
           </div>
         ))}
       </div>
-      <div className="search">
-        <div className="card">
-          <div className="card-content">
+      <div className='search'>
+        <div className='card'>
+          <div className='card-content'>
             <input
-              type="text"
-              placeholder="Search..."
+              type='text'
+              placeholder='Search...'
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
             />
