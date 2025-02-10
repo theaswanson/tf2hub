@@ -175,18 +175,18 @@
   {
     "title": "mastercomfig",
     "subtitle": "Game Configuration",
-    "url": "mastercomfig.com",
+    "url": "comfig.app",
     "tags": [3, 11],
     "description": [
       "\"A modern Team Fortress 2 performance and customization config.\""
     ],
     "links": [
       {
-        "href": "https://mastercomfig.com/",
+        "href": "https://comfig.app/",
         "text": "Website"
       },
       {
-        "href": "https://docs.mastercomfig.com/",
+        "href": "https://docs.comfig.app/",
         "text": "Docs"
       },
       {
