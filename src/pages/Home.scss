@@ -7,6 +7,8 @@
     padding: 1rem 0;
 
     .card {
+      @extend .no-select;
+
       margin: 0.5rem 0;
 
       &:hover {
@@ -26,8 +28,6 @@
   }
 
   .card {
-    @extend .no-select;
-
     &:focus {
       outline: none;
     }
