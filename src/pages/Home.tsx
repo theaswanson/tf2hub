@@ -66,7 +66,7 @@ const Search = ({ searchText, setSearchText }: { searchText: string; setSearchTe
       <div className='card-content'>
         <input
           type='text'
-          placeholder='Search...'
+          placeholder='🔎 Search...'
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)} />
       </div>

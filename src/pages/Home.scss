@@ -61,12 +61,13 @@
           background: none;
           border: none;
           outline: none;
-          font-family: TF2 Build, sans-serif;
+          font-family: TF2 Secondary, sans-serif;
           letter-spacing: 1px;
           color: white;
           font-size: 1.2rem;
           width: 100%;
           text-align: center;
+          height: 25px;
 
           &::placeholder {
             /* Chrome, Firefox, Opera, Safari 10.1+ */
