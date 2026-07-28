@@ -10,6 +10,70 @@ export interface TagFilter {
   value: Tag;
 }
 
+const Welcome = () => (
+  <div className='welcome'>
+    <div className='title'>Welcome!</div>
+    <div
+      className='text'
+      style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+    >
+      <div>
+        Here you can find all of the most popular TF2-related sites,
+        including official sites, trading sites, community projects, and
+        more.
+      </div>
+      <div>
+        This site was created with the intent of helping newcomers to TF2
+        find helpful resources all in one place.
+      </div>
+      <div>
+        If you find a problem or would like to request a feature, please
+        visit our{" "}
+        <a href='https://github.com/theaswanson/tf2hub' target='_blank'>
+          GitHub repo
+        </a>
+        .
+      </div>
+    </div>
+  </div>
+)
+
+const Filters = ({ tags, selectedTag, setSelectedTag }: { tags: TagFilter[], selectedTag: TagFilter, setSelectedTag: (tag: TagFilter) => void }) => (
+  <div className='filters' style={{ display: "flex", gap: "0 1rem" }}>
+    {tags.map((tag) => (
+      <div
+        className='card'
+        key={tag.text}
+        onClick={() => setSelectedTag(tag)}
+      >
+        <div
+          className={`card-content filter ${tag.text === selectedTag.text ? "selected" : ""}`}
+        >
+          <div className='header'>
+            <div className='title'>
+              <span>{tag.text}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+)
+
+const Search = ({ searchText, setSearchText }: { searchText: string; setSearchText: (text: string) => void }) => (
+  <div className='search'>
+    <div className='card'>
+      <div className='card-content'>
+        <input
+          type='text'
+          placeholder='Search...'
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)} />
+      </div>
+    </div>
+  </div>
+)
+
 function Home() {
   const tags = [
     { text: "All" } as TagFilter,
@@ -60,64 +124,9 @@ function Home() {
 
   return (
     <div className='home'>
-      <div className='welcome'>
-        <div className='title'>Welcome!</div>
-        <div
-          className='text'
-          style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
-        >
-          <div>
-            Here you can find all of the most popular TF2-related sites,
-            including official sites, trading sites, community projects, and
-            more.
-          </div>
-          <div>
-            This site was created with the intent of helping newcomers to TF2
-            find helpful resources all in one place.
-          </div>
-          <div>
-            If you find a problem or would like to request a feature, please
-            visit our{" "}
-            <a href='https://github.com/theaswanson/tf2hub' target='_blank'>
-              GitHub repo
-            </a>
-            .
-          </div>
-        </div>
-      </div>
-      <div className='filters' style={{ display: "flex", gap: "0 1rem" }}>
-        {tags.map((tag) => (
-          <div
-            className='card'
-            key={tag.text}
-            onClick={() => setSelectedTag(tag)}
-          >
-            <div
-              className={`card-content filter ${
-                tag.text === selectedTag.text ? "selected" : ""
-              }`}
-            >
-              <div className='header'>
-                <div className='title'>
-                  <span>{tag.text}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className='search'>
-        <div className='card'>
-          <div className='card-content'>
-            <input
-              type='text'
-              placeholder='Search...'
-              value={searchText}
-              onChange={(e) => setSearchText(e.target.value)}
-            />
-          </div>
-        </div>
-      </div>
+      <Welcome />
+      <Filters tags={tags} selectedTag={selectedTag} setSelectedTag={setSelectedTag} />
+      <Search searchText={searchText} setSearchText={setSearchText} />
       <CardDisplay data={data} />
     </div>
   );
