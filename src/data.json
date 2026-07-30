@@ -775,42 +775,6 @@
     }
   },
   {
-    "title": "UGC",
-    "subtitle": "TF2 League",
-    "url": "ugcleague.com",
-    "tags": [7],
-    "description": ["Leagues for Highlander, 6v6, 4v4, and Ultiduo."],
-    "links": [
-      {
-        "href": "https://ugcleague.com/index.cfm",
-        "text": "Website"
-      },
-      {
-        "href": "https://discord.gg/ugcleague",
-        "text": "Discord"
-      },
-      {
-        "href": "https://twitch.tv/ugcleague",
-        "text": "Twitch"
-      },
-      {
-        "href": "https://facebook.com/UnitedGamingClans",
-        "text": "Facebook"
-      },
-      {
-        "href": "https://twitter.com/ugcleague",
-        "text": "Twitter"
-      },
-      {
-        "href": "https://youtube.com/user/UGCLeagueTF2/videos",
-        "text": "YouTube"
-      }
-    ],
-    "img": {
-      "src": "/img/ugc.png"
-    }
-  },
-  {
     "title": "Match.tf",
     "subtitle": "Tournament Hosting",
     "url": "match.tf",
