@@ -229,7 +229,7 @@
     "tags": [4],
     "description": ["\"The Unofficial Official TF2 Discord.\""],
     "links": [
-            {
+      {
         "href": "https://discord.gg/tf2",
         "text": "Discord"
       }
@@ -280,12 +280,12 @@
         "text": "YouTube"
       },
       {
-        "href": "https://steamcommunity.com/groups/KritzKast",
-        "text": "Steam Group"
+        "href": "https://www.twitch.tv/kritzkast",
+        "text": "Twitch"
       },
       {
-        "href": "https://www.facebook.com/KritzKast",
-        "text": "Facebook"
+        "href": "https://steamcommunity.com/groups/KritzKast",
+        "text": "Steam Group"
       }
     ],
     "img": {
