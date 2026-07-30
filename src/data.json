@@ -229,11 +229,7 @@
     "tags": [4],
     "description": ["\"The Unofficial Official TF2 Discord.\""],
     "links": [
-      {
-        "href": "https://tf2.me/",
-        "text": "Website"
-      },
-      {
+            {
         "href": "https://discord.gg/tf2",
         "text": "Discord"
       }
