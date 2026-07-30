@@ -160,7 +160,11 @@
     ],
     "links": [
       {
-        "href": "https://github.com/mastercomfig/team-comtress-2",
+        "href": "https://teamcomtress.com/",
+        "text": "Website"
+      },
+      {
+        "href": "https://github.com/mastercomfig/tc2",
         "text": "GitHub"
       },
       {
