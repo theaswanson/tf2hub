@@ -48,16 +48,16 @@
     }
   },
   {
-    "title": "TF2 Classic",
+    "title": "TF2 Classified",
     "subtitle": "Game Mod",
-    "url": "tf2classic.com",
+    "url": "tf2classified.com",
     "tags": [2],
     "description": [
-      "\"Team Fortress 2 Classic is a free mod that re-imagines the 2008/2009 era of the original Team Fortress 2, with features ranging from old scrapped mechanics to entirely new content, such as new weapons and gamemodes like VIP, Domination, and Four-Team.\""
+      "\"Team Fortress 2 Classified is a fan-created new Team Fortress 2 experience, built on the game's original inspirations and tone. The idea is simple: strip everything back to what made Team Fortress 2 special in the first place, put some shine on it, and then? Make more of it.\""
     ],
     "links": [
       {
-        "href": "https://tf2classic.com/",
+        "href": "https://tf2classified.com/",
         "text": "Website"
       },
       {
@@ -65,20 +65,20 @@
         "text": "Discord"
       },
       {
-        "href": "https://twitter.com/tf2classic",
+        "href": "https://twitter.com/tf2classified",
         "text": "Twitter"
       },
       {
-        "href": "https://reddit.com/r/tf2classic/",
+        "href": "https://reddit.com/r/tf2classified/",
         "text": "Reddit"
       },
       {
-        "href": "https://wiki.tf2classic.com/wiki/Main_Page",
+        "href": "https://wiki.tf2classified.com/wiki/Main_Page",
         "text": "Docs"
       }
     ],
     "img": {
-      "src": "/img/tf2classic.png"
+      "src": "/img/tf2classified.svg"
     }
   },
   {
