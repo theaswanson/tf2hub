@@ -10,6 +10,7 @@ import {
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 import {
+  faBluesky,
   faDiscord,
   faFacebook,
   faGithub,
@@ -18,7 +19,7 @@ import {
   faSteam,
   faTwitch,
   faXTwitter,
-  faYoutube,
+  faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 import { Button, createTheme } from "@mui/material";
 import { ThemeProvider } from "@emotion/react";
@@ -31,6 +32,8 @@ const getIcon = (linkText: string): IconDefinition => {
       return faBook;
     case "Twitter":
       return faXTwitter;
+    case "Bluesky":
+      return faBluesky;
     case "Twitch":
       return faTwitch;
     case "Reddit":
