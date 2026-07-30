@@ -95,16 +95,20 @@
         "text": "Website"
       },
       {
-        "href": "https://discord.gg/mKjW2ACCrm",
+        "href": "https://discord.gg/GN9DvzQxPy",
         "text": "Discord"
       },
       {
-        "href": "https://www.youtube.com/channel/UCtqmIR--kRAAGRdJ-LtEu1A/videos",
+        "href": "https://youtube.com/c/OpenFortress",
         "text": "YouTube"
       },
       {
         "href": "https://twitter.com/openfortress",
         "text": "Twitter"
+      },
+      {
+        "href": "https://bsky.app/profile/openfortress.fun",
+        "text": "Bluesky"
       },
       {
         "href": "https://github.com/KaydemonLP/Open-Fortress-Content-Source",
